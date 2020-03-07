@@ -1,15 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 body {
 	margin: 0;
 	padding: 0;
 }
 
-p,
-a {
+p {
 	/* font-family: "museo-sans", sans-serif; */
-	font-family: "Oswald", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	letter-spacing: 1px;
+}
+
+h1,
+a {
+	font-family: "Oswald", sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
+	margin: 0;
 }
 
 .jumbo {
@@ -25,25 +35,63 @@ a {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 5em;
 	position: absolute;
 	width: 100%;
 	opacity: 1;
+	margin-bottom: 1em;
+	color: white;
+	margin-top: 2em;
 }
 
 .jumbo-text p {
-	font-size: 1.5rem;
-	line-height: 1px;
+	font-size: 1.3rem;
+	color: white;
+	padding: 1px;
+}
+
+.nav .home a {
+	color: #d97b29;
 }
 
 .jumbo img {
 	object-fit: cover;
-	max-height: 45vh;
+	max-height: 85vh;
 	width: 100%;
 	top: 0;
-	z-index: 1;
-	opacity: 0.5;
+	z-index: 0;
 	vertical-align: top;
+}
+
+.cta-button {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0.8em 1.1em 0.8em 1.1em;
+	background-color: #d97b29;
+	-webkit-transition: background-color 400ms ease;
+	transition: background-color 400ms ease;
+	font-family: Open Sans, sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: center;
+	border: none;
+	color: white;
+	margin: 2em;
+	font-family: "Oswald";
+}
+
+.blogs {
+	background-color: #f3f3f3;
+	padding-top: 55px;
+	padding-bottom: 30px;
+}
+
+.cta-button:hover {
+	background-color: #dea826;
 }
 
 .main {
@@ -53,6 +101,19 @@ a {
 	flex-direction: column;
 	display: flex;
 	text-align: left;
+	margin-top: 3em;
+}
+
+.landing h1 {
+	text-align: center;
+}
+
+.landing p {
+	line-height: 18pt;
+}
+
+.landing .heading {
+	margin-bottom: 15px;
 }
 
 .nav {
@@ -61,51 +122,65 @@ a {
 	display: flex;
 	flex-direction: row;
 	z-index: 15;
-	position: absolute;
+	position: fixed;
+	padding-left: 1em;
 	width: 100%;
+	background-color: white;
+	border-bottom: #d97b29 5px solid;
 }
 
 .nav ul {
 	display: flex;
 	justify-content: space-evenly;
 	list-style: none;
+	margin: 0;
 }
 
-.nav li {
+.nav .nav-item {
 	margin-left: 1em;
 	margin-right: 1em;
-	padding: 0.75em 2.5em 0.75em 2.5em;
-	background-color: darkcyan;
+	padding: 1.2rem 1rem;
+	height: 100%;
+}
+
+.cta {
+	color: white;
+	background-color: #d97b29;
+}
+
+.nav .cta a {
 	color: white;
 }
 
-.nav li:hover {
-	opacity: 0.5;
-	transition: ease-out;
+.cta:hover {
+	background-color: #dea826;
+	opacity: 1;
 }
 
 .nav li a {
 	text-decoration: none;
-	color: white;
+	color: #09697e;
+	font-size: 18px;
 }
 
 .nav li a:hover {
 	text-decoration: none;
+	color: #d97b29;
 }
 
 .svg-wrapper {
 	position: absolute;
 	left: 0;
 	margin-left: 1em;
-	margin-top: 1.5em;
+	margin-top: 0.5em;
 }
 
 #logo-combo {
-	width: 25em;
+	width: 20em;
 }
 
 #logo-mark {
-	width: 5em;
+	width: 3em;
 }
 
 #logo-combo .st0 {

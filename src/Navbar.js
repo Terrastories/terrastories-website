@@ -9,11 +9,20 @@ const Navbar = () => {
 				<LogoCombo />
 			</a>
 			<ul>
-				<li>
-					<a href="/team">Team</a>
+				<li className="nav-item home">
+					<a href="/">Home</a>
 				</li>
-				<li>
+				<li className="nav-item">
+					<a href="/get-involved">Get Involved</a>
+				</li>
+				<li className="nav-item">
+					<a href="/gallery">Gallery</a>
+				</li>
+				<li className="nav-item">
 					<a href="/about">About</a>
+				</li>
+				<li className="nav-item cta">
+					<a href="/download">Download</a>
 				</li>
 			</ul>
 		</div>
