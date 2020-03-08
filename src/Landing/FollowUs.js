@@ -15,6 +15,14 @@ const FollowBar = styled(Row)`
 
 const IconLink = styled.a`
 	color: white;
+	padding: 5px;
+	:hover {
+		background-color: #09697e;
+	}
+	:focus {
+		background-color: #09697e;
+		outline: none;
+	}
 `;
 
 const FollowContent = styled.div`

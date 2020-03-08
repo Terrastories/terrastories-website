@@ -6,6 +6,7 @@ import Donate from "./Donate";
 import Acknowledgments from "./Acknowledgments";
 import FollowUs from "./FollowUs";
 import LandingGif from "./LandingGif";
+import { ButtonSolid } from "../styled-components/buttons";
 import { BannerHeader, BannerWrapper } from "../styled-components/banners";
 
 const Header = styled.h1`
@@ -43,7 +44,7 @@ const Landing = () => {
 
 					<Text>A geostorytelling application designed for</Text>
 					<Text> communities to safeguard oral histories</Text>
-					<button className="cta-button">INSTALL TERRASTORIES</button>
+					<ButtonSolid>INSTALL TERRASTORIES</ButtonSolid>
 				</div>
 			</header>
 			<div className="landing main">
@@ -77,7 +78,7 @@ const Landing = () => {
 					the community.
 				</Body>
 				<LandingGif />
-				<button className="cta-button">INSTALL TERRASTORIES</button>
+				<ButtonSolid>INSTALL TERRASTORIES</ButtonSolid>
 			</div>
 			<Blogs />
 			<Donate />
