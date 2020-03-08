@@ -1,10 +1,11 @@
 import React from "react";
-import bgImage from "../MediaFiles/welcome-bg.jpg";
+import bgImage from "../MediaFiles/Bitmap.png";
 import styled from "styled-components";
 import Blogs from "./Blogs";
 import Donate from "./Donate";
 import Acknowledgments from "./Acknowledgments";
 import FollowUs from "./FollowUs";
+import LandingGif from "./LandingGif";
 import { BannerHeader, BannerWrapper } from "../styled-components/banners";
 
 const Header = styled.h1`
@@ -75,7 +76,7 @@ const Landing = () => {
 					customizable with a color scheme and design reflecting the style of
 					the community.
 				</Body>
-
+				<LandingGif />
 				<button className="cta-button">INSTALL TERRASTORIES</button>
 			</div>
 			<Blogs />
