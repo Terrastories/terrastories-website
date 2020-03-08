@@ -20,7 +20,7 @@ const FooterNavItem = styled.li`
 const Footer = () => {
 	return (
 		<>
-			<Banner bgColor="#09697e" height="45vh">
+			<Banner bgColor="#09697e" height="25vh">
 				<FooterBackground />
 				<BannerContent gapTop="5px">
 					<Column alignItems="flex-start" gapRight="auto" gapLeft="100px">
