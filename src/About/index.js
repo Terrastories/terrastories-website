@@ -1,7 +1,7 @@
 import React from "react";
 
-const Team = () => {
+const About = () => {
 	return <></>;
 };
 
-export default Team;
+export default About;
