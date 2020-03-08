@@ -5,7 +5,8 @@ import Gallery from "./Gallery";
 import About from "./About";
 import Navbar from "./Navbar";
 import GetInvolved from "./GetInvolved";
-import GetStarted from "./GetStarted";
+import Download from "./Download";
+import Footer from "./Footer";
 
 function App() {
 	return (
@@ -17,9 +18,10 @@ function App() {
 					<Route exact path="/about" component={About} />
 					<Route exact path="/get-involved" component={GetInvolved} />
 					<Route exact path="/gallery" component={Gallery} />
-					<Route exact path="/download" component={GetStarted} />
+					<Route exact path="/download" component={Download} />
 				</Switch>
 			</BrowserRouter>
+			<Footer />
 		</div>
 	);
 }

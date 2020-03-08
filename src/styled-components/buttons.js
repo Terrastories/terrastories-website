@@ -1,118 +1,51 @@
-import React from "react";
 import styled from "styled-components";
 
-export const OutlineLink = styled.a`
-	padding-left: 0.1em;
-	padding-right: 0.1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	background: transparent;
-	width: ${props => props.width};
-	min-width: 8em;
-	color: ${props => props.color};
-	border: 2px solid ${props => props.color};
-	margin-top: ${props => props.gapTop};
-	margin-bottom: ${props => props.gapBottom};
-	margin-left: ${props => props.gapLeft};
-	margin-right: ${props => props.gapRight};
-	alignitems: center;
-	text-decoration: none;
-	:hover {
-		color: ${props => props.bgColor};
-		background-color: ${props => props.color};
-		border: 2px solid ${props => props.color};
-	}
-	:focus {
-		color: ${props => props.bgColor};
-		background-color: ${props => props.color};
-		border: 2px solid ${props => props.color};
-		outline: none;
-		text-decoration: underline;
-	}
-	letter-spacing: 1px;
-	font-size: 24px;
-`;
-
-export const OutlineButton = styled.button`
-	padding-left: 0.1em;
-	padding-right: 0.1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	background: transparent;
-	width: ${props => props.width};
-	min-width: 8em;
-	color: ${props => props.color};
-	border: 2px solid ${props => props.color};
-	margin-top: ${props => props.gapTop};
-	margin-bottom: ${props => props.gapBottom};
-	margin-left: ${props => props.gapLeft};
-	margin-right: ${props => props.gapRight};
-	alignitems: center;
-	text-decoration: none;
-	:hover {
-		color: ${props => props.bgColor};
-		background-color: ${props => props.color};
-		border: 2px solid ${props => props.color};
-	}
-	:focus {
-		color: ${props => props.bgColor};
-		background-color: ${props => props.color};
-		border: 2px solid ${props => props.color};
-		outline: none;
-		text-decoration: underline;
-	}
-	letter-spacing: 1px;
-	font-size: 24px;
-`;
-
-export const ButtonContainer = styled.button`
-	padding-left: 0.1em;
-	padding-right: 0.1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	background-color: ${props => props.bgColor};
-	width: ${props => props.width};
-	min-width: 8em;
-	color: ${props => props.textColor};
-	border: 2px solid ${props => props.bgColor};
-	margin-top: ${props => props.gapTop};
-	margin-bottom: ${props => props.gapBottom};
-	margin-left: ${props => props.gapLeft};
-	margin-right: ${props => props.gapRight};
-	alignitems: center;
-	letter-spacing: 1px;
+export const ButtonSolid = styled.button`
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0.5em;
+	background-color: #d97b29;
+	border: #d97b29 3px solid;
+	-webkit-transition: background-color 400ms ease;
+	transition: background-color 400ms ease;
+	font-family: Open Sans, sans-serif;
 	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	margin: 2em;
+	font-family: "Oswald";
+	max-width: 250px;
+
 	:hover {
-		color: ${props => props.bgColor};
-		background-color: transparent;
-		border: 2px solid ${props => props.bgColor};
-	}
-	:focus {
-		outline: none;
-		border: 2.5px solid ${props => props.accent};
+		background-color: #dea826;
+		border-color: #dea826;
+		color: white;
 	}
 `;
 
-export const Button = props => {
-	return (
-		<OutlineLink {...props}>
-			{props.label} {props.icon ? props.icon : ""}
-		</OutlineLink>
-	);
-};
-
-export const ButtonOutline = props => {
-	return (
-		<OutlineButton {...props}>
-			{props.label} {props.icon ? props.icon : ""}
-		</OutlineButton>
-	);
-};
-
-export const ButtonSolid = props => {
-	return (
-		<ButtonContainer {...props}>
-			{props.label} {props.icon ? props.icon : ""}
-		</ButtonContainer>
-	);
-};
+export const ButtonOutline = styled.button`
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0.5em;
+	background-color: transparent;
+	-webkit-transition: background-color 400ms ease;
+	transition: background-color 400ms ease;
+	font-family: Open Sans, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: center;
+	border: white 3px solid;
+	color: white;
+	margin: 2em;
+	font-family: "Oswald";
+	max-width: 250px;
+	:hover {
+		background: white;
+		color: #09697e;
+	}
+`;

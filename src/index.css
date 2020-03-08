@@ -6,6 +6,11 @@ body {
 	padding: 0;
 }
 
+.app {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 p {
 	/* font-family: "museo-sans", sans-serif; */
 	font-family: "Open Sans", sans-serif;
@@ -56,6 +61,10 @@ h1 {
 	color: #d97b29;
 }
 
+.nav .home a:hover {
+	color: #09697e;
+}
+
 .jumbo img {
 	object-fit: cover;
 	max-height: 85vh;
@@ -69,12 +78,12 @@ h1 {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 0.8em 1.1em 0.8em 1.1em;
+	padding: 0.8em;
 	background-color: #d97b29;
 	-webkit-transition: background-color 400ms ease;
 	transition: background-color 400ms ease;
 	font-family: Open Sans, sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 24px;
 	font-weight: 400;
 	text-align: center;
@@ -82,16 +91,26 @@ h1 {
 	color: white;
 	margin: 2em;
 	font-family: "Oswald";
+	max-width: 250px;
+}
+
+.truncate {
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .blogs {
 	background-color: #f3f3f3;
 	padding-top: 55px;
 	padding-bottom: 30px;
+	border-top: #d97b29 5px solid;
 }
 
 .cta-button:hover {
 	background-color: #dea826;
+	color: white;
 }
 
 .main {
@@ -102,6 +121,7 @@ h1 {
 	display: flex;
 	text-align: left;
 	margin-top: 3em;
+	align-items: center;
 }
 
 .landing h1 {
@@ -117,7 +137,7 @@ h1 {
 }
 
 .nav {
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: flex-start;
 	display: flex;
 	flex-direction: row;
@@ -140,7 +160,6 @@ h1 {
 	margin-left: 1em;
 	margin-right: 1em;
 	padding: 1.2rem 1rem;
-	height: 100%;
 }
 
 .cta {
@@ -152,8 +171,13 @@ h1 {
 	color: white;
 }
 
-.cta:hover {
+.nav .cta a:hover {
+	color: white;
+}
+
+.nav .cta:hover {
 	background-color: #dea826;
+	color: white;
 	opacity: 1;
 }
 
@@ -168,15 +192,32 @@ h1 {
 	color: #d97b29;
 }
 
-.svg-wrapper {
+.clip-circle {
+	clip-path: circle(60px at center);
+}
+
+.svg-wrapper #logo-combo {
 	position: absolute;
 	left: 0;
 	margin-left: 1em;
 	margin-top: 0.5em;
 }
 
+.svg-wrapper #footerbg {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#footer-bg {
+	margin-left: auto;
+	margin-top: auto;
+	width: 800px;
+}
+
 #logo-combo {
-	width: 20em;
+	width: 18em;
+	padding-top: 10px;
 }
 
 #logo-mark {
@@ -216,5 +257,26 @@ h1 {
 }
 
 #logo-mark .st3 {
+	fill: #dea826;
+}
+
+#logo-mark-inverted {
+	width: 75px;
+	padding-bottom: 5px;
+}
+
+#logo-mark-inverted .st0 {
+	fill: #d97b29;
+}
+
+#logo-mark-inverted .st2 {
+	fill: #09697e;
+}
+
+#logo-mark-inverted .st1 {
+	fill: #33aa8b;
+}
+
+#logo-mark-inverted .st3 {
 	fill: #dea826;
 }
