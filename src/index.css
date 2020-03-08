@@ -162,6 +162,20 @@ h1 {
 	padding: 1.2rem 1rem;
 }
 
+.nav-item a:focus {
+	outline: none;
+	border-bottom: #33aa8b 3px solid;
+}
+
+.navbar-brand a:hover {
+	opacity: 0.8;
+}
+
+.navbar-brand a:focus {
+	outline: none;
+	border-bottom: #33aa8b 3px solid;
+}
+
 .cta {
 	color: white;
 	background-color: #d97b29;
@@ -173,6 +187,10 @@ h1 {
 
 .nav .cta a:hover {
 	color: white;
+}
+
+.nav .cta a:focus {
+	border-bottom: white 3px solid;
 }
 
 .nav .cta:hover {
@@ -213,6 +231,7 @@ h1 {
 	margin-left: auto;
 	margin-top: auto;
 	width: 800px;
+	margin-bottom: -5px;
 }
 
 #logo-combo {

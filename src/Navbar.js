@@ -5,7 +5,11 @@ import { Column, Row } from "./styled-components/layout";
 const Navbar = () => {
 	return (
 		<div className="nav">
-			<Column alignItems="flex-start" justifyContent="center">
+			<Column
+				className="navbar-brand"
+				alignItems="flex-start"
+				justifyContent="center"
+			>
 				<a href="/">
 					<LogoCombo />
 				</a>

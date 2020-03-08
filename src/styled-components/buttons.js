@@ -24,6 +24,12 @@ export const ButtonSolid = styled.button`
 		border-color: #dea826;
 		color: white;
 	}
+	:focus {
+		outline: none;
+		border: #33aa8b 3px solid;
+		background-color: #09697e;
+		color: white;
+	}
 `;
 
 export const ButtonOutline = styled.button`
@@ -47,5 +53,11 @@ export const ButtonOutline = styled.button`
 	:hover {
 		background: white;
 		color: #09697e;
+	}
+	:focus {
+		outline: none;
+		background: white;
+		color: #09697e;
+		border: #09697e 3px solid;
 	}
 `;
