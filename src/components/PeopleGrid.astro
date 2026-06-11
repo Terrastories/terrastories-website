@@ -1,0 +1,24 @@
+---
+interface Props {
+  people: { name: string; image: string; url: string }[];
+}
+const { people } = Astro.props;
+---
+
+<div class="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+  {people.map((person) => (
+    <a
+      href={person.url}
+      class="group flex flex-col items-center gap-3 text-center"
+      aria-label={`${person.name} GitHub profile`}
+    >
+      <img
+        src={person.image}
+        alt={`Portrait of ${person.name}`}
+        loading="lazy"
+        class="h-28 w-28 rounded-full object-cover ring-2 ring-stone-200 transition-all group-hover:ring-forest group-hover:shadow-lg"
+      />
+      <span class="text-sm font-semibold text-ink">{person.name}</span>
+    </a>
+  ))}
+</div>

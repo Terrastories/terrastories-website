@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PeopleGrid from '../components/PeopleGrid.astro';
+import { getCollection } from 'astro:content';
+import { render } from 'astro:content';
+
+const page = await getCollection('pages', ({ data }) => data.slug === 'community').then(r => r[0]);
+const { Content } = await render(page);
+
+const stewards = [
+  { name: 'Rudo Kemper', image: '/media/images/640_rudo-square.jpg', url: 'https://github.com/rudokemper' },
+  { name: 'Laura Mosher', image: '/media/images/126_lauramosher.jpg', url: 'https://github.com/lauramosher' },
+  { name: 'Luandro Vieira', image: '/media/images/639_Screenshot-2023-02-18-235330.jpg', url: 'https://github.com/luandro' },
+  { name: 'Albert Chae', image: '/media/images/644_T04PM108C-UHAS0KCMC-04f3dd0bb8de-512.png', url: 'https://github.com/albertchae' },
+  { name: 'Roche Bhola', image: '/media/images/645_1492251_825539690793240_1507883986_o.jpg', url: 'https://github.com/rudokemper' },
+];
+
+const alumni = [
+  { name: 'Miranda Wang', image: '/media/images/121_mirandawang.png', url: 'https://github.com/mirandawang' },
+  { name: 'Kalimar Maia', image: '/media/images/125_kalimarmaia.jpg', url: 'https://github.com/kalimar' },
+  { name: 'Ian Norris', image: '/media/images/124_iannnorris.png', url: 'https://github.com/feminismisawesome' },
+  { name: 'Mae Beale', image: '/media/images/127_maebeale.jpg', url: 'https://github.com/maebeale' },
+];
+---
+
+<BaseLayout
+  title={page.data.seo_title || page.data.title}
+  description={page.data.seo_description || page.data.excerpt}
+  canonical={page.data.canonical}
+  ogImage={page.data.og_image}
+>
+  <main id="main-content">
+    <article class="mx-auto max-w-4xl px-6 py-12">
+      <header class="mb-10">
+        <h1 class="text-4xl font-bold tracking-normal text-ink md:text-5xl">{page.data.title}</h1>
+        <p class="mt-4 max-w-3xl text-lg text-stone-700">{page.data.excerpt}</p>
+      </header>
+
+      <div class="prose prose-stone max-w-none prose-a:text-river prose-img:rounded">
+        <Content />
+      </div>
+
+      <section class="mt-12" aria-labelledby="stewards-heading">
+        <h2 id="stewards-heading" class="text-2xl font-bold text-ink">Terrastories Stewards</h2>
+        <p class="mt-2 mb-8 text-stone-700">
+          The Terrastories Stewards are a small, mostly volunteer collective who are guiding the
+          <a href="https://github.com/Terrastories/terrastories/wiki/Terrastories-Roadmap" class="text-river hover:underline">development roadmap</a>,
+          managing and building the volunteer community, reviewing contributions to the code, and getting interested users started in working with Terrastories.
+          Would you like to be a Terrastories steward? <a href="/contact-us" class="text-river hover:underline">Contact us</a>!
+        </p>
+        <PeopleGrid people={stewards} />
+      </section>
+
+      <section class="mt-16" aria-labelledby="alumni-heading">
+        <h2 id="alumni-heading" class="text-2xl font-bold text-ink">Steward Alumni</h2>
+        <div class="mt-8">
+          <PeopleGrid people={alumni} />
+        </div>
+      </section>
+
+      <section class="mt-16" aria-labelledby="contributors-heading">
+        <h2 id="contributors-heading" class="text-2xl font-bold text-ink">Code Contributors</h2>
+        <p class="mt-2 mb-8 text-stone-700">
+          The following list of amazing people have directly contributed to the Terrastories codebase, as of August 2020. This does not include graphic designers, UX/UI designers, indigenous partners, and others who had an amazing idea about how Terrastories could be even better!
+        </p>
+        <img
+          src="/media/images/324_Community-August-2020.jpg"
+          alt="Terrastories community contributors group photo from August 2020"
+          class="rounded-lg shadow-md"
+          loading="lazy"
+        />
+      </section>
+    </article>
+  </main>
+</BaseLayout>
