@@ -3,7 +3,6 @@ author: rkemper
 author_name: rkemper
 canonical: /how-it-works
 date: 2020-07-16 21:00:13+00:00
-excerpt: 'The main Terrastories interface consists of an interactive map and a sidebar with media content. Users can explore the map and click on activated points to see the stories associated with those points.'
 link: /how-it-works
 modified: 2023-07-21 13:37:48+00:00
 og_image: /media/images/160_terrastories-1920x1080-768x432-1.gif
