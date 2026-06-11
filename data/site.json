@@ -1,0 +1,248 @@
+{
+  "site_url": "https://terrastories.app",
+  "export_date": "2026-06-10T15:57:50.131027",
+  "stats": {
+    "posts": 33,
+    "pages": 11,
+    "media": 144,
+    "categories": 3,
+    "users": 2
+  },
+  "categories": {
+    "6": {
+      "id": 6,
+      "count": 12,
+      "description": "",
+      "link": "https://terrastories.app/category/dev-stories/",
+      "name": "Dev Stories",
+      "slug": "dev-stories",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/categories/6"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "curies": [
+          {
+            "href": "https://api.w.org/{rel}"
+          }
+        ]
+      }
+    },
+    "1": {
+      "id": 1,
+      "count": 5,
+      "description": "",
+      "link": "https://terrastories.app/category/uncategorized/",
+      "name": "Uncategorized",
+      "slug": "uncategorized",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/categories/1"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "curies": [
+          {
+            "href": "https://api.w.org/{rel}"
+          }
+        ]
+      }
+    },
+    "4": {
+      "id": 4,
+      "count": 18,
+      "description": "",
+      "link": "https://terrastories.app/category/user-stories/",
+      "name": "User Stories",
+      "slug": "user-stories",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/categories/4"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://terrastories.app/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "curies": [
+          {
+            "href": "https://api.w.org/{rel}"
+          }
+        ]
+      }
+    }
+  },
+  "users": {
+    "1": {
+      "name": "rkemper",
+      "slug": "admin"
+    },
+    "2": {
+      "name": "Terrastories",
+      "slug": "lmosher"
+    }
+  },
+  "menus": [
+    {
+      "text": "How It Works",
+      "href": "https://terrastories.app/how-it-works/"
+    },
+    {
+      "text": "Videos",
+      "href": "https://terrastories.app/how-it-works#videos"
+    },
+    {
+      "text": "Methodology",
+      "href": "https://terrastories.app/how-it-works#methodology"
+    },
+    {
+      "text": "Practical Guide",
+      "href": "https://terrastories.app/how-it-works#edt"
+    },
+    {
+      "text": "Try Terrastories",
+      "href": "https://terrastories.app/try-terrastories/"
+    },
+    {
+      "text": "Documentation",
+      "href": "https://docs.terrastories.app"
+    },
+    {
+      "text": "Demo",
+      "href": "https://terrastories.app/demo/"
+    },
+    {
+      "text": "User Stories",
+      "href": "https://terrastories.app/category/user-stories/"
+    },
+    {
+      "text": "Developer Community",
+      "href": "https://terrastories.app/community/"
+    },
+    {
+      "text": "Dev Stories",
+      "href": "https://terrastories.app/category/dev-stories/"
+    },
+    {
+      "text": "Contribute",
+      "href": "https://terrastories.app/contribute/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://terrastories.app/contact-us/"
+    },
+    {
+      "text": "Sponsor Us",
+      "href": "https://terrastories.app/sponsor-us/"
+    },
+    {
+      "text": "Funding Needs",
+      "href": "https://terrastories.app/sponsor-us#funding"
+    },
+    {
+      "text": "Explore Terrastories",
+      "href": "https://explore.terrastories.app"
+    },
+    {
+      "text": "Explore Terrastories",
+      "href": "https://explore.terrastories.app"
+    },
+    {
+      "text": "How It Works",
+      "href": "https://terrastories.app/how-it-works/"
+    },
+    {
+      "text": "Videos",
+      "href": "https://terrastories.app/how-it-works#videos"
+    },
+    {
+      "text": "Methodology",
+      "href": "https://terrastories.app/how-it-works#methodology"
+    },
+    {
+      "text": "Practical Guide",
+      "href": "https://terrastories.app/how-it-works#edt"
+    },
+    {
+      "text": "Try Terrastories",
+      "href": "https://terrastories.app/try-terrastories/"
+    },
+    {
+      "text": "Documentation",
+      "href": "https://docs.terrastories.app"
+    },
+    {
+      "text": "Demo",
+      "href": "https://terrastories.app/demo/"
+    },
+    {
+      "text": "User Stories",
+      "href": "https://terrastories.app/category/user-stories/"
+    },
+    {
+      "text": "Developer Community",
+      "href": "https://terrastories.app/community/"
+    },
+    {
+      "text": "Dev Stories",
+      "href": "https://terrastories.app/category/dev-stories/"
+    },
+    {
+      "text": "Contribute",
+      "href": "https://terrastories.app/contribute/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://terrastories.app/contact-us/"
+    },
+    {
+      "text": "Sponsor Us",
+      "href": "https://terrastories.app/sponsor-us/"
+    },
+    {
+      "text": "Funding Needs",
+      "href": "https://terrastories.app/sponsor-us#funding"
+    },
+    {
+      "text": "Explore Terrastories",
+      "href": "https://explore.terrastories.app"
+    }
+  ]
+}
