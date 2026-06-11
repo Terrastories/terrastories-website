@@ -28,5 +28,3 @@ Community members can add places and stories through a user-friendly interface, 
 ![Terrastories demo animation showing place-based storytelling interface](/media/images/27_terrastories.gif)
 
 Terrastories is entirely free and open-source, built with principles of offline-first and data sovereignty, and aligned with the following two UN Sustainable Development Goals:
-
-![UN Sustainable Development Goal 4: Quality Education](/media/images/78_E-WEB-Goal-04-350x350-1.png) ![UN Sustainable Development Goal 11: Sustainable Cities and Communities](/media/images/79_E-WEB-Goal-11-350x350-1.png)
