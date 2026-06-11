@@ -1,2 +1,6 @@
-node_modules/\ndist/\n.astro/\n.DS_Store
+node_modules/
+dist/
+.astro/
+.DS_Store
 _originals/
+static/

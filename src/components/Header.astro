@@ -1,17 +1,9 @@
 ---
-const navItems = [
-  { label: 'How It Works', href: '/how-it-works' },
-  { label: 'Demo', href: '/demo' },
-  { label: 'User Stories', href: '/category/user-stories' },
-  { label: 'Developer Community', href: '/community' },
-  { label: 'Contact Us', href: '/contact-us' },
-  { label: 'Sponsor Us', href: '/sponsor-us' },
-];
+import { navItems, exploreHref, isExternal } from '../data/nav';
 
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 ---
-
-<header class="border-b border-stone-200 bg-paper">
+<header class="border-b-[5px] border-orange bg-white">
   <a class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:bg-white focus:p-3" href="#main-content">
     Skip to content
   </a>
@@ -19,23 +11,49 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4" aria-label="Main navigation">
     <!-- Logo -->
     <a href="/" aria-label="Terrastories home" class="shrink-0">
-      <img src="/media/images/nav-logo.png" alt="Terrastories" class="h-8 w-auto" />
+      <img src="/media/images/nav-logo.png" alt="Terrastories" class="w-[200px] md:w-[300px] h-auto" />
     </a>
 
     <!-- Desktop nav -->
-    <div class="hidden items-center gap-x-5 gap-y-3 text-sm font-medium text-stone-800 lg:flex">
+    <div class="hidden items-center gap-x-5 gap-y-3 text-sm font-medium text-body lg:flex">
       {navItems.map((item) => (
-        <a
-          class:list={[
-            'hover:text-forest transition-colors',
-            currentPath === item.href ? 'text-forest underline decoration-clay decoration-2 underline-offset-4' : '',
-          ]}
-          href={item.href}
-        >
-          {item.label}
-        </a>
+        <div class="group relative">
+          <a
+            class:list={[
+              'hover:text-orange transition-colors inline-flex items-center gap-1',
+              currentPath === item.href ? 'text-orange' : '',
+            ]}
+            href={item.href}
+            {...(isExternal(item.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+          >
+            {item.label}
+            {item.children && (
+              <svg class="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            )}
+          </a>
+
+          {item.children && (
+            <div class="invisible opacity-0 transition-all duration-200 absolute left-0 top-full pt-2 z-50 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+              <ul class="border-t-2 border-teal bg-white shadow-lg py-2 min-w-[200px]">
+                {item.children.map((child) => (
+                  <li>
+                    <a
+                      class="block px-5 py-2 text-sm text-body hover:text-orange hover:bg-stone-50 transition-colors whitespace-nowrap"
+                      href={child.href}
+                      {...(isExternal(child.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                    >
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
       ))}
-      <a class="rounded bg-clay px-4 py-2 font-semibold text-white hover:bg-forest transition-colors" href="https://explore.terrastories.app">
+      <a class="btn" href={exploreHref} target="_blank" rel="noopener noreferrer">
         Explore Terrastories
       </a>
     </div>
@@ -43,11 +61,10 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     <!-- Burger button (mobile) -->
     <button
       id="menu-toggle"
-      class="menu-toggle relative z-50 flex h-10 w-10 items-center justify-center rounded-lg bg-clay text-white lg:hidden"
+      class="menu-toggle relative z-50 flex h-10 w-10 items-center justify-center rounded-none bg-orange text-white lg:hidden"
       aria-label="Open menu"
       aria-expanded="false"
     >
-      <span class="sr-only">Toggle navigation</span>
       <span class="burger-icon" aria-hidden="true">
         <span class="burger-line burger-line--top"></span>
         <span class="burger-line burger-line--middle"></span>
@@ -60,23 +77,39 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   <div id="menu-overlay" class="pointer-events-none fixed inset-0 z-40 bg-black/0 backdrop-blur-none transition-all duration-500 ease-in-out lg:hidden"></div>
 
   <!-- Mobile slide-in panel -->
-  <div id="menu-panel" class="fixed right-0 top-0 z-40 h-full w-72 translate-x-full transform bg-paper shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] lg:hidden">
-    <div class="flex flex-col px-6 pt-20 pb-8">
+  <div id="menu-panel" class="fixed right-0 top-0 z-40 h-full w-72 translate-x-full transform bg-white shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] lg:hidden" role="dialog" aria-label="Navigation menu">
+    <div class="flex flex-col px-6 pt-20 pb-8 overflow-y-auto max-h-full">
       <div class="flex flex-col gap-1">
         {navItems.map((item) => (
-          <a
-            class:list={[
-              'block rounded-lg px-4 py-3 text-base font-medium text-stone-800 transition-colors hover:bg-stone-100 hover:text-forest',
-              currentPath === item.href ? 'bg-stone-50 text-forest font-semibold' : '',
-            ]}
-            href={item.href}
-          >
-            {item.label}
-          </a>
+          <div>
+            <a
+              class:list={[
+                'block rounded-lg px-4 py-3 text-base font-medium text-body transition-colors hover:bg-stone-100 hover:text-orange',
+                currentPath === item.href ? 'bg-stone-50 text-orange font-semibold' : '',
+              ]}
+              href={item.href}
+              {...(isExternal(item.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+            >
+              {item.label}
+            </a>
+            {item.children && (
+              <div class="pl-6">
+                {item.children.map((child) => (
+                  <a
+                    class="block px-4 py-2 text-sm text-stone-600 hover:text-orange hover:bg-stone-50 rounded-lg transition-colors"
+                    href={child.href}
+                    {...(isExternal(child.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                  >
+                    {child.label}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
         ))}
       </div>
       <div class="mt-6 border-t border-stone-200 pt-6">
-        <a class="block rounded-lg bg-clay px-4 py-3 text-center font-semibold text-white hover:bg-forest transition-colors" href="https://explore.terrastories.app">
+        <a class="btn block text-center" href={exploreHref} target="_blank" rel="noopener noreferrer">
           Explore Terrastories
         </a>
       </div>
@@ -140,6 +173,34 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 
   let open = false;
 
+  // Focus trap helpers
+  function getFocusableElements(container: HTMLElement): HTMLElement[] {
+    return Array.from(
+      container.querySelectorAll<HTMLElement>('a[href], button, input, textarea, select, details, [tabindex]:not([tabindex="-1"])')
+    ).filter(el => !el.hasAttribute('disabled') && el.offsetParent !== null);
+  }
+
+  function trapFocus(e: KeyboardEvent) {
+    if (!panel || e.key !== 'Tab') return;
+    const focusable = getFocusableElements(panel);
+    if (focusable.length === 0) return;
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+
+    if (e.shiftKey) {
+      if (document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      }
+    } else {
+      if (document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+  }
+
   function closeMenu() {
     open = false;
     panel!.classList.add('translate-x-full');
@@ -150,6 +211,8 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     toggle!.setAttribute('aria-label', 'Open menu');
     toggle!.classList.remove('is-open');
     document.body.style.overflow = '';
+    document.removeEventListener('keydown', trapFocus);
+    toggle!.focus();
   }
 
   function openMenu() {
@@ -162,6 +225,12 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     toggle!.setAttribute('aria-label', 'Close menu');
     toggle!.classList.add('is-open');
     document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', trapFocus);
+    // Focus first focusable element in panel
+    const focusable = getFocusableElements(panel!);
+    if (focusable.length > 0) {
+      setTimeout(() => focusable[0].focus(), 100);
+    }
   }
 
   toggle!.addEventListener('click', () => {

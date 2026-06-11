@@ -8,24 +8,31 @@ import { categorySlug } from '../../utils/category';
 const titleFromSlug = (slug: string) => slug.split('-').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ');
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
-  const categories = new Set(posts.flatMap((post) => post.data.categories.map(categorySlug)));
+  const allPosts = await getCollection('posts');
+  const categories = new Set(allPosts.flatMap((post) => post.data.categories.map(categorySlug)));
 
-  return [...categories].map((category) => ({
-    params: { category },
-  }));
+  return [...categories].map((category) => {
+    const posts = allPosts
+      .filter((post) => post.data.categories.some((item) => categorySlug(item) === category))
+      .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+    return {
+      params: { category },
+      props: { posts },
+    };
+  });
 }
 
 const { category } = Astro.params;
-const posts = (await getCollection('posts'))
-  .filter((post) => post.data.categories.some((item) => categorySlug(item) === category))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const { posts } = Astro.props;
 
 const title = titleFromSlug(category ?? '');
 const descriptions: Record<string, string> = {
   'User Stories': 'Real-world accounts from Indigenous and local communities using Terrastories to map, protect, and share their place-based stories and cultural heritage.',
+  'Dev Stories': 'Updates, contributions, and technical stories from the open-source community building Terrastories.',
   'Developer Community': 'Updates, contributions, and technical stories from the open-source community building Terrastories.',
   'Field Notes': 'Notes and reflections from the field as communities document their oral histories and territories.',
+  'Uncategorized': 'Terrastories posts.',
 };
 const description = descriptions[title] || `Terrastories posts in the ${title} category.`;
 const frontmatter = {
@@ -40,7 +47,7 @@ const frontmatter = {
 
   <section class="mx-auto max-w-7xl px-6 py-12">
     <header class="mb-10">
-      <h1 class="text-4xl font-bold text-ink md:text-5xl">{title}</h1>
+      <h1 class="text-4xl font-heading md:text-5xl uppercase">{title}</h1>
       <p class="mt-4 max-w-3xl text-lg text-stone-700">{description}</p>
       <p class="mt-2 text-sm text-stone-500">{posts.length} posts</p>
     </header>

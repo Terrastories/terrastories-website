@@ -16,11 +16,10 @@ const { Content } = await render(page);
 
   <article class="mx-auto max-w-4xl px-6 py-12">
     <header class="mb-10">
-      <h1 class="text-4xl font-bold tracking-normal text-ink md:text-5xl">{page.data.title}</h1>
-      {page.data.excerpt && <p class="mt-4 max-w-3xl text-lg text-stone-700">{page.data.excerpt}</p>}
+      <h1 class="text-4xl font-heading uppercase tracking-wide text-teal md:text-5xl">{page.data.title}</h1>
     </header>
 
-    <div class="prose prose-stone max-w-none prose-a:text-river prose-img:rounded">
+    <div class="prose prose-stone max-w-none prose-a:text-orange">
       <Content />
     </div>
   </article>

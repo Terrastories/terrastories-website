@@ -15,9 +15,4 @@ export default defineConfig({
       theme: 'github-light',
     },
   },
-  image: {
-    service: {
-      entrypoint: 'astro/assets/services/sharp',
-    },
-  },
 });

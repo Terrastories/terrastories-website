@@ -1,9 +1,10 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Seo from '../components/Seo.astro';
 import PostCard from '../components/PostCard.astro';
 import PartnerLogo from '../components/PartnerLogo.astro';
+import { sponsors, partners } from '../data/nav';
 
 const pages = await getCollection('pages');
 const home = pages.find((page) => page.data.slug === 'home');
@@ -12,37 +13,38 @@ if (!home) {
   throw new Error('Missing home page content.');
 }
 
-const { Content } = await render(home);
-
 const posts = (await getCollection('posts'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 3);
-
-const sponsors = [
-  { name: 'Awana Digital', href: 'https://awana.digital', src: '/media/images/748_AwanaDigital-Logomark-HiRes.png' },
-];
-
-const partners = [
-  { name: 'Earth Defenders Toolkit', href: 'https://earthdefenderstoolkit.com', src: '/media/images/432_EDT-asset-dark-logo.png' },
-  { name: 'Amazon Conservation Team', href: 'https://amazonteam.org', src: '/media/images/81_ACT-HQ_SQ_ENG_ASH.png' },
-  { name: 'Ruby for Good', href: 'https://rubyforgood.org', src: '/media/images/83_rubyforgood.png' },
-  { name: 'Mapbox', href: 'https://mapbox.com', src: '/media/images/82_mapbox-logo-blue-square.png' },
-  { name: 'ATALM', href: 'https://atalm.org/', src: '/media/images/565_ATALM-logo_og.png' },
-  { name: 'Tech Matters', href: 'https://techmatters.org', src: '/media/images/409_tech_matters_JPG_viewimage.jpg' },
-  { name: 'Ohneganos', href: 'https://www.ohneganos.com/', src: '/media/images/433_ohneganos.png' },
-  { name: 'Indigenous Mapping Workshop', href: 'https://indigenousmaps.com', src: '/media/images/435_IndigenousMaps.jpg' },
-];
 ---
 
 <BaseLayout>
   <Seo slot="seo" frontmatter={home.data} pathname="/" />
 
   <!-- Hero Section -->
-  <section class="bg-paper px-6 py-14">
+  <section class="bg-teal bg-[url('/media/images/80_welcome-bg.jpg')] bg-cover bg-center bg-fixed px-6 py-20 text-center">
     <div class="mx-auto max-w-5xl">
-      <div class="prose prose-stone max-w-none prose-a:text-river prose-img:rounded">
-        <Content />
+      <h1 class="text-4xl font-heading uppercase tracking-wide text-white md:text-5xl">
+        Terrastories: Connecting Generations
+      </h1>
+      <h2 class="mx-auto mt-4 max-w-3xl text-xl font-heading leading-relaxed text-white">
+        A free and open-source application designed for communities to map, protect, and share place-based stories
+      </h2>
+    </div>
+  </section>
+
+  <!-- Intro & Demo -->
+  <section class="px-6 py-12">
+    <div class="mx-auto max-w-5xl">
+      <div class="prose prose-stone mx-auto max-w-4xl prose-a:text-orange">
+        <p>
+          <strong>Terrastories</strong> is a geostorytelling application built to enable Indigenous and other local communities to locate and map their own oral storytelling traditions about places of significant meaning or value to them.
+        </p>
+        <p>
+          Community members can add places and stories through a user-friendly interface, and make decisions about designating certain stories as private or restricted. Terrastories works both online and offline, so that remote communities can access the application entirely without needing internet connectivity.
+        </p>
       </div>
+
       <div class="not-prose my-8">
         <video
           autoplay
@@ -51,10 +53,9 @@ const partners = [
           playsinline
           preload="metadata"
           poster="/media/images/27_terrastories-poster.jpg"
-          class="mx-auto w-full max-w-3xl rounded-lg shadow-lg"
+          class="mx-auto w-full max-w-5xl"
         >
           <source src="/media/images/27_terrastories.mp4" type="video/mp4" />
-          <source src="/media/images/27_terrastories.webp" type="image/webp" />
           <img
             src="/media/images/27_terrastories-poster.jpg"
             alt="Terrastories demo animation showing place-based storytelling interface"
@@ -62,7 +63,13 @@ const partners = [
           />
         </video>
       </div>
-      <div class="mt-6 flex flex-wrap items-center justify-center gap-6">
+
+      <div class="prose prose-stone mx-auto max-w-4xl text-center prose-a:text-orange">
+        <p>
+          Terrastories is entirely free and open-source, built with principles of offline-first and data sovereignty, and aligned with the following two UN Sustainable Development Goals:
+        </p>
+      </div>
+      <div class="mt-4 flex flex-wrap items-center justify-center gap-4">
         <img src="/media/images/78_E-WEB-Goal-04-350x350-1.png" alt="UN Sustainable Development Goal 4: Quality Education" class="h-28 w-28 sm:h-32 sm:w-32" loading="lazy" />
         <img src="/media/images/79_E-WEB-Goal-11-350x350-1.png" alt="UN Sustainable Development Goal 11: Sustainable Cities and Communities" class="h-28 w-28 sm:h-32 sm:w-32" loading="lazy" />
       </div>
@@ -70,10 +77,10 @@ const partners = [
   </section>
 
   <!-- Latest Stories -->
-  <section class="mx-auto max-w-7xl px-6 py-12">
-    <div class="mb-8 flex items-end justify-between gap-4">
-      <h2 class="text-3xl font-bold text-ink">Latest Stories</h2>
-      <a class="text-sm font-semibold text-river hover:text-forest" href="/blog">View all</a>
+  <section class="mx-auto max-w-7xl px-6 py-14">
+    <div class="mb-8 text-center">
+      <h2 class="text-4xl font-heading uppercase tracking-wide text-teal">Latest Stories</h2>
+      <a class="text-sm font-semibold text-orange hover:text-gold" href="/blog">View all</a>
     </div>
 
     <div class="grid gap-6 md:grid-cols-3">
@@ -82,25 +89,15 @@ const partners = [
   </section>
 
   <!-- Help Us Grow CTA -->
-  <section class="bg-forest px-6 py-16 text-center text-white">
+  <section class="bg-teal bg-[url('/media/images/help-grow-bg.jpg')] bg-cover bg-center bg-fixed px-6 py-16 text-center text-white">
     <div class="mx-auto max-w-3xl">
-      <h2 class="text-3xl font-bold">Help Us Grow</h2>
-      <p class="mt-4 text-lg text-white/80">
+      <h2 class="text-4xl font-heading uppercase tracking-wide text-white">Help Us Grow</h2>
+      <p class="mt-4 text-xl font-heading leading-relaxed text-white">
         We are an entirely open-source project that depends on donations and volunteer software development.
       </p>
       <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
-        <a
-          href="/sponsor-us"
-          class="rounded-lg bg-clay px-6 py-3 font-semibold text-white transition-colors hover:bg-clay/90"
-        >
-          Sponsor Us
-        </a>
-        <a
-          href="/contribute"
-          class="rounded-lg border-2 border-white/30 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10"
-        >
-          Be a Developer
-        </a>
+        <a href="/sponsor-us" class="btn">Sponsor us</a>
+        <a href="/contribute" class="btn-outline">Be a developer</a>
       </div>
     </div>
   </section>
@@ -108,22 +105,20 @@ const partners = [
   <!-- Sponsors & Partners -->
   <section class="px-6 py-16">
     <div class="mx-auto max-w-5xl">
-      <h2 class="mb-12 text-center text-3xl font-bold text-ink">Sponsors & Partners</h2>
-
-      <h3 class="mb-8 text-center text-xl font-semibold text-ink">Sponsored By</h3>
-      <div class="mb-16 flex flex-wrap items-center justify-center gap-6">
+      <h2 class="mb-10 text-center text-4xl font-heading text-teal">Terrastories is currently being sponsored by</h2>
+      <div class="mb-14 flex flex-wrap items-center justify-center gap-6">
         {sponsors.map((s) => <PartnerLogo name={s.name} href={s.href} src={s.src} />)}
       </div>
 
-      <h3 class="mb-8 text-center text-xl font-semibold text-ink">Special Thanks to Our Partners</h3>
-      <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
+      <h2 class="mb-8 text-center text-4xl font-heading text-teal">Special thanks to our partners</h2>
+      <div class="grid grid-cols-2 items-center gap-x-8 gap-y-10 sm:grid-cols-3 md:grid-cols-4">
         {partners.map((p) => <PartnerLogo name={p.name} href={p.href} src={p.src} />)}
       </div>
 
       <div class="mt-10 text-center">
         <a
           href="mailto:terrastoriesorg@gmail.com"
-          class="text-sm font-semibold text-river hover:text-forest"
+          class="btn"
         >
           Become a partner
         </a>

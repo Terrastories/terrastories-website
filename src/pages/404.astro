@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Seo from '../components/Seo.astro';
+
+const frontmatter = {
+  title: 'Page Not Found',
+  seo_title: '404 - Page Not Found | Terrastories',
+  seo_description: 'The page you are looking for could not be found.',
+};
+---
+
+<BaseLayout>
+  <Seo slot="seo" frontmatter={frontmatter} pathname="/404" />
+  <section class="flex min-h-[60vh] flex-col items-center justify-center px-6 py-20 text-center">
+    <h1 class="text-6xl font-heading uppercase tracking-wide text-teal">404</h1>
+    <p class="mt-4 max-w-md text-xl text-stone-700">
+      We couldn't find the page you were looking for. It may have been moved or doesn't exist.
+    </p>
+    <a href="/" class="btn mt-8">Return home</a>
+  </section>
+</BaseLayout>

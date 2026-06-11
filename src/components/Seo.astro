@@ -7,6 +7,8 @@ interface Frontmatter {
   og_image?: string;
   featured_image?: string;
   canonical?: string;
+  date?: Date;
+  author_name?: string;
 }
 
 interface Props {
@@ -22,6 +24,43 @@ const title = frontmatter.seo_title ?? `${frontmatter.title} - Terrastories`;
 const description = frontmatter.seo_description ?? frontmatter.excerpt ?? 'Terrastories is a geostorytelling application for place-based oral histories.';
 const imagePath = frontmatter.og_image ?? frontmatter.featured_image;
 const image = imagePath ? new URL(imagePath, site).toString() : undefined;
+
+// JSON-LD structured data
+const jsonLd = type === 'article'
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: title,
+      description,
+      ...(image && { image }),
+      ...(frontmatter.date && { datePublished: frontmatter.date.toISOString() }),
+      author: {
+        '@type': 'Organization',
+        name: frontmatter.author_name || 'Terrastories',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Terrastories',
+        url: 'https://terrastories.app',
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': canonical,
+      },
+    }
+  : {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: title,
+      description,
+      url: canonical,
+      ...(image && { image }),
+      isPartOf: {
+        '@type': 'WebSite',
+        name: 'Terrastories',
+        url: 'https://terrastories.app',
+      },
+    };
 ---
 
 <meta charset="utf-8" />
@@ -41,4 +80,4 @@ const image = imagePath ? new URL(imagePath, site).toString() : undefined;
 <meta name="twitter:description" content={description} />
 {image && <meta name="twitter:image" content={image} />}
 
-<link rel="icon" href="/favicon.svg" />
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
