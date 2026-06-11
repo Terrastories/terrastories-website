@@ -24,7 +24,7 @@ type: post
 
 # Terrastories “featured tool” page on Earth Defenders Toolkit translated to Khmer, Swahili, Thai, and Vietnamese 🗺️
 
-**ដំណឹង​ល្អ! **
+**ដំណឹងល្អ! **
 
 **Habari njema! **
 

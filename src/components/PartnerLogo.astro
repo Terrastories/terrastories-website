@@ -1,0 +1,24 @@
+---
+interface Props {
+  name: string;
+  href: string;
+  src: string;
+}
+
+const { name, href, src } = Astro.props;
+---
+
+<a
+  href={href}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label={name}
+  class="flex items-center justify-center rounded-lg border border-stone-200 bg-white p-4 transition-shadow hover:shadow-md"
+>
+  <img
+    src={src}
+    alt={`${name} logo`}
+    loading="lazy"
+    class="max-h-16 w-auto object-contain"
+  />
+</a>

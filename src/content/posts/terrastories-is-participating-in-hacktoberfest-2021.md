@@ -23,7 +23,7 @@ type: post
 
 # Terrastories is participating in Hacktoberfest 2021!
 
-👩‍💻 Interested in contributing to an awesome free and open-source application for mapping oral histories?
+👩💻 Interested in contributing to an awesome free and open-source application for mapping oral histories?
 📢 Terrastories is participating again in [#Hacktoberfest](https://hacktoberfest.digitalocean.com/) this year!
 ✨ We are preparing some fresh Rails, Mapbox, React, Docker, and Javascript issues on [Github](https://github.com/terrastories/terrastories).
 👀 Read about [our past participation in Hacktoberfest](/a-very-happy-hacktoberfest-for-terrastories-and-the-ruby-community-%f0%9f%8e%83) where 24 people contributed over 50 commits, resolving over 43% of issues labeled as Hacktoberfest!
