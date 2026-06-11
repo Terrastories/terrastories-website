@@ -9,28 +9,27 @@ excerpt: In addition to water woes, the Six Nations face ongoing challenges rega
   introduced Terrastories, a place-based storytelling app that decolonizes geography,
   landscapes and waterscapes. Terrastories integrates data with the Indigenous vision
   for the land using ancestral land maps, water quality data and oral histories of
-  the land.
-featured_image: https://terrastories.app/wp-content/uploads/2021/10/interview1.jpg
+  the land.featured_image: //wp-content/uploads/2021/10/interview1.jpg
 featured_image_id: 552
-link: https://terrastories.app/mongabay-empowering-indigenous-youths-with-tradition-and-tech-qa-with-dawn-martin-hill/
+link: /mongabay-empowering-indigenous-youths-with-tradition-and-tech-qa-with-dawn-martin-hill
 modified: 2021-10-08 17:34:45+00:00
-og_image: https://terrastories.app/wp-content/uploads/2021/10/interview1.jpg
+og_image: /media/images/552_interview1-768x512.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: '(Mongabay) Empowering Indigenous youths with tradition and tech: Q&A with
   Dawn Martin-Hill - Terrastories'
 slug: mongabay-empowering-indigenous-youths-with-tradition-and-tech-qa-with-dawn-martin-hill
 status: publish
-title: '(Mongabay) Empowering Indigenous youths with tradition and tech: Q&#038;A
+title: '(Mongabay) Empowering Indigenous youths with tradition and tech: Q&A
   with Dawn Martin-Hill'
 type: post
 ---
 
 # (Mongabay) Empowering Indigenous youths with tradition and tech: Q&A with Dawn Martin-Hill
 
-- \*Dawn Martin-Hill, a professor at McMaster University, introduced Terrastories, a geo-based storytelling app, to the Haudenosaunee people of the Great Lakes to help them protect their land and water as well as safeguard invaluable knowledge.\*
-- \*A main goal of her work is to empower and support Indigenous youths, and she has also helped create a virtual reality app and adapt a mental health app for Indigenous youth to connect with their land and articulate trauma.\*
-- \*Martin-Hill advocates for the integration of Indigenous knowledge into Western science and says anyone who is concerned with the climate crisis should support Indigenous people.\*
+- *Dawn Martin-Hill, a professor at McMaster University, introduced Terrastories, a geo-based storytelling app, to the Haudenosaunee people of the Great Lakes to help them protect their land and water as well as safeguard invaluable knowledge.*
+- *A main goal of her work is to empower and support Indigenous youths, and she has also helped create a virtual reality app and adapt a mental health app for Indigenous youth to connect with their land and articulate trauma.*
+- *Martin-Hill advocates for the integration of Indigenous knowledge into Western science and says anyone who is concerned with the climate crisis should support Indigenous people.*
 
 To the Haudenosaunee, water is life. In their creation story, deep water covered the Earth, until a woman, known as Sky Woman, fell from an island in the sky. Birds helped her land on a turtle’s back, while other animals brought mud and patted it down until eventually Turtle Island, or North America, was created.
 
@@ -42,9 +41,9 @@ Martin-Hill, who also leads [Ohneganos](https://www.ohneganos.com/), a [Global W
 
 “You know the laws of nature and science are pretty compatible with Indigenous laws, and I think our people and non-natives don’t realize that,” she said.
 
-The Haudenosaunee’s ancestral lands once spanned 10 million hectares ([nearly 25 million acres](https://terrastories.app/from-the-amazon-to-the-great-lakes-sharing-knowledge-and-mapping-oral-histories-with-first-nations-communities-in-canada/)) across Ontario and New York state. Today, the Six Nations Reserve in Ontario sits about an hour west of Niagara Falls and represents only 5% of the land granted to the Haudenosaunee by the British colonial government in the late 1700s.
+The Haudenosaunee’s ancestral lands once spanned 10 million hectares ([nearly 25 million acres](/from-the-amazon-to-the-great-lakes-sharing-knowledge-and-mapping-oral-histories-with-first-nations-communities-in-canada)) across Ontario and New York state. Today, the Six Nations Reserve in Ontario sits about an hour west of Niagara Falls and represents only 5% of the land granted to the Haudenosaunee by the British colonial government in the late 1700s.
 
-In addition to water woes, the Six Nations face ongoing challenges regarding their land rights. As one way to help protect their land and water, Martin-Hill introduced [Terrastories](https://terrastories.app/), a place-based storytelling app that decolonizes geography, landscapes and waterscapes. Terrastories integrates data with the Indigenous vision for the land using ancestral land maps, water quality data and oral histories of the land.
+In addition to water woes, the Six Nations face ongoing challenges regarding their land rights. As one way to help protect their land and water, Martin-Hill introduced [Terrastories](/), a place-based storytelling app that decolonizes geography, landscapes and waterscapes. Terrastories integrates data with the Indigenous vision for the land using ancestral land maps, water quality data and oral histories of the land.
 
 “We want people to feel what we feel. So, we want them to know what the land was like before … the settlers arrived, and then how it’s changed over time and what we need to do to fix this,” she said.
 
@@ -54,4 +53,4 @@ Indigenous maps like this teach youths about their culture, history and environm
 
 Mongabay’s Caitlin Looby recently talked with Martin-Hill about water insecurity, the challenges that Indigenous youths face, and how integrating Western science and Indigenous knowledge can improve conservation efforts. The interview was lightly edited for clarity.
 
-[\*\*Read the interview on Mongabay here\*\*](https://news.mongabay.com/2021/10/empowering-indigenous-youths-with-tradition-and-tech-qa-with-dawn-martin-hill/?utm_medium=Social&utm_source=Twitter#Echobox=1633698802)
+[**Read the interview on Mongabay here**](https://news.mongabay.com/2021/10/empowering-indigenous-youths-with-tradition-and-tech-qa-with-dawn-martin-hill/?utm_medium=Social&utm_source=Twitter#Echobox=1633698802)

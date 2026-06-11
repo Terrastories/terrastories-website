@@ -5,12 +5,11 @@ categories:
 - User Stories
 date: 2018-12-13 20:15:00+00:00
 excerpt: The Matawai of Suriname are breaking ground by using a new app to create
-  an extraordinary repository of traditional knowledge through oral history storytelling.
-featured_image: https://terrastories.app/wp-content/uploads/2020/06/IMG_0688-1170x780-1.jpg
+  an extraordinary repository of traditional knowledge through oral history storytelling.featured_image: //wp-content/uploads/2020/06/IMG_0688-1170x780-1.jpg
 featured_image_id: 87
-link: https://terrastories.app/suriname-open-source-app-traditions/
+link: /suriname-open-source-app-traditions
 modified: 2020-08-27 20:11:32+00:00
-og_image: https://terrastories.app/wp-content/uploads/2020/06/IMG_0688-1170x780-1.jpg
+og_image: /media/images/87_IMG_0688-1170x780-1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Suriname Community Uses New Open-Source App to Preserve Storytelling Traditions
@@ -48,19 +47,19 @@ Many Matawai villages have an empty or desolate aura to them, with only a few Ma
 
 To prevent that from happening, the local community-based organization Stichting voor Dorpsontwikkeling Matawai [has spent the last few years documenting](https://www.youtube.com/watch?v=KJQKVb5NEHI) their oral storytelling traditions using video recorders and interactive maps. With support from the Amazon Conservation Team (ACT), the organization trained younger Matawai to record and interview their elders about the numerous named places and sites in their ancestral lands.
 
-To date, the initiative has yielded over 17 hours of footage covering more than 150 historically significant places along the Saramacca River. For a number of the young Matawai involved in the project, it has brought them their first real opportunity to hear any oral history about their homelands. For the Matawai elder Josef Dennert, the project made him realize that his \*“… inner wiseman had been sleeping all this time, but then I realized it was not too late. I had to follow them and finally apply my knowledge.”\*
+To date, the initiative has yielded over 17 hours of footage covering more than 150 historically significant places along the Saramacca River. For a number of the young Matawai involved in the project, it has brought them their first real opportunity to hear any oral history about their homelands. For the Matawai elder Josef Dennert, the project made him realize that his *“… inner wiseman had been sleeping all this time, but then I realized it was not too late. I had to follow them and finally apply my knowledge.”*
 ![](media/images/158_ACT-Jacob-Kondre-08895-768x512-1.jpg)
 
 Rolien Sallons speaking with Josef Dennert along the Saramacca River. Credit: Rafael Jantz
 
-The effort to document and preserve the community’s oral histories has led the Matawai to seek out support from a number of institutions—some very far removed from their homelands. In September 2018, Dennert, along with two other Matawai, traveled to Washington, DC to research the papers of Edward C. Green at the Smithsonian Institution. Green, an anthropologist, amassed a collection of field notes, photographs, and audio recordings captured during his time with the Matawai in the early 1970s and recently donated these to the Smithsonian’s National Anthropological Archives. Sponsored by the Smithsonian Institution’s Recovering Voices Program, the three Matawai researchers were able to access these invaluable historical materials for the first time, and were permitted to take back copies to share with the rest of their community. At the end of the experience, \*basja\* (traditional leader) and research participant Tina Henkie reflected on the process:
+The effort to document and preserve the community’s oral histories has led the Matawai to seek out support from a number of institutions—some very far removed from their homelands. In September 2018, Dennert, along with two other Matawai, traveled to Washington, DC to research the papers of Edward C. Green at the Smithsonian Institution. Green, an anthropologist, amassed a collection of field notes, photographs, and audio recordings captured during his time with the Matawai in the early 1970s and recently donated these to the Smithsonian’s National Anthropological Archives. Sponsored by the Smithsonian Institution’s Recovering Voices Program, the three Matawai researchers were able to access these invaluable historical materials for the first time, and were permitted to take back copies to share with the rest of their community. At the end of the experience, *basja* (traditional leader) and research participant Tina Henkie reflected on the process:
 
-\*“These anthropologists wrote things down, while my people back then couldn’t write. But they told stories, and then the anthropologists recorded them. And now that the people aren’t with us anymore, we should be able to find the story somewhere. And that is what we’re doing now here at this archive; I try to imagine how my ancestors lived back then. And that gives me a feeling of pride to be a Matawai, because it helps me know my roots.”\*
+*“These anthropologists wrote things down, while my people back then couldn’t write. But they told stories, and then the anthropologists recorded them. And now that the people aren’t with us anymore, we should be able to find the story somewhere. And that is what we’re doing now here at this archive; I try to imagine how my ancestors lived back then. And that gives me a feeling of pride to be a Matawai, because it helps me know my roots.”*
 ![](media/images/159_IMG_2171-768x512-1.jpg)
 
 Matawai community researchers examining archival footage at the Smithsonian National Anthropology Archives along with staff and anthropologist Edward C. Green. Credit: Judith Andrews
 
-To enable hosting of the recordings of oral histories, and linking of the histories to maps of the ancestral homelands, ACT collaborated with the mapping tech company Mapbox and Ruby for Good, a team of volunteer developers, together building a novel geostorytelling application called [Terrastories](https://terrastories.app/). The application interface consists of an interactive map and a sidebar with media content and stories. Using a content management system, the Matawai can add places and stories, and make decisions about designating certain stories as private or restricted. Terrastories works without internet access, and the code is open-source so that any community in the world can adapt it to map their own place-based storytelling traditions.
+To enable hosting of the recordings of oral histories, and linking of the histories to maps of the ancestral homelands, ACT collaborated with the mapping tech company Mapbox and Ruby for Good, a team of volunteer developers, together building a novel geostorytelling application called [Terrastories](/). The application interface consists of an interactive map and a sidebar with media content and stories. Using a content management system, the Matawai can add places and stories, and make decisions about designating certain stories as private or restricted. Terrastories works without internet access, and the code is open-source so that any community in the world can adapt it to map their own place-based storytelling traditions.
 
 In October 2018, in Paramaribo, Stichting voor Dorpsontwikkeling Matawai and ACT presented a version of Terrastories fully populated with all of the Matawai stories and maps before an audience of Maroon community members, traditional leaders, and Surinamese government officials. The project has spurred a national conversation around recognizing and protecting the Surinamese Maroon culture as intangible cultural heritage.
 ![](media/images/160_terrastories-1920x1080-768x432-1.gif)

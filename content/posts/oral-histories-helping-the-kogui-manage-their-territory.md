@@ -7,12 +7,11 @@ date: 2018-12-03 02:52:00+00:00
 excerpt: In contexts like the Sierra Nevada de Santa Marta—where the recovery of ancestral
   territory is prioritized by the indigenous groups—the importance of instructing
   leaders in the use of tools that allow them to improve their capacity to understand
-  and manage their lands is essential.
-featured_image: https://terrastories.app/wp-content/uploads/2020/07/kids-768x512-1.jpg
+  and manage their lands is essential.featured_image: //wp-content/uploads/2020/07/kids-768x512-1.jpg
 featured_image_id: 167
-link: https://terrastories.app/oral-histories-helping-the-kogui-manage-their-territory/
+link: /oral-histories-helping-the-kogui-manage-their-territory
 modified: 2020-07-10 20:31:07+00:00
-og_image: https://terrastories.app/wp-content/uploads/2020/07/kids-768x512-1.jpg
+og_image: /media/images/167_kids-768x512-1-300x200.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'Oral Histories: Helping the Kogui Manage their Territory - Terrastories'
@@ -34,7 +33,7 @@ In contexts like the Sierra Nevada de Santa Marta—where the recovery of ancest
 
 Brian Hettler, ACT’s GIS & New Technologies Manager conducts training on oral histories equipment
 
-The sacred site’s indigenous team has been trained in the use of georeferencing applications, enabling them to increase their knowledge of their territory. Linking the capture of cartographic information with the \*\*[Terrastories oral histories mapping application](https://terrastories.app/)\*\* developed by ACT in partnership with a team of volunteer developers broadens the scope of maps as well as the potential for describing the territory in multiple dimensions.
+The sacred site’s indigenous team has been trained in the use of georeferencing applications, enabling them to increase their knowledge of their territory. Linking the capture of cartographic information with the **[Terrastories oral histories mapping application](/)** developed by ACT in partnership with a team of volunteer developers broadens the scope of maps as well as the potential for describing the territory in multiple dimensions.
 
 At Jaba Tañiwashkaka, the sustainability of the natural and cultural recovery process depends on the recognition of and respect for the sacred site by the non-indigenous population and local knowledge of area and community history.
 ![](media/images/165_Juana2-768x576-1.jpg)

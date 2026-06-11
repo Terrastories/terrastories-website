@@ -6,12 +6,11 @@ categories:
 date: 2023-06-07 15:27:25+00:00
 excerpt: Indigenous groups are developing data storage technology that gives users
   privacy and control. Could their work influence those fighting back against invasive
-  apps?
-featured_image: https://terrastories.app/wp-content/uploads/2023/06/2328F2E4-EBDC-4950-88C889742C8069B8_source.webp
+  apps?featured_image: //wp-content/uploads/2023/06/2328F2E4-EBDC-4950-88C889742C8069B8_source.webp
 featured_image_id: 654
-link: https://terrastories.app/scientific-american-how-indigenous-groups-are-leading-the-way-on-data-privacy/
+link: /scientific-american-how-indigenous-groups-are-leading-the-way-on-data-privacy
 modified: 2023-10-16 20:15:54+00:00
-og_image: https://terrastories.app/wp-content/uploads/2023/06/2328F2E4-EBDC-4950-88C889742C8069B8_source.webp
+og_image: /media/images/654_2328F2E4-EBDC-4950-88C889742C8069B8_source.webp
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: '[Scientific American] How Indigenous Groups Are Leading the Way on Data
@@ -32,6 +31,6 @@ When governments, academic institutions or other external organizations gather i
 
 To shore up their defenses, some Indigenous groups are developing new privacy-first storage systems that give users control and agency over all aspects of this information: what is collected and by whom, where it’s stored, how it’s used and, crucially, who has access to it.
 
-Storing data in a user’s device—rather than in the cloud or in centralized servers controlled by a tech company—is an essential privacy feature of these technologies. Rudo Kemper is founder of [Terrastories](https://terrastories.app/), a free and open-source app co-created with Indigenous communities to map their land and share stories about it. He recalls a community in Guyana that was emphatic about having an offline, on-premise installation of the Terrastories app. To members of this group, the issue was more than just the lack of Internet access in the remote region where they live. “To them, the idea of data existing in the cloud is almost like the knowledge is leaving the territory because it’s not physically present,” Kemper says.
+Storing data in a user’s device—rather than in the cloud or in centralized servers controlled by a tech company—is an essential privacy feature of these technologies. Rudo Kemper is founder of [Terrastories](/), a free and open-source app co-created with Indigenous communities to map their land and share stories about it. He recalls a community in Guyana that was emphatic about having an offline, on-premise installation of the Terrastories app. To members of this group, the issue was more than just the lack of Internet access in the remote region where they live. “To them, the idea of data existing in the cloud is almost like the knowledge is leaving the territory because it’s not physically present,” Kemper says.
 
 Read more: <https://www.scientificamerican.com/article/how-indigenous-groups-are-leading-the-way-on-data-privacy/>

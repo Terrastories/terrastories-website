@@ -5,32 +5,31 @@ categories:
 - User Stories
 date: 2022-11-16 01:48:22+00:00
 excerpt: The Earth Defenders Toolkit has been translated into Khmer, Swahili, Thai,
-  and Vietnamese, in its entirety.
-featured_image: https://terrastories.app/wp-content/uploads/2022/11/Screenshot-2022-11-15-204724.jpg
+  and Vietnamese, in its entirety.featured_image: //wp-content/uploads/2022/11/Screenshot-2022-11-15-204724.jpg
 featured_image_id: 612
-link: https://terrastories.app/terrastories-featured-tool-page-on-earth-defenders-toolkit-translated-to-khmer-swahili-thai-and-vietnamese/
+link: /terrastories-featured-tool-page-on-earth-defenders-toolkit-translated-to-khmer-swahili-thai-and-vietnamese
 modified: 2023-10-16 20:16:07+00:00
-og_image: https://terrastories.app/wp-content/uploads/2022/11/Screenshot-2022-11-15-204724.jpg
+og_image: /media/images/612_Screenshot-2022-11-15-204724.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Terrastories "featured tool" page on Earth Defenders Toolkit translated
   to Khmer, Swahili, Thai, and Vietnamese 🗺️ - Terrastories
 slug: terrastories-featured-tool-page-on-earth-defenders-toolkit-translated-to-khmer-swahili-thai-and-vietnamese
 status: publish
-title: Terrastories &#8220;featured tool&#8221; page on Earth Defenders Toolkit translated
+title: Terrastories “featured tool” page on Earth Defenders Toolkit translated
   to Khmer, Swahili, Thai, and Vietnamese 🗺️
 type: post
 ---
 
 # Terrastories “featured tool” page on Earth Defenders Toolkit translated to Khmer, Swahili, Thai, and Vietnamese 🗺️
 
-\*\*ដំណឹង​ល្អ! \*\*
+**ដំណឹង​ល្អ! **
 
-\*\*Habari njema! \*\*
+**Habari njema! **
 
-\*\*ข่าวดี! \*\*
+**ข่าวดี! **
 
-\*\*Tin tốt!\*\*
+**Tin tốt!**
 
 The [Earth Defenders Toolkit](https://earthdefenderstoolkit.com/) has been translated into Khmer, Swahili, Thai, and Vietnamese, in its entirety. The Terrastories featured tool page has now been translated into these languages, in addition to English, Spanish, Portuguese, and French.
 

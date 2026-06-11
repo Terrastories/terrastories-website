@@ -6,12 +6,11 @@ categories:
 - User Stories
 date: 2021-06-30 01:52:32+00:00
 excerpt: Today, Digital Democracy launches the Earth Defenders Toolkit, a collaborative
-  space for earth defenders and their allies.
-featured_image: https://terrastories.app/wp-content/uploads/2021/06/Capture.png
+  space for earth defenders and their allies.featured_image: //wp-content/uploads/2021/06/Capture.png
 featured_image_id: 509
-link: https://terrastories.app/today-launch-of-earth-defenders-toolkit-featuring-terrastories/
+link: /today-launch-of-earth-defenders-toolkit-featuring-terrastories
 modified: 2021-06-30 01:53:30+00:00
-og_image: https://terrastories.app/wp-content/uploads/2021/06/Capture.png
+og_image: /media/images/509_Capture-300x206.png
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'Today: Launch of Earth Defenders Toolkit (featuring Terrastories!) - Terrastories'
@@ -27,6 +26,6 @@ Today, Digital Democracy launches the [Earth Defenders Toolkit](https://earthdef
 
 The goal of Earth Defenders Toolkit is to provide and promote approaches to using technology in a way that supports local autonomy and ownership over tools and data, and reduces reliance on outside support. The website is available in English, French, Portuguese and Spanish, and includes a [community forum](https://forum.earthdefenderstoolkit.com/), [case studies](https://www.earthdefenderstoolkit.com/Community/), an [interactive tool-finder](https://www.earthdefenderstoolkit.com/toolfinder/) and [featured tools](https://www.earthdefenderstoolkit.com/toolkit/).
 
-Terrastories is featured in the Earth Defenders Toolkit as one of the \*\*featured tools\*\*, as well as in the \*\*case study on the Matawai taking action to map their oral histories\*\*.
+Terrastories is featured in the Earth Defenders Toolkit as one of the **featured tools**, as well as in the **case study on the Matawai taking action to map their oral histories**.
 
 #### Check it out at <http://earthdefenderstoolkit.com/>
