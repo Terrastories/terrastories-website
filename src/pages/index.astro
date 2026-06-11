@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Seo from '../components/Seo.astro';
+import PostCard from '../components/PostCard.astro';
+
+const pages = await getCollection('pages');
+const home = pages.find((page) => page.data.slug === 'home');
+
+if (!home) {
+  throw new Error('Missing home page content.');
+}
+
+const { Content } = await render(home);
+
+const posts = (await getCollection('posts'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
+
+<BaseLayout>
+  <Seo slot="seo" frontmatter={home.data} pathname="/" />
+
+  <section class="bg-paper px-6 py-14">
+    <div class="mx-auto max-w-5xl">
+      <div class="prose prose-stone max-w-none prose-a:text-river prose-img:rounded">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-7xl px-6 py-12">
+    <div class="mb-8 flex items-end justify-between gap-4">
+      <h2 class="text-3xl font-bold text-ink">Latest Stories</h2>
+      <a class="text-sm font-semibold text-river hover:text-forest" href="/blog">View all</a>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-3">
+      {posts.map((post) => <PostCard post={post} />)}
+    </div>
+  </section>
+</BaseLayout>

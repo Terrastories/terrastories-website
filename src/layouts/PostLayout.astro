@@ -1,0 +1,50 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import Seo from '../components/Seo.astro';
+import { categorySlug } from '../utils/category';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const date = post.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+---
+
+<BaseLayout>
+  <Seo slot="seo" frontmatter={post.data} pathname={`/blog/${post.data.slug}`} type="article" />
+
+  <article class="mx-auto max-w-3xl px-6 py-12">
+    <header class="mb-10">
+      <div class="mb-4 flex flex-wrap gap-2">
+        {post.data.categories.map((category) => (
+          <a class="rounded bg-moss px-3 py-1 text-sm font-medium text-white" href={`/category/${categorySlug(category)}`}>
+            {category}
+          </a>
+        ))}
+      </div>
+
+      <h1 class="text-4xl font-bold tracking-normal text-ink md:text-5xl">{post.data.title}</h1>
+
+      <p class="mt-4 text-sm text-stone-600">
+        <time datetime={post.data.date.toISOString()}>{date}</time>
+        <span aria-hidden="true"> · </span>
+        <span>{post.data.author_name ?? post.data.author}</span>
+      </p>
+
+      {post.data.excerpt && <p class="mt-6 text-lg text-stone-700">{post.data.excerpt}</p>}
+    </header>
+
+    <div class="prose prose-stone max-w-none prose-a:text-river prose-img:rounded">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,44 @@
+---
+interface Frontmatter {
+  title: string;
+  seo_title?: string;
+  seo_description?: string;
+  excerpt?: string;
+  og_image?: string;
+  featured_image?: string;
+  canonical?: string;
+}
+
+interface Props {
+  frontmatter: Frontmatter;
+  pathname: string;
+  type?: 'website' | 'article';
+}
+
+const { frontmatter, pathname, type = 'website' } = Astro.props;
+const site = Astro.site ?? new URL('https://terrastories.app');
+const canonical = new URL(pathname, site).toString();
+const title = frontmatter.seo_title ?? `${frontmatter.title} - Terrastories`;
+const description = frontmatter.seo_description ?? frontmatter.excerpt ?? 'Terrastories is a geostorytelling application for place-based oral histories.';
+const imagePath = frontmatter.og_image ?? frontmatter.featured_image;
+const image = imagePath ? new URL(imagePath, site).toString() : undefined;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+{image && <meta property="og:image" content={image} />}
+
+<meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+{image && <meta name="twitter:image" content={image} />}
+
+<link rel="icon" href="/favicon.svg" />

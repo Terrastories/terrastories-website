@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Seo from '../../components/Seo.astro';
+import PostCard from '../../components/PostCard.astro';
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const frontmatter = {
+  title: 'Blog',
+  seo_title: 'Blog - Terrastories',
+  seo_description: 'Stories, community updates, and development news from Terrastories.',
+};
+---
+
+<BaseLayout>
+  <Seo slot="seo" frontmatter={frontmatter} pathname="/blog" />
+
+  <section class="mx-auto max-w-7xl px-6 py-12">
+    <header class="mb-10">
+      <h1 class="text-4xl font-bold text-ink md:text-5xl">Blog</h1>
+      <p class="mt-4 max-w-2xl text-lg text-stone-700">
+        Stories, community updates, and development news from Terrastories.
+      </p>
+    </header>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {posts.map((post) => <PostCard post={post} />)}
+    </div>
+  </section>
+</BaseLayout>

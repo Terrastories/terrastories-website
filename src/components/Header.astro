@@ -1,0 +1,39 @@
+---
+const navItems = [
+  { label: 'How It Works', href: '/how-it-works' },
+  { label: 'Demo', href: '/demo' },
+  { label: 'User Stories', href: '/category/user-stories' },
+  { label: 'Developer Community', href: '/community' },
+  { label: 'Contact Us', href: '/contact-us' },
+  { label: 'Sponsor Us', href: '/sponsor-us' },
+];
+
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<header class="border-b border-stone-200 bg-paper">
+  <a class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:bg-white focus:p-3" href="#main-content">
+    Skip to content
+  </a>
+
+  <nav class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-5 lg:flex-row lg:items-center lg:justify-between" aria-label="Main navigation">
+    <a class="text-2xl font-bold tracking-normal text-forest" href="/">Terrastories</a>
+
+    <div class="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm font-medium text-stone-800">
+      {navItems.map((item) => (
+        <a
+          class:list={[
+            'hover:text-forest',
+            currentPath === item.href ? 'text-forest underline decoration-clay decoration-2 underline-offset-4' : '',
+          ]}
+          href={item.href}
+        >
+          {item.label}
+        </a>
+      ))}
+      <a class="rounded bg-clay px-4 py-2 font-semibold text-white hover:bg-forest" href="https://explore.terrastories.app">
+        Explore Terrastories
+      </a>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,39 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const image = post.data.featured_image ?? post.data.og_image;
+const date = post.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+<article class="overflow-hidden rounded border border-stone-200 bg-white">
+  {image && (
+    <a href={`/blog/${post.data.slug}`} aria-label={post.data.title}>
+      <img class="aspect-video w-full object-cover" src={image} alt="" loading="lazy" />
+    </a>
+  )}
+
+  <div class="p-5">
+    <p class="text-sm text-stone-600">
+      <time datetime={post.data.date.toISOString()}>{date}</time>
+    </p>
+
+    <h2 class="mt-2 text-xl font-bold text-ink">
+      <a class="hover:text-forest" href={`/blog/${post.data.slug}`}>{post.data.title}</a>
+    </h2>
+
+    {post.data.excerpt && <p class="mt-3 line-clamp-3 text-sm leading-6 text-stone-700">{post.data.excerpt}</p>}
+
+    <a class="mt-4 inline-block text-sm font-semibold text-river hover:text-forest" href={`/blog/${post.data.slug}`}>
+      Read more
+    </a>
+  </div>
+</article>
