@@ -7,11 +7,12 @@ excerpt: 'TERRASTORIES: CONNECTING GENERATIONS A free and open-source applicatio
   designed for communities to map, protect, and share place-based stories Terrastories
   is a geostorytelling application built to enable Indigenous and other local communities
   to locate and map their own oral storytelling traditions about places of significant
-  meaning or value to them. Community members can add places and …'featured_image: //wp-content/uploads/2020/06/Logocombo.png
+  meaning or value to them. Community members can add places and …'
+featured_image: /media/images/39_Logocombo.png
 featured_image_id: 39
 link: /
 modified: 2024-11-07 15:12:06+00:00
-og_image: /media/images/39_Logocombo-300x42.png
+og_image: /media/images/39_Logocombo.png
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Home - Terrastories

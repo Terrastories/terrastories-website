@@ -6,7 +6,8 @@ categories:
 date: 2020-12-31 05:26:20+00:00
 excerpt: In the spirit of sharing positive stories to end a bleak year, I would like
   to tell you about some of the major highlights for Terrastories in 2020 that we
-  achieved in spite of the pandemic.featured_image: //wp-content/uploads/2020/12/IMW2020-Terrastories-Map.png
+  achieved in spite of the pandemic.
+featured_image: /media/images/451_IMW2020-Terrastories-Map.png
 featured_image_id: 451
 link: /open-source-volunteerism-and-oral-histories-mapping-during-a-pandemic-terrastories-2020-in-review
 modified: 2022-11-15 01:46:38+00:00

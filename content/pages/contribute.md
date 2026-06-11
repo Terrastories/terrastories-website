@@ -7,7 +7,8 @@ excerpt: 'CONTRIBUTE TO TERRASTORIES Terrastories is open-source, and contributi
   are welcome (we have had 90+ folks contributing to the codebase, and that is not
   counting design work!) We could use Ruby on Rails, React, Mapbox/MapLibre, Docker,
   front-end, or UI/UX support, and our open issues are indexed by priority and difficulty.
-  Please see our Wiki, and read our …'link: /contribute
+  Please see our Wiki, and read our …'
+link: /contribute
 modified: 2022-12-24 22:11:53+00:00
 og_image: https://i.ytimg.com/vi/f5YbOJ2UGcU/maxresdefault.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous

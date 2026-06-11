@@ -6,7 +6,8 @@ categories:
 date: 2023-06-07 15:27:25+00:00
 excerpt: Indigenous groups are developing data storage technology that gives users
   privacy and control. Could their work influence those fighting back against invasive
-  apps?featured_image: //wp-content/uploads/2023/06/2328F2E4-EBDC-4950-88C889742C8069B8_source.webp
+  apps?
+featured_image: /media/images/654_2328F2E4-EBDC-4950-88C889742C8069B8_source.webp
 featured_image_id: 654
 link: /scientific-american-how-indigenous-groups-are-leading-the-way-on-data-privacy
 modified: 2023-10-16 20:15:54+00:00

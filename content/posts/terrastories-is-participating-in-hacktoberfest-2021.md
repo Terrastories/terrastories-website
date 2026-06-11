@@ -6,7 +6,8 @@ categories:
 date: 2021-09-23 01:20:06+00:00
 excerpt: 'Interested in contributing to an awesome free and open-source application
   for mapping oral histories? Terrastories is participating again in #Hacktoberfest
-  this year!'featured_image: //wp-content/uploads/2021/09/Terrastories-Hacktoberfest.jpg
+  this year!'
+featured_image: /media/images/526_Terrastories-Hacktoberfest.jpg
 featured_image_id: 526
 link: /terrastories-is-participating-in-hacktoberfest-2021
 modified: 2021-09-23 01:21:48+00:00

@@ -9,11 +9,12 @@ excerpt: PARAMARIBO — According to the Wayana natives, their habitat, which ha
   a total area of 24,865 square kilometers and is located in the southeast of the
   country. That came out on Monday at the presentation of George Awankaroe who was
   closely involved in the demarcation process. This area is home to 862 indigenous
-  people and has nine villages.featured_image: //wp-content/uploads/2022/08/Screenshot-2022-08-09-145305.jpg
+  people and has nine villages.
+featured_image: /media/images/586_Screenshot-2022-08-09-145305.jpg
 featured_image_id: 586
 link: /wayana-community-in-suriname-uses-terrastories-as-part-of-their-mapping-project
 modified: 2022-08-09 19:15:02+00:00
-og_image: /media/images/586_Screenshot-2022-08-09-145305-150x150.jpg
+og_image: /media/images/586_Screenshot-2022-08-09-145305.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Wayana community in Suriname uses Terrastories as part of their mapping

@@ -6,11 +6,12 @@ categories:
 date: 2020-11-18 02:07:00+00:00
 excerpt: Terrastories will be included in the Earth Defenders’ Toolkit as one
   of the first of three featured tools, along with Digital Democracy’s Mapeo
-  and Forest Peoples Programme’s Community Lands.featured_image: //wp-content/uploads/2020/11/Front-page-no-logo.png
+  and Forest Peoples Programme’s Community Lands.
+featured_image: /media/images/417_Front-page-no-logo.png
 featured_image_id: 417
 link: /terrastories-to-be-included-as-a-featured-tool-in-the-earth-defenders-toolkit
 modified: 2020-11-20 02:44:12+00:00
-og_image: /media/images/417_Front-page-no-logo-768x432.png
+og_image: /media/images/417_Front-page-no-logo.png
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Terrastories to be included as a featured tool in the Earth Defenders'

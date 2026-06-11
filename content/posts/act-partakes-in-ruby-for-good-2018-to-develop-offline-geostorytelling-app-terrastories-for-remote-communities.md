@@ -8,11 +8,12 @@ excerpt: 'I just came back from an exhilarating weekend at Ruby for Good 2018 to
   work with a team to develop an open-source, offline-compatible geostorytelling application.
   I want to share my experiences, but first, some history. Almost twenty years ago,
   ACT partnered with the Trio (or sometimes Tyrío, Tarëno) indigenous communities
-  in southern Suriname and northern Brazil to …'featured_image: //wp-content/uploads/2020/08/terrastories-team-e1598673500192.jpg
+  in southern Suriname and northern Brazil to …'
+featured_image: /media/images/339_terrastories-team-e1598673500192.jpg
 featured_image_id: 339
 link: /act-partakes-in-ruby-for-good-2018-to-develop-offline-geostorytelling-app-terrastories-for-remote-communities
 modified: 2020-08-29 03:59:15+00:00
-og_image: /media/images/339_terrastories-team-e1598673500192-150x150.jpg
+og_image: /media/images/339_terrastories-team-e1598673500192.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: ACT partakes in Ruby for Good 2018 to develop offline geostorytelling app

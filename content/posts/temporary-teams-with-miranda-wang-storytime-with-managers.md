@@ -8,11 +8,12 @@ excerpt: 'Originally posted on Storytime with Managers by WeCohere, here. “Sto
   With Managers” are the questions you would ask an expert over a cup of coffee (including
   the ones you feel scared to ask), packaged up into 20min podcast episodes. Temporary
   Teams with Miranda Wang – Transcript JENNIFER: Welcome to Storytime with Managers,
-  a podcast by …'featured_image: //wp-content/uploads/2020/08/1_RKG3I3LuMdk4PSkq-pVWmQ.jpeg
+  a podcast by …'
+featured_image: /media/images/260_1_RKG3I3LuMdk4PSkq-pVWmQ.jpeg
 featured_image_id: 260
 link: /temporary-teams-with-miranda-wang-storytime-with-managers
 modified: 2020-08-29 03:49:55+00:00
-og_image: /media/images/260_1_RKG3I3LuMdk4PSkq-pVWmQ-150x150.jpeg
+og_image: /media/images/260_1_RKG3I3LuMdk4PSkq-pVWmQ.jpeg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Temporary Teams with Miranda Wang (Storytime with Managers) - Terrastories

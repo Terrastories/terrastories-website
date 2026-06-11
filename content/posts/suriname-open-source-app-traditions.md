@@ -5,7 +5,8 @@ categories:
 - User Stories
 date: 2018-12-13 20:15:00+00:00
 excerpt: The Matawai of Suriname are breaking ground by using a new app to create
-  an extraordinary repository of traditional knowledge through oral history storytelling.featured_image: //wp-content/uploads/2020/06/IMG_0688-1170x780-1.jpg
+  an extraordinary repository of traditional knowledge through oral history storytelling.
+featured_image: /media/images/87_IMG_0688-1170x780-1.jpg
 featured_image_id: 87
 link: /suriname-open-source-app-traditions
 modified: 2020-08-27 20:11:32+00:00

@@ -7,9 +7,10 @@ excerpt: 'HOW IT WORKS The main Terrastories interface consists of an interactiv
   map and a sidebar with media content. Users can explore the map and click on activated
   points to see the stories associated with those points. Alternatively, users can
   interact with the sidebar and click on stories to see where in the landscape these
-  narratives …'link: /how-it-works
+  narratives …'
+link: /how-it-works
 modified: 2023-07-21 13:37:48+00:00
-og_image: //wp-content/uploads/2020/07/terrastories-1920x1080-768x432-1.gif
+og_image: /media/images/160_terrastories-1920x1080-768x432-1.gif
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their own oral storytelling traditions
   about places of significant meaning or value to them.

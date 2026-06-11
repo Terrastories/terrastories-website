@@ -8,11 +8,12 @@ excerpt: 'Originally posted on Space in Africa, here. In June 2020, 146 particip
   from 33 countries participated in the GEO indigenous Hack4covid event. In this
   series, we will profile the four winning teams from the contest and their projections. 
   One of the winning ideas is the Terrastories map, which aims to help in the transmission
-  of knowledge …'featured_image: //wp-content/uploads/2020/08/Terrastories-scaled-1.jpg
+  of knowledge …'
+featured_image: /media/images/303_Terrastories-scaled-1.jpg
 featured_image_id: 303
 link: /geo-indigenous-hack4covid-terrastories-is-preserving-history-using-storytelling-and-geo-mapping
 modified: 2020-08-27 21:31:18+00:00
-og_image: /media/images/303_Terrastories-scaled-1-300x147.jpg
+og_image: /media/images/303_Terrastories-scaled-1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'GEO Indigenous Hack4Covid: Terrastories is Preserving History Using Storytelling

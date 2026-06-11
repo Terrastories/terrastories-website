@@ -7,11 +7,12 @@ date: 2022-03-06 13:00:00+00:00
 excerpt: We are very pleased to announce that we have received a $50,000 grant from
   The Association of Tribal Archives, Libraries, and Museums (ATALM) to support the
   mapping of Dakota traditional knowledge and oral histories by the Sisseton Wahpeton
-  Oyate (SWO) of the Lake Traverse Reservation using the app Terrastories.featured_image: //wp-content/uploads/2021/12/Capture.jpg
+  Oyate (SWO) of the Lake Traverse Reservation using the app Terrastories.
+featured_image: /media/images/561_Capture.jpg
 featured_image_id: 561
 link: /announcing-support-from-the-association-of-tribal-archives-libraries-and-museums
 modified: 2022-04-12 13:02:15+00:00
-og_image: /media/images/561_Capture-1536x864.jpg
+og_image: /media/images/561_Capture.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Announcing support from the Association of Tribal Archives, Libraries,

@@ -7,11 +7,12 @@ date: 2020-11-07 22:38:50+00:00
 excerpt: 'We are thrilled to announce that Terrastories will be featured at this year’s
   2020 Indigenous Mapping Workshop (online)! 🎉🎉🎉 On Monday, December 16 at 3pm EST
   we will host a 45 minute technical session on how Terrastories works for attendees
-  of #2020IMW.'featured_image: //wp-content/uploads/2020/11/IMW2020-Terrastories-Welcome.png
+  of #2020IMW.'
+featured_image: /media/images/366_IMW2020-Terrastories-Welcome.png
 featured_image_id: 366
 link: /terrastories-at-the-2020-indigenous-mapping-workshop
 modified: 2020-11-20 02:42:18+00:00
-og_image: /media/images/366_IMW2020-Terrastories-Welcome-1024x576.png
+og_image: /media/images/366_IMW2020-Terrastories-Welcome.png
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Terrastories at the 2020 Indigenous Mapping Workshop (November 16) - Terrastories

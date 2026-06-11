@@ -7,7 +7,8 @@ excerpt: 'SPONSOR US Terrastories is an almost entirely volunteer-run project, a
   as of December 2022, all of our resources (like our online Terrastories server)
   are currently built on free tier services, or paid for through small grants. As
   we are receiving requests to use Terrastories more frequently, and looking to scale
-  Terrastories as a free resource …'link: /sponsor-us
+  Terrastories as a free resource …'
+link: /sponsor-us
 modified: 2023-08-23 18:35:10+00:00
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their own oral storytelling traditions

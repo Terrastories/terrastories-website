@@ -10,11 +10,12 @@ excerpt: '…we propose to leverage the Terrastories codebase to create a sister
   an interactive canvas of the cosmos. Communities will be able to use the same features
   in Terrastories to control who has access to the content, decide on whether to host
   their stories online or offline, create curricula of stories for educational purposes,
-  and design a public view of their StellarStories for a global audience to explore.'featured_image: //wp-content/uploads/2022/10/StellarStories.jpg
+  and design a public view of their StellarStories for a global audience to explore.'
+featured_image: /media/images/596_StellarStories.jpg
 featured_image_id: 596
 link: /help-us-create-stellarstories-community-storytelling-about-the-cosmos
 modified: 2023-10-16 20:16:01+00:00
-og_image: /media/images/596_StellarStories-1024x576.jpg
+og_image: /media/images/596_StellarStories.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'Help us create StellarStories: community storytelling about the cosmos

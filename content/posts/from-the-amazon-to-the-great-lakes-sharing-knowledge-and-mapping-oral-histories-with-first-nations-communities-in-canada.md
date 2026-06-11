@@ -6,11 +6,12 @@ categories:
 date: 2019-07-09 03:00:00+00:00
 excerpt: Ohneganos Ohnegahdę:gyo is using Terrastories to combine scientific water
   measurements with traditional ancestral land mapping and recording of Haudenosaunee
-  oral histories.featured_image: //wp-content/uploads/2020/06/IMG_1116-1.jpg
+  oral histories.
+featured_image: /media/images/97_IMG_1116-1.jpg
 featured_image_id: 97
 link: /from-the-amazon-to-the-great-lakes-sharing-knowledge-and-mapping-oral-histories-with-first-nations-communities-in-canada
 modified: 2020-08-27 20:10:46+00:00
-og_image: /media/images/97_IMG_1116-1-768x512.jpg
+og_image: /media/images/97_IMG_1116-1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'From the Amazon to the Great Lakes: sharing knowledge with First Nations

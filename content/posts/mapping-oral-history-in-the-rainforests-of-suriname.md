@@ -8,11 +8,12 @@ date: 2018-11-14 21:20:00+00:00
 excerpt: The classroom was abuzz. Groups of students sat together around mobile phones,
   exploring a digital map of their traditional homeland, watching videos of their
   elders telling stories of community history and traditions. Watching them, I could
-  tell that the Terrastories project was onto something.featured_image: //wp-content/uploads/2020/08/0_rfT_psmWY-PspSb9.jpg
+  tell that the Terrastories project was onto something.
+featured_image: /media/images/288_0_rfT_psmWY-PspSb9.jpg
 featured_image_id: 288
 link: /mapping-oral-history-in-the-rainforests-of-suriname
 modified: 2020-08-27 21:48:13+00:00
-og_image: /media/images/288_0_rfT_psmWY-PspSb9-768x508.jpg
+og_image: /media/images/288_0_rfT_psmWY-PspSb9.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Mapping oral history in the rainforests of Suriname - Terrastories

@@ -64,6 +64,13 @@ EXCERPT_BLOCK_RE = re.compile(
     r"(?ms)^excerpt:(?P<value>.*?)(?=^[A-Za-z_][A-Za-z0-9_]*:|\Z)"
 )
 
+FRONTMATTER_KEY_RE = re.compile(
+    r"(?m)(?P<prefix>[^\n_])"
+    r"(?P<key>author|author_name|canonical|categories|date|excerpt|featured_image|"
+    r"featured_image_id|link|modified|og_image|seo_description|seo_title|slug|"
+    r"status|title|type):(?=[ \t])"
+)
+
 READ_MORE_RE = re.compile(
     r"""(?is)\n*[ \t]*<p\s+class=["']read-more["'][^>]*>.*?</a>[ \t]*""",
     re.X,
@@ -83,7 +90,15 @@ def clean_excerpt(excerpt_value: str) -> str:
 def strip_excerpt_html(frontmatter: str) -> str:
     """Strip HTML from the excerpt field in frontmatter."""
     return EXCERPT_BLOCK_RE.sub(
-        lambda m: "excerpt:" + clean_excerpt(m.group("value")),
+        lambda m: "excerpt:" + clean_excerpt(m.group("value")) + "\n",
+        frontmatter,
+    )
+
+
+def repair_glued_frontmatter_keys(frontmatter: str) -> str:
+    """Repair keys accidentally glued to the previous scalar value."""
+    return FRONTMATTER_KEY_RE.sub(
+        lambda m: f"{m.group('prefix')}\n{m.group('key')}:",
         frontmatter,
     )
 
@@ -91,7 +106,7 @@ def strip_excerpt_html(frontmatter: str) -> str:
 # --- Task 4: Fix Featured Image URLs ---
 
 UPLOAD_URL_RE = re.compile(
-    r"^https?://terrastories\.app/wp-content/uploads/\d{4}/\d{2}/(?P<filename>[^?#\s]+)(?:[?#]\S*)?$"
+    r"^(?:https?://terrastories\.app)?/*wp-content/uploads/\d{4}/\d{2}/(?P<filename>[^?#\s]+)(?:[?#]\S*)?$"
 )
 
 WP_SIZE_SUFFIX_RE = re.compile(
@@ -101,7 +116,7 @@ WP_SIZE_SUFFIX_RE = re.compile(
 FEATURED_ID_RE = re.compile(r"(?m)^featured_image_id:[ \t]*(?P<id>\d+)[ \t]*$")
 
 IMAGE_FIELD_RE = re.compile(
-    r"(?m)^(?P<key>featured_image|og_image):[ \t]*(?P<url>https?://\S+)[ \t]*$"
+    r"(?m)^(?P<key>featured_image|og_image):[ \t]*(?P<url>\S+)[ \t]*$"
 )
 
 
@@ -120,34 +135,56 @@ def build_image_lookup():
     return lookup
 
 
-def resolve_image_url(url: str, media_id: str, lookup: dict) -> str:
-    """Convert absolute WP URL to local path."""
+def strip_size_suffix(filename: str) -> str:
+    return WP_SIZE_SUFFIX_RE.sub("", filename)
+
+
+def find_image_candidate(filename: str, media_id: str | None, lookup: dict) -> str | None:
+    """Find a local image by media ID first, then by basename."""
+    base_filename = strip_size_suffix(filename)
+    candidates = lookup.get(media_id, []) if media_id else []
+
+    for c in candidates:
+        c_name = c.split("_", 1)[1] if "_" in c else c
+        if strip_size_suffix(c_name) == base_filename:
+            return c
+
+    for all_candidates in lookup.values():
+        for c in all_candidates:
+            c_name = c.split("_", 1)[1] if "_" in c else c
+            if strip_size_suffix(c_name) == base_filename:
+                return c
+
+    if candidates:
+        candidates.sort(key=lambda c: (IMAGES_DIR / c).stat().st_size, reverse=True)
+        return candidates[0]
+
+    return None
+
+
+def resolve_image_url(url: str, media_id: str | None, lookup: dict) -> str:
+    """Convert WP image URLs and local thumbnail paths to existing local paths."""
+    if url.startswith("/media/images/"):
+        filename = urllib.parse.unquote(Path(url).name)
+        local_path = IMAGES_DIR / filename
+        tm = THUMBNAIL_FILE_RE.match(filename)
+        if tm:
+            original = tm.group("stem") + tm.group("ext")
+            if (IMAGES_DIR / original).exists():
+                return f"/media/images/{original}"
+        if local_path.exists():
+            return url
+        candidate = find_image_candidate(filename, media_id, lookup)
+        return f"/media/images/{candidate}" if candidate else url
+
     m = UPLOAD_URL_RE.match(url)
     if not m:
         return url  # external URL, leave alone
 
     filename = urllib.parse.unquote(m.group("filename"))
-    base_filename = WP_SIZE_SUFFIX_RE.sub("", filename)
-
-    # Try exact match with media_id
-    candidates = lookup.get(media_id, [])
-    for c in candidates:
-        c_base = WP_SIZE_SUFFIX_RE.sub("", c.split("_", 1)[1] if "_" in c else c)
-        if c_base == base_filename:
-            return f"/media/images/{c}"
-
-    # Fallback: find any file with this media_id that matches base name after stripping sizes
-    for c in candidates:
-        c_name = c.split("_", 1)[1] if "_" in c else c
-        c_base = WP_SIZE_SUFFIX_RE.sub("", c_name)
-        if c_base == base_filename:
-            return f"/media/images/{c}"
-
-    # Last fallback: just use the first candidate (largest file for that ID)
-    if candidates:
-        # Sort by file size descending (prefer largest/original)
-        candidates.sort(key=lambda c: (IMAGES_DIR / c).stat().st_size, reverse=True)
-        return f"/media/images/{candidates[0]}"
+    candidate = find_image_candidate(filename, media_id, lookup)
+    if candidate:
+        return f"/media/images/{candidate}"
 
     return url  # couldn't resolve, leave as-is
 
@@ -160,8 +197,6 @@ def fix_image_urls(frontmatter: str, lookup: dict) -> str:
         return m.group("id") if m else None
 
     media_id = get_media_id(frontmatter)
-    if not media_id:
-        return frontmatter
 
     def replace_field(m):
         key = m.group("key")
@@ -249,6 +284,12 @@ def process_file(filepath: Path, lookup: dict, write: bool) -> dict:
 
     frontmatter = m.group("frontmatter")
     body = m.group("body")
+
+    # Repair keys glued to previous values by earlier cleanup runs.
+    before = frontmatter
+    frontmatter = repair_glued_frontmatter_keys(frontmatter)
+    if frontmatter != before:
+        stats["task3"] += 1
 
     # Task 2: Decode HTML entities (frontmatter + body)
     before = frontmatter + body

@@ -6,7 +6,8 @@ categories:
 date: 2023-10-05 12:58:24+00:00
 excerpt: Explore Terrastories, a freshly released feature, weaves a new bridge between
   local processes and a broader public, with access to specific place-based stories
-  that communities have decided to share online.featured_image: //wp-content/uploads/2023/10/terrastories-cover.png
+  that communities have decided to share online.
+featured_image: /media/images/692_terrastories-cover.png
 featured_image_id: 692
 link: /explore-terrastories-local-stories-for-a-wider-public
 modified: 2023-10-16 20:15:36+00:00

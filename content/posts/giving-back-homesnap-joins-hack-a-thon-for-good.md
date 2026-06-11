@@ -9,11 +9,12 @@ excerpt: Last week, I had the pleasure of attending a hack-a-thon of a special n
   product managers, and product designers come together to create websites and software
   for non-profit organizations. As part of Ruby for Good, I had the incredible honor
   to work with Rudo Kemper (part of the Amazon Conservation Team, or ACT) to design
-  and build Terrastories.featured_image: //wp-content/uploads/2018/06/IMG_1640.jpg
+  and build Terrastories.
+featured_image: /media/images/285_IMG_1640.jpg
 featured_image_id: 285
 link: /giving-back-homesnap-joins-hack-a-thon-for-good
 modified: 2020-08-27 21:48:22+00:00
-og_image: /media/images/285_IMG_1640-768x512.jpg
+og_image: /media/images/285_IMG_1640.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'Giving Back: Homesnap Joins Hack-a-Thon for Good - Terrastories'

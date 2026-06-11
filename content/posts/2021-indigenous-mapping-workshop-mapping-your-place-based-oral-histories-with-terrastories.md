@@ -8,11 +8,12 @@ excerpt: 'Featuring Christopher Martin from the STEAM Academy at Six Nations and
   Ohnegahdę:gyo. In this interactive workshop at the 2021 Indigenous Mapping Workshop
   which took place on November 2, 2021, workshop participants used Terrastories, a
   free and open-source application for mapping and locating place-based stories, to
-  map our own knowledge and stories about our land.  After …'featured_image: //wp-content/uploads/2021/12/Capture.jpg
+  map our own knowledge and stories about our land.  After …'
+featured_image: /media/images/561_Capture.jpg
 featured_image_id: 561
 link: /2021-indigenous-mapping-workshop-mapping-your-place-based-oral-histories-with-terrastories
 modified: 2021-12-16 19:26:43+00:00
-og_image: /media/images/561_Capture-1536x864.jpg
+og_image: /media/images/561_Capture.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: '2021 Indigenous Mapping Workshop: Mapping your place-based oral histories

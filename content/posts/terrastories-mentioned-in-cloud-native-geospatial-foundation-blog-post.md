@@ -8,7 +8,8 @@ excerpt: '“Being free from the constraints of a typical tech company means Pro
   is a better fit for applications underserved by the traditional software industry.
   Journalism and the public sector are two areas that have adopted PMTiles. Other
   use cases I’ve learned about in the past month include wildfire mapping in British
-  Columbia and a storytelling app for indigenous communities.”'featured_image: //wp-content/uploads/2023/12/F-_F58aWMAAzIHp.png
+  Columbia and a storytelling app for indigenous communities.”'
+featured_image: /media/images/733_F-_F58aWMAAzIHp.png
 featured_image_id: 733
 link: /terrastories-mentioned-in-cloud-native-geospatial-foundation-blog-post
 modified: 2023-12-09 20:17:07+00:00

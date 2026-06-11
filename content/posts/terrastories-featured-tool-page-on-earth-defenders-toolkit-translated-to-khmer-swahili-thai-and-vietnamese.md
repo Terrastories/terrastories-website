@@ -5,7 +5,8 @@ categories:
 - User Stories
 date: 2022-11-16 01:48:22+00:00
 excerpt: The Earth Defenders Toolkit has been translated into Khmer, Swahili, Thai,
-  and Vietnamese, in its entirety.featured_image: //wp-content/uploads/2022/11/Screenshot-2022-11-15-204724.jpg
+  and Vietnamese, in its entirety.
+featured_image: /media/images/612_Screenshot-2022-11-15-204724.jpg
 featured_image_id: 612
 link: /terrastories-featured-tool-page-on-earth-defenders-toolkit-translated-to-khmer-swahili-thai-and-vietnamese
 modified: 2023-10-16 20:16:07+00:00

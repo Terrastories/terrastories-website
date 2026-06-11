@@ -5,7 +5,8 @@ categories:
 - Dev Stories
 date: 2020-08-31 05:59:00+00:00
 excerpt: An interview with Lucas, Katherine, and Oliver, incoming juniors at WUSTL
-  who spent their summer volunteering on building Terrastories.featured_image: //wp-content/uploads/2020/08/1280_profile.jpg
+  who spent their summer volunteering on building Terrastories.
+featured_image: /media/images/276_1280_profile.jpg
 featured_image_id: 276
 link: /developing-terrastories-for-college-credit
 modified: 2020-08-31 11:28:47+00:00

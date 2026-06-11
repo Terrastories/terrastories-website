@@ -6,11 +6,12 @@ categories:
 date: 2023-10-21 17:15:02+00:00
 excerpt: For the first time ever, using a new feature called  Explore Terrastories,
   some of the content that communities have been creating on Terrastories can be explored
-  freely without needing to log in.featured_image: //wp-content/uploads/2023/10/Screenshot-from-2023-10-21-11-22-17.png
+  freely without needing to log in.
+featured_image: /media/images/714_Screenshot-from-2023-10-21-11-22-17.png
 featured_image_id: 714
 link: /explore-a-landmark-achievement-for-terrastories
 modified: 2023-10-21 18:02:52+00:00
-og_image: /media/images/714_Screenshot-from-2023-10-21-11-22-17-150x150.png
+og_image: /media/images/714_Screenshot-from-2023-10-21-11-22-17.png
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'Explore: a landmark achievement for Terrastories - Terrastories'

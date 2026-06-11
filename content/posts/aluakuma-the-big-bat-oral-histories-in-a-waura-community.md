@@ -5,7 +5,8 @@ categories:
 - User Stories
 date: 2017-11-21 02:54:00+00:00
 excerpt: Wauja from the Ulupuene village in the Xingu Indigenous Park, Brazil are
-  taking action to preserve and map their intangible cultural heritage.featured_image: //wp-content/uploads/2020/06/WaujaOH-2.jpg
+  taking action to preserve and map their intangible cultural heritage.
+featured_image: /media/images/92_WaujaOH-2.jpg
 featured_image_id: 92
 link: /aluakuma-the-big-bat-oral-histories-in-a-waura-community
 modified: 2020-08-27 20:11:42+00:00

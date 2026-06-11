@@ -7,11 +7,12 @@ date: 2018-12-03 02:52:00+00:00
 excerpt: In contexts like the Sierra Nevada de Santa Marta—where the recovery of ancestral
   territory is prioritized by the indigenous groups—the importance of instructing
   leaders in the use of tools that allow them to improve their capacity to understand
-  and manage their lands is essential.featured_image: //wp-content/uploads/2020/07/kids-768x512-1.jpg
+  and manage their lands is essential.
+featured_image: /media/images/167_kids-768x512-1.jpg
 featured_image_id: 167
 link: /oral-histories-helping-the-kogui-manage-their-territory
 modified: 2020-07-10 20:31:07+00:00
-og_image: /media/images/167_kids-768x512-1-300x200.jpg
+og_image: /media/images/167_kids-768x512-1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'Oral Histories: Helping the Kogui Manage their Territory - Terrastories'

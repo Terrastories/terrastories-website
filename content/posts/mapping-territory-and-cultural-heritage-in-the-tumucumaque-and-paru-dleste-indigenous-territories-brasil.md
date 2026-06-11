@@ -7,11 +7,12 @@ date: 2023-10-25 00:04:42+00:00
 excerpt: ‍Digital Democracy and Iepé recently collaborated on a series of intensive
   workshops aimed to support the Indigenous communities of the Tumucumaque and Paru
   D’Leste Indigenous Territories in the heart of the Brazilian Amazon, neighboring
-  Suriname.featured_image: //wp-content/uploads/2023/10/Screenshot-2023-10-24-200414.png
+  Suriname.
+featured_image: /media/images/727_Screenshot-2023-10-24-200414.png
 featured_image_id: 727
 link: /mapping-territory-and-cultural-heritage-in-the-tumucumaque-and-paru-dleste-indigenous-territories-brasil
 modified: 2023-12-09 20:17:01+00:00
-og_image: /media/images/727_Screenshot-2023-10-24-200414-1536x834.png
+og_image: /media/images/727_Screenshot-2023-10-24-200414.png
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Mapping Territory and Cultural Heritage in the Tumucumaque and Paru D'Leste

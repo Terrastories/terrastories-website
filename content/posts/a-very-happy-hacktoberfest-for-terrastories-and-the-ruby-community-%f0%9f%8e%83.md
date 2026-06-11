@@ -7,7 +7,8 @@ date: 2019-11-05 20:06:00+00:00
 excerpt: It’s been almost a year and a half since I became acquainted with a wonderful
   community of open-source Ruby developers. At the time, I was scurrying from one
   corporate office to another, trying to find the right party to build a geostorytelling
-  application for my organization, the Amazon Conservation Team…featured_image: //wp-content/uploads/2020/08/1_gaZxKq8EVtyvk0pWzjkJYA.jpeg
+  application for my organization, the Amazon Conservation Team…
+featured_image: /media/images/262_1_gaZxKq8EVtyvk0pWzjkJYA.jpeg
 featured_image_id: 262
 link: /a-very-happy-hacktoberfest-for-terrastories-and-the-ruby-community-%f0%9f%8e%83
 modified: 2020-08-27 21:48:05+00:00

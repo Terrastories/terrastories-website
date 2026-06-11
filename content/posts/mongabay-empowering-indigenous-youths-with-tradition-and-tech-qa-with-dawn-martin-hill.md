@@ -9,11 +9,12 @@ excerpt: In addition to water woes, the Six Nations face ongoing challenges rega
   introduced Terrastories, a place-based storytelling app that decolonizes geography,
   landscapes and waterscapes. Terrastories integrates data with the Indigenous vision
   for the land using ancestral land maps, water quality data and oral histories of
-  the land.featured_image: //wp-content/uploads/2021/10/interview1.jpg
+  the land.
+featured_image: /media/images/552_interview1.jpg
 featured_image_id: 552
 link: /mongabay-empowering-indigenous-youths-with-tradition-and-tech-qa-with-dawn-martin-hill
 modified: 2021-10-08 17:34:45+00:00
-og_image: /media/images/552_interview1-768x512.jpg
+og_image: /media/images/552_interview1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: '(Mongabay) Empowering Indigenous youths with tradition and tech: Q&A with

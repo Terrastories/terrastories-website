@@ -7,7 +7,8 @@ excerpt: CONTACT US If you are interested in using Terrastories at our online se
   at https://our.terrastories.app, or discuss technology or partnership opportunities,
   please write to support@awana.digital and copy terrastoriesorg@gmail.com. If you
   are looking for technical support for self-hosting Terrastories online or offline,
-  please see channels to reach out on the Support page on our documentation hub.link: /contact-us
+  please see channels to reach out on the Support page on our documentation hub.
+link: /contact-us
 modified: 2026-02-24 13:10:13+00:00
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their own oral storytelling traditions

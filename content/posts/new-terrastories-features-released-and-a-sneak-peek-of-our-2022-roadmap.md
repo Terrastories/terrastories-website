@@ -7,7 +7,8 @@ date: 2022-05-10 09:00:00+00:00
 excerpt: As we enter the month of May (already!) and as we at the Terrastories stewards
   team prepare to embark on a major project to rebuild parts of the Terrastories core
   codebase, it feels like a good time to take inventory of some recent developments
-  and exciting new features that we just released and shipped to our production servers!featured_image: //wp-content/uploads/2022/05/3D-Terrain.jpg
+  and exciting new features that we just released and shipped to our production servers!
+featured_image: /media/images/573_3D-Terrain.jpg
 featured_image_id: 573
 link: /new-terrastories-features-released-and-a-sneak-peek-of-our-2022-roadmap
 modified: 2022-05-19 16:04:12+00:00

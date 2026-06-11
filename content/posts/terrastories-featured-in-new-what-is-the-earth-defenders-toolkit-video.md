@@ -8,11 +8,12 @@ excerpt: This network of people and organizations met together in the Ecuadorian
   in May 2023, during the Earth Defenders Toolkit Gathering, convened by Digital Democracy.
   In this video, partners and allies from Waorani, Siona, Wayana and Mohawk territories,
   share their experiences with using these tools and the inspiring connections that
-  were nourished at the Gathering.featured_image: //wp-content/uploads/2023/09/650c2fd134968a8330c6214c_New-Videos-templates1.jpg
+  were nourished at the Gathering.
+featured_image: /media/images/685_650c2fd134968a8330c6214c_New-Videos-templates1.jpg
 featured_image_id: 685
 link: /terrastories-featured-in-new-what-is-the-earth-defenders-toolkit-video
 modified: 2023-10-16 20:15:43+00:00
-og_image: /media/images/685_650c2fd134968a8330c6214c_New-Videos-templates1-300x169.jpg
+og_image: /media/images/685_650c2fd134968a8330c6214c_New-Videos-templates1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Terrastories featured in new "What is the Earth Defenders Toolkit" video!

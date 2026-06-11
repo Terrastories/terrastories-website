@@ -7,9 +7,10 @@ excerpt: 'OUR COMMUNITY A LITTLE HISTORY… Mapping indigenous oral histories: T
   project to develop this application was initiated the Amazon Conservation Team (ACT),
   an organization which partners with indigenous and other traditional communities
   in the Amazon rainforest to help them protect their ancestral lands and maintain
-  their traditional culture. In 2017, ACT realized the need to develop …'link: /community
+  their traditional culture. In 2017, ACT realized the need to develop …'
+link: /community
 modified: 2023-05-04 14:32:13+00:00
-og_image: //wp-content/uploads/2023/02/rudo-square.jpg
+og_image: /media/images/640_rudo-square.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their own oral storytelling traditions
   about places of significant meaning or value to them.
