@@ -117,10 +117,10 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     toggle!.setAttribute('aria-expanded', 'true');
     toggle!.setAttribute('aria-label', 'Close menu');
     document.body.style.overflow = 'hidden';
-    topBar!.style.transform = 'translateY(6px) rotate(45deg)';
+    topBar!.style.transform = 'rotate(45deg)';
     midBar!.style.transform = 'scaleX(0)';
     midBar!.style.opacity = '0';
-    botBar!.style.transform = 'translateY(-6px) rotate(-45deg)';
+    botBar!.style.transform = 'rotate(-45deg)';
   }
 
   toggle!.addEventListener('click', () => {
