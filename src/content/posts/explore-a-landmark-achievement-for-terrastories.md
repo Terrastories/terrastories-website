@@ -4,7 +4,7 @@ author_name: rkemper
 categories:
 - User Stories
 date: 2023-10-21 17:15:02+00:00
-excerpt: For the first time ever, using a new feature called  Explore Terrastories,
+excerpt: For the first time ever, using a new feature called Explore Terrastories,
   some of the content that communities have been creating on Terrastories can be explored
   freely without needing to log in.
 featured_image: /media/images/714_Screenshot-from-2023-10-21-11-22-17.png

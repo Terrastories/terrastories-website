@@ -17,7 +17,7 @@ const date = post.data.date.toLocaleDateString('en-US', {
 <article class="overflow-hidden rounded border border-stone-200 bg-white">
   {image && (
     <a href={`/blog/${post.data.slug}`} aria-label={post.data.title}>
-      <img class="aspect-video w-full object-cover" src={image} alt="" loading="lazy" />
+      <img class="aspect-video w-full object-cover" src={image} alt={post.data.title} loading="lazy" />
     </a>
   )}
 
