@@ -22,10 +22,16 @@ const posts = (await getCollection('posts'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 const title = titleFromSlug(category ?? '');
+const descriptions: Record<string, string> = {
+  'User Stories': 'Real-world accounts from Indigenous and local communities using Terrastories to map, protect, and share their place-based stories and cultural heritage.',
+  'Developer Community': 'Updates, contributions, and technical stories from the open-source community building Terrastories.',
+  'Field Notes': 'Notes and reflections from the field as communities document their oral histories and territories.',
+};
+const description = descriptions[title] || `Terrastories posts in the ${title} category.`;
 const frontmatter = {
   title,
   seo_title: `${title} - Terrastories`,
-  seo_description: `Terrastories posts in the ${title} category.`,
+  seo_description: description,
 };
 ---
 
@@ -35,7 +41,8 @@ const frontmatter = {
   <section class="mx-auto max-w-7xl px-6 py-12">
     <header class="mb-10">
       <h1 class="text-4xl font-bold text-ink md:text-5xl">{title}</h1>
-      <p class="mt-4 text-lg text-stone-700">{posts.length} posts</p>
+      <p class="mt-4 max-w-3xl text-lg text-stone-700">{description}</p>
+      <p class="mt-2 text-sm text-stone-500">{posts.length} posts</p>
     </header>
 
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
