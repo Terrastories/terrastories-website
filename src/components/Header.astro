@@ -17,7 +17,9 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   </a>
 
   <nav class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-5 lg:flex-row lg:items-center lg:justify-between" aria-label="Main navigation">
-    <a class="text-2xl font-bold tracking-normal text-forest" href="/">Terrastories</a>
+    <a href="/" aria-label="Terrastories home">
+      <img src="/media/images/nav-logo.png" alt="Terrastories" class="h-8 w-auto" />
+    </a>
 
     <div class="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm font-medium text-stone-800">
       {navItems.map((item) => (
