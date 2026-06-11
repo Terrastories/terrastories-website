@@ -46,19 +46,19 @@ def compress_png(path):
     return path.stat().st_size, str(path)
 
 def compress_gif(path):
-    """Compress GIF using gifsicle if available, else skip."""
+    """Compress GIF using gifsicle if available. NEVER use Pillow — it destroys animated frames."""
+    img = Image.open(path)
+    n_frames = getattr(img, "n_frames", 1)
+    if n_frames > 1:
+        print(f"  SKIP (animated, {n_frames} frames): {path.name}")
+        return path.stat().st_size
     try:
         subprocess.run(
             ["gifsicle", "-O3", "--colors", "128", "-o", str(path), str(path)],
             check=True, capture_output=True, timeout=60
         )
     except (FileNotFoundError, subprocess.CalledProcessError):
-        # gifsicle not available, try with PIL
-        try:
-            img = Image.open(path)
-            img.save(str(path), "GIF", optimize=True)
-        except Exception:
-            pass
+        print(f"  SKIP (gifsicle unavailable): {path.name}")
     return path.stat().st_size
 
 def convert_to_webp(path, quality=80):

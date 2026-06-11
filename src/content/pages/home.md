@@ -25,6 +25,6 @@ type: page
 
 Community members can add places and stories through a user-friendly interface, and make decisions about designating certain stories as private or restricted. Terrastories works both online and offline, so that remote communities can access the application entirely without needing internet connectivity.
 
-![Terrastories demo animation showing place-based storytelling interface](/media/images/27_terrastories.gif)
+<!-- TERRASTORIES_DEMO_VIDEO -->
 
 Terrastories is entirely free and open-source, built with principles of offline-first and data sovereignty, and aligned with the following two UN Sustainable Development Goals:
