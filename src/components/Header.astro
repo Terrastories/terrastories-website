@@ -8,19 +8,19 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     Skip to content
   </a>
 
-  <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4" aria-label="Main navigation">
+  <nav class="mx-auto flex max-w-7xl items-stretch justify-between h-[74px] px-6" aria-label="Main navigation">
     <!-- Logo -->
-    <a href="/" aria-label="Terrastories home" class="shrink-0">
+    <a href="/" aria-label="Terrastories home" class="flex items-center shrink-0">
       <img src="/media/images/nav-logo.png" alt="Terrastories" class="w-[200px] md:w-[300px] h-auto" />
     </a>
 
-    <!-- Desktop nav -->
-    <div class="hidden items-center gap-x-5 gap-y-3 text-sm font-medium text-body lg:flex">
+    <!-- Desktop nav links (centered between logo and CTA) -->
+    <div class="hidden items-center justify-center gap-x-3 lg:gap-x-5 text-[13px] lg:text-sm font-medium text-body lg:flex lg:flex-nowrap flex-1">
       {navItems.map((item) => (
-        <div class="group relative">
+        <div class="group relative shrink-0">
           <a
             class:list={[
-              'hover:text-orange transition-colors inline-flex items-center gap-1',
+              'hover:text-orange transition-colors inline-flex items-center gap-1 whitespace-nowrap',
               currentPath === item.href ? 'text-orange' : '',
             ]}
             href={item.href}
@@ -28,7 +28,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
           >
             {item.label}
             {item.children && (
-              <svg class="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-3 h-3 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             )}
@@ -53,15 +53,22 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
           )}
         </div>
       ))}
-      <a class="btn" href={exploreHref} target="_blank" rel="noopener noreferrer">
-        Explore Terrastories
-      </a>
     </div>
+
+    <!-- CTA: full-height orange block, right side -->
+    <a
+      class="hidden items-center justify-center bg-orange text-white font-semibold text-sm px-6 lg:px-8 shrink-0 lg:flex hover:bg-gold transition-colors"
+      href={exploreHref}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Explore Terrastories
+    </a>
 
     <!-- Burger button (mobile) -->
     <button
       id="menu-toggle"
-      class="menu-toggle relative z-50 flex h-10 w-10 items-center justify-center rounded-none bg-orange text-white lg:hidden"
+      class="menu-toggle relative z-50 flex h-10 w-10 items-center justify-center rounded-none bg-orange text-white lg:hidden shrink-0"
       aria-label="Open menu"
       aria-expanded="false"
     >
