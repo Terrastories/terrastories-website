@@ -43,15 +43,16 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     <!-- Burger button (mobile) -->
     <button
       id="menu-toggle"
-      class="relative z-50 flex h-10 w-10 items-center justify-center rounded-lg bg-clay lg:hidden"
+      class="menu-toggle relative z-50 flex h-10 w-10 items-center justify-center rounded-lg bg-clay text-white lg:hidden"
       aria-label="Open menu"
       aria-expanded="false"
     >
-      <svg class="burger-icon h-6 w-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-        <line class="top-bar" x1="5" y1="6" x2="19" y2="6" style="transform-origin: 12px 12px; transition: transform 0.4s cubic-bezier(0.32,0.72,0,1), opacity 0.3s ease" />
-        <line class="mid-bar" x1="5" y1="12" x2="19" y2="12" style="transform-origin: 12px 12px; transition: transform 0.4s cubic-bezier(0.32,0.72,0,1), opacity 0.3s ease" />
-        <line class="bot-bar" x1="5" y1="18" x2="19" y2="18" style="transform-origin: 12px 12px; transition: transform 0.4s cubic-bezier(0.32,0.72,0,1), opacity 0.3s ease" />
-      </svg>
+      <span class="sr-only">Toggle navigation</span>
+      <span class="burger-icon" aria-hidden="true">
+        <span class="burger-line burger-line--top"></span>
+        <span class="burger-line burger-line--middle"></span>
+        <span class="burger-line burger-line--bottom"></span>
+      </span>
     </button>
   </nav>
 
@@ -83,13 +84,59 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   </div>
 </header>
 
+<style>
+  .burger-icon {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
+  .burger-line {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 22px;
+    height: 2.5px;
+    border-radius: 999px;
+    background: currentColor;
+    transform-origin: center;
+    transition:
+      transform 0.4s cubic-bezier(0.32, 0.72, 0, 1),
+      opacity 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+    will-change: transform, opacity;
+    -webkit-transform-origin: center;
+  }
+
+  .burger-line--top {
+    transform: translate(-50%, -50%) translateY(-6px);
+  }
+
+  .burger-line--middle {
+    transform: translate(-50%, -50%) scaleX(1);
+  }
+
+  .burger-line--bottom {
+    transform: translate(-50%, -50%) translateY(6px);
+  }
+
+  .menu-toggle.is-open .burger-line--top {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .menu-toggle.is-open .burger-line--middle {
+    opacity: 0;
+    transform: translate(-50%, -50%) scaleX(0);
+  }
+
+  .menu-toggle.is-open .burger-line--bottom {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+</style>
+
 <script>
   const toggle = document.getElementById('menu-toggle');
   const overlay = document.getElementById('menu-overlay');
   const panel = document.getElementById('menu-panel');
-  const topBar = document.querySelector('.top-bar');
-  const midBar = document.querySelector('.mid-bar');
-  const botBar = document.querySelector('.bot-bar');
 
   let open = false;
 
@@ -101,11 +148,8 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     overlay!.classList.add('bg-black/0', 'backdrop-blur-none', 'pointer-events-none');
     toggle!.setAttribute('aria-expanded', 'false');
     toggle!.setAttribute('aria-label', 'Open menu');
+    toggle!.classList.remove('is-open');
     document.body.style.overflow = '';
-    topBar!.style.transform = '';
-    midBar!.style.transform = '';
-    midBar!.style.opacity = '1';
-    botBar!.style.transform = '';
   }
 
   function openMenu() {
@@ -116,11 +160,8 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     overlay!.classList.remove('bg-black/0', 'backdrop-blur-none', 'pointer-events-none');
     toggle!.setAttribute('aria-expanded', 'true');
     toggle!.setAttribute('aria-label', 'Close menu');
+    toggle!.classList.add('is-open');
     document.body.style.overflow = 'hidden';
-    topBar!.style.transform = 'rotate(45deg)';
-    midBar!.style.transform = 'scaleX(0)';
-    midBar!.style.opacity = '0';
-    botBar!.style.transform = 'rotate(-45deg)';
   }
 
   toggle!.addEventListener('click', () => {
