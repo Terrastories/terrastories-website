@@ -16,16 +16,18 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     Skip to content
   </a>
 
-  <nav class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-5 lg:flex-row lg:items-center lg:justify-between" aria-label="Main navigation">
-    <a href="/" aria-label="Terrastories home">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4" aria-label="Main navigation">
+    <!-- Logo -->
+    <a href="/" aria-label="Terrastories home" class="shrink-0">
       <img src="/media/images/nav-logo.png" alt="Terrastories" class="h-8 w-auto" />
     </a>
 
-    <div class="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm font-medium text-stone-800">
+    <!-- Desktop nav -->
+    <div class="hidden items-center gap-x-5 gap-y-3 text-sm font-medium text-stone-800 lg:flex">
       {navItems.map((item) => (
         <a
           class:list={[
-            'hover:text-forest',
+            'hover:text-forest transition-colors',
             currentPath === item.href ? 'text-forest underline decoration-clay decoration-2 underline-offset-4' : '',
           ]}
           href={item.href}
@@ -33,9 +35,107 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
           {item.label}
         </a>
       ))}
-      <a class="rounded bg-clay px-4 py-2 font-semibold text-white hover:bg-forest" href="https://explore.terrastories.app">
+      <a class="rounded bg-clay px-4 py-2 font-semibold text-white hover:bg-forest transition-colors" href="https://explore.terrastories.app">
         Explore Terrastories
       </a>
     </div>
+
+    <!-- Burger button (mobile) -->
+    <button
+      id="menu-toggle"
+      class="relative z-50 flex h-10 w-10 items-center justify-center rounded-lg hover:bg-stone-100 lg:hidden"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      <svg class="burger-icon h-6 w-6 text-ink transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path class="top-bar origin-center transition-all duration-300" stroke-linecap="round" d="M4 6h16" />
+        <path class="mid-bar transition-all duration-300" stroke-linecap="round" d="M4 12h16" />
+        <path class="bot-bar origin-center transition-all duration-300" stroke-linecap="round" d="M4 18h16" />
+      </svg>
+    </button>
   </nav>
+
+  <!-- Mobile overlay -->
+  <div id="menu-overlay" class="pointer-events-none fixed inset-0 z-40 bg-black/0 backdrop-blur-none transition-all duration-500 ease-in-out lg:hidden"></div>
+
+  <!-- Mobile slide-in panel -->
+  <div id="menu-panel" class="fixed right-0 top-0 z-40 h-full w-72 translate-x-full transform bg-paper shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] lg:hidden">
+    <div class="flex flex-col px-6 pt-20 pb-8">
+      <div class="flex flex-col gap-1">
+        {navItems.map((item) => (
+          <a
+            class:list={[
+              'block rounded-lg px-4 py-3 text-base font-medium text-stone-800 transition-colors hover:bg-stone-100 hover:text-forest',
+              currentPath === item.href ? 'bg-stone-50 text-forest font-semibold' : '',
+            ]}
+            href={item.href}
+          >
+            {item.label}
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 border-t border-stone-200 pt-6">
+        <a class="block rounded-lg bg-clay px-4 py-3 text-center font-semibold text-white hover:bg-forest transition-colors" href="https://explore.terrastories.app">
+          Explore Terrastories
+        </a>
+      </div>
+    </div>
+  </div>
 </header>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const overlay = document.getElementById('menu-overlay');
+  const panel = document.getElementById('menu-panel');
+  const topBar = document.querySelector('.top-bar');
+  const midBar = document.querySelector('.mid-bar');
+  const botBar = document.querySelector('.bot-bar');
+
+  let open = false;
+
+  function closeMenu() {
+    open = false;
+    panel!.classList.add('translate-x-full');
+    panel!.classList.remove('translate-x-0');
+    overlay!.classList.remove('bg-black/40', 'backdrop-blur-sm', 'pointer-events-auto');
+    overlay!.classList.add('bg-black/0', 'backdrop-blur-none', 'pointer-events-none');
+    toggle!.setAttribute('aria-expanded', 'false');
+    toggle!.setAttribute('aria-label', 'Open menu');
+    document.body.style.overflow = '';
+    // Reset burger
+    topBar!.style.transform = '';
+    topBar!.style.opacity = '1';
+    midBar!.style.opacity = '1';
+    midBar!.style.transform = '';
+    botBar!.style.transform = '';
+    botBar!.style.opacity = '1';
+  }
+
+  function openMenu() {
+    open = true;
+    panel!.classList.remove('translate-x-full');
+    panel!.classList.add('translate-x-0');
+    overlay!.classList.add('bg-black/40', 'backdrop-blur-sm', 'pointer-events-auto');
+    overlay!.classList.remove('bg-black/0', 'backdrop-blur-none', 'pointer-events-none');
+    toggle!.setAttribute('aria-expanded', 'true');
+    toggle!.setAttribute('aria-label', 'Close menu');
+    document.body.style.overflow = 'hidden';
+    // Animate to X
+    topBar!.style.transform = 'translateY(6px) rotate(45deg)';
+    midBar!.style.opacity = '0';
+    midBar!.style.transform = 'scaleX(0)';
+    botBar!.style.transform = 'translateY(-6px) rotate(-45deg)';
+  }
+
+  toggle!.addEventListener('click', () => {
+    if (open) closeMenu();
+    else openMenu();
+  });
+
+  overlay!.addEventListener('click', closeMenu);
+
+  // Close on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && open) closeMenu();
+  });
+</script>
