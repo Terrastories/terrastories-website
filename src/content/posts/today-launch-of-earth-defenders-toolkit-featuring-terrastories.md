@@ -7,11 +7,11 @@ categories:
 date: 2021-06-30 01:52:32+00:00
 excerpt: Today, Digital Democracy launches the Earth Defenders Toolkit, a collaborative
   space for earth defenders and their allies.
-featured_image: /media/images/509_Capture.png
+featured_image: /media/images/509_Capture.jpg
 featured_image_id: 509
 link: /today-launch-of-earth-defenders-toolkit-featuring-terrastories
 modified: 2021-06-30 01:53:30+00:00
-og_image: /media/images/509_Capture.png
+og_image: /media/images/509_Capture.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'Today: Launch of Earth Defenders Toolkit (featuring Terrastories!) - Terrastories'

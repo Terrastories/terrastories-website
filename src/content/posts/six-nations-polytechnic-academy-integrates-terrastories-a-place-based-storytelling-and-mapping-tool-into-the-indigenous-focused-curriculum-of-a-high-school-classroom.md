@@ -9,11 +9,11 @@ excerpt: 'Crossposted from Digital Democracy blog Meet Chris Martin and Kali Ane
   educational institute on Six Nations of the Grand River First Nation! Chris is a
   Water Project Lead at the SNP’s STEAM Academy for high school students, and Kali
   is a Geography and Environmental Science …'
-featured_image: /media/images/583_cover-interview.png
+featured_image: /media/images/583_cover-interview.jpg
 featured_image_id: 583
 link: /six-nations-polytechnic-academy-integrates-terrastories-a-place-based-storytelling-and-mapping-tool-into-the-indigenous-focused-curriculum-of-a-high-school-classroom
 modified: 2023-05-26 15:40:31+00:00
-og_image: /media/images/583_cover-interview.png
+og_image: /media/images/583_cover-interview.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Six Nations Polytechnic Academy integrates Terrastories, a place-based

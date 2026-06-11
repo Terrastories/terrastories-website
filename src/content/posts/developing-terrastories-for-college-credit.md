@@ -25,7 +25,7 @@ type: post
 # Developing Terrastories, for college credit: on building open-source software for a summer course at WUSTL
 
 *Meet Lucas, Katherine, and Oliver! They are incoming juniors at Washington University in St. Louis, studying computer science. *
-![](/media/images/271_Capture.png)
+![](/media/images/271_Capture.jpg)
 
 *As part of their curriculum, they were supposed to have a practical internship lined up for the spring or summer semester this year, but due to the COVID-19 pandemic, these opportunities fell through the cracks. The same happened to many of their peers, prompting Douglas Shook, an adjunct instructor at the university, to set up a summer course called “Software Engineering Workshop” where they can get credit for contributing remotely to an open-source project.*
 

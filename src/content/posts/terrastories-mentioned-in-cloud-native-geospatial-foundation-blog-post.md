@@ -9,11 +9,11 @@ excerpt: '“Being free from the constraints of a typical tech company means Pro
   Journalism and the public sector are two areas that have adopted PMTiles. Other
   use cases I’ve learned about in the past month include wildfire mapping in British
   Columbia and a storytelling app for indigenous communities.”'
-featured_image: /media/images/733_F-_F58aWMAAzIHp.png
+featured_image: /media/images/733_F-_F58aWMAAzIHp.jpg
 featured_image_id: 733
 link: /terrastories-mentioned-in-cloud-native-geospatial-foundation-blog-post
 modified: 2023-12-09 20:17:07+00:00
-og_image: /media/images/733_F-_F58aWMAAzIHp.png
+og_image: /media/images/733_F-_F58aWMAAzIHp.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: Terrastories mentioned in Cloud-Native Geospatial Foundation blog post

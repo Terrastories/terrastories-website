@@ -7,11 +7,11 @@ date: 2023-10-21 17:15:02+00:00
 excerpt: For the first time ever, using a new feature called Explore Terrastories,
   some of the content that communities have been creating on Terrastories can be explored
   freely without needing to log in.
-featured_image: /media/images/714_Screenshot-from-2023-10-21-11-22-17.png
+featured_image: /media/images/714_Screenshot-from-2023-10-21-11-22-17.jpg
 featured_image_id: 714
 link: /explore-a-landmark-achievement-for-terrastories
 modified: 2023-10-21 18:02:52+00:00
-og_image: /media/images/714_Screenshot-from-2023-10-21-11-22-17.png
+og_image: /media/images/714_Screenshot-from-2023-10-21-11-22-17.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
 seo_title: 'Explore: a landmark achievement for Terrastories - Terrastories'
@@ -28,7 +28,7 @@ type: post
 This month, Terrastories achieved a landmark that I’m really excited about!
 
 For the first time ever, using a new feature called **Explore Terrastories**, some of the content that communities have been creating on Terrastories can be explored freely without needing to log in.
-![](/media/images/715_Screenshot-from-2023-10-21-11-15-11.png)
+![](/media/images/715_Screenshot-from-2023-10-21-11-15-11.jpg)
 
 *[Wayana (Suriname)](https://explore.terrastories.app/community/wayana)*
 
@@ -39,7 +39,7 @@ The first users of Terrastories, like the [Matawai Maroons of Suriname](https://
 But the Indigenous community users of Terrastories have always asked for an online version – because some community members live in the city, or because they want to share some of the stories with a greater public, as an act of self-representation. 🗺️
 
 The pandemic increased the demand for an online version, so with generous support from [Tech Matters](https://techmatters.org/) we built out multi-instance architecture where many communities can use one server, but still keep their data private and secure. We also launched an online production server. 🌐
-![](/media/images/716_Screenshot-from-2023-10-21-11-15-11-1.png)
+![](/media/images/716_Screenshot-from-2023-10-21-11-15-11-1.jpg)
 
 *[Ohneganos (Canada)](https://explore.terrastories.app/community/ohneganos)*
 
@@ -52,11 +52,11 @@ That is, until now! The [Association of Tribal Archives, Libraries, and Museums]
 There are numerous community projects on Terrastories, but a handful have opted in to share some of their stories, and you can check those out now at **<https://explore.terrastories.app>** ✨
 
 There are oral histories and drone footage from the Wayana in Suriname, hand drawings of Apalai cosmological beings in Brazil, cultural stories and ecological data from the Haudenosaunee in Canada, and footage from a creative Chinese diaspora storytelling project. It’s amazing!
-[![](/media/images/714_Screenshot-from-2023-10-21-11-22-17.png)](https://explore.terrastories.app/community/jingweis_journey)
+[![](/media/images/714_Screenshot-from-2023-10-21-11-22-17.jpg)](https://explore.terrastories.app/community/jingweis_journey)
 
 *[Jingwei’s Journey](https://explore.terrastories.app/community/jingweis_journey)*
 
-![](/media/images/718_Screenshot-from-2023-10-21-11-11-33.png)
+![](/media/images/718_Screenshot-from-2023-10-21-11-11-33.jpg)
 
 *[Tumucumaque (Brazil)](https://explore.terrastories.app/community/tumucumaque)*
 

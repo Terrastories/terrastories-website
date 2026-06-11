@@ -9,7 +9,7 @@ excerpt: TRY TERRASTORIES Are you interested in using Terrastories online for yo
   account. Please get in touch with us to get access to our Terrastories server.
 link: /try-terrastories
 modified: 2023-10-05 12:59:10+00:00
-og_image: /media/images/509_Capture.png
+og_image: /media/images/509_Capture.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their own oral storytelling traditions
   about places of significant meaning or value to them.
@@ -22,7 +22,7 @@ type: page
 
 # Try Terrastories
 TRY TERRASTORIES
-![Capture](/media/images/494_Capture.png "Capture")
+![Capture](/media/images/494_Capture.jpg "Capture")
 Are you interested in using Terrastories online for your community, or want to test it out?
 Digital Democracy maintains an online Terrastories server at <https://our.terrastories.app> where they can set you up with a community account.
 **Please [get in touch](/contact-us) with us to get access to our Terrastories server.**

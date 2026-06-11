@@ -65,7 +65,7 @@ In a month’s time, the Terrastories development community was able to accompli
 - Restricted stories now feature a small lock emoji to show logged in users which stories are restricted, and which ones are not.
 - It is now possible to filter stories alphabetically (A-Z), or in the chronological order they were added.
 - The map view now zooms and pans to filtered stories once they are selected using the filter dropdowns.
-![](/media/images/263_1_QFYG4IAfSYbmraGiOJK5SQ.png)
+![](/media/images/263_1_QFYG4IAfSYbmraGiOJK5SQ.jpg)
 
 Some of the new features like the sort dropdown, mini-map, and translation in the Japanese language!
 
