@@ -6,6 +6,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
+import { basePathOf } from '../utils/basePath';
 const image = post.data.featured_image ?? post.data.og_image;
 const date = post.data.date.toLocaleDateString('en-US', {
   year: 'numeric',
@@ -16,8 +17,8 @@ const date = post.data.date.toLocaleDateString('en-US', {
 
 <article class="overflow-hidden border border-stone-200 bg-white">
   {image && (
-    <a href={`/blog/${post.data.slug}`} aria-label={post.data.title}>
-      <img class="aspect-video w-full object-cover" src={image} alt={post.data.title} loading="lazy" />
+    <a href={basePathOf(`/blog/${post.data.slug}`)} aria-label={post.data.title}>
+      <img class="aspect-video w-full object-cover" src={basePathOf(image)} alt={post.data.title} loading="lazy" />
     </a>
   )}
 
@@ -27,12 +28,12 @@ const date = post.data.date.toLocaleDateString('en-US', {
     </p>
 
     <h3 class="mt-2 text-xl font-heading text-teal">
-      <a class="text-orange hover:text-gold" href={`/blog/${post.data.slug}`}>{post.data.title}</a>
+      <a class="text-orange hover:text-gold" href={basePathOf(`/blog/${post.data.slug}`)}>{post.data.title}</a>
     </h3>
 
     {post.data.excerpt && <p class="mt-3 line-clamp-3 text-sm leading-6 text-stone-700">{post.data.excerpt}</p>}
 
-    <a class="btn mt-4" href={`/blog/${post.data.slug}`}>
+    <a class="btn mt-4" href={basePathOf(`/blog/${post.data.slug}`)}>
       Read more
     </a>
   </div>

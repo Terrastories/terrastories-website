@@ -5,6 +5,7 @@ import Seo from '../components/Seo.astro';
 import PostCard from '../components/PostCard.astro';
 import PartnerLogo from '../components/PartnerLogo.astro';
 import { sponsors, partners } from '../data/nav';
+import { basePathOf } from '../utils/basePath';
 
 const pages = await getCollection('pages');
 const home = pages.find((page) => page.data.slug === 'home');
@@ -22,7 +23,7 @@ const posts = (await getCollection('posts'))
   <Seo slot="seo" frontmatter={home.data} pathname="/" />
 
   <!-- Hero Section -->
-  <section class="bg-teal bg-[url('/media/images/80_welcome-bg.jpg')] bg-cover bg-center bg-fixed px-6 py-20 text-center lg:min-h-[75vh] lg:flex lg:flex-col lg:justify-center">
+  <section class="bg-teal bg-cover bg-center bg-fixed px-6 py-20 text-center lg:min-h-[75vh] lg:flex lg:flex-col lg:justify-center" style={`background-image: url('${basePathOf('/media/images/80_welcome-bg.jpg')}');`}>
     <div class="mx-auto max-w-5xl">
       <h1 class="text-4xl font-heading uppercase tracking-wide text-white md:text-5xl">
         Terrastories: Connecting Generations
@@ -52,12 +53,12 @@ const posts = (await getCollection('posts'))
           loop
           playsinline
           preload="metadata"
-          poster="/media/images/27_terrastories-poster.jpg"
+          poster={basePathOf('/media/images/27_terrastories-poster.jpg')}
           class="mx-auto w-full max-w-5xl"
         >
-          <source src="/media/images/27_terrastories.mp4" type="video/mp4" />
+          <source src={basePathOf('/media/images/27_terrastories.mp4')} type="video/mp4" />
           <img
-            src="/media/images/27_terrastories-poster.jpg"
+            src={basePathOf('/media/images/27_terrastories-poster.jpg')}
             alt="Terrastories demo animation showing place-based storytelling interface"
             loading="lazy"
           />
@@ -70,8 +71,8 @@ const posts = (await getCollection('posts'))
         </p>
       </div>
       <div class="mt-4 flex flex-wrap items-center justify-center gap-4">
-        <img src="/media/images/78_E-WEB-Goal-04-350x350-1.png" alt="UN Sustainable Development Goal 4: Quality Education" class="h-28 w-28 sm:h-32 sm:w-32" loading="lazy" />
-        <img src="/media/images/79_E-WEB-Goal-11-350x350-1.png" alt="UN Sustainable Development Goal 11: Sustainable Cities and Communities" class="h-28 w-28 sm:h-32 sm:w-32" loading="lazy" />
+        <img src={basePathOf('/media/images/78_E-WEB-Goal-04-350x350-1.png')} alt="UN Sustainable Development Goal 4: Quality Education" class="h-28 w-28 sm:h-32 sm:w-32" loading="lazy" />
+        <img src={basePathOf('/media/images/79_E-WEB-Goal-11-350x350-1.png')} alt="UN Sustainable Development Goal 11: Sustainable Cities and Communities" class="h-28 w-28 sm:h-32 sm:w-32" loading="lazy" />
       </div>
     </div>
   </section>
@@ -80,7 +81,7 @@ const posts = (await getCollection('posts'))
   <section class="mx-auto max-w-7xl px-6 py-14">
     <div class="mb-8 text-center">
       <h2 class="text-4xl font-heading uppercase tracking-wide text-teal">Latest Stories</h2>
-      <a class="text-sm font-semibold text-orange hover:text-gold" href="/blog">View all</a>
+      <a class="text-sm font-semibold text-orange hover:text-gold" href={basePathOf('/blog')}>View all</a>
     </div>
 
     <div class="grid gap-6 md:grid-cols-3">
@@ -89,15 +90,15 @@ const posts = (await getCollection('posts'))
   </section>
 
   <!-- Help Us Grow CTA -->
-  <section class="bg-teal bg-[url('/media/images/help-grow-bg.jpg')] bg-cover bg-center bg-fixed px-6 py-16 text-center text-white">
+  <section class="bg-teal bg-cover bg-center bg-fixed px-6 py-16 text-center text-white" style={`background-image: url('${basePathOf('/media/images/help-grow-bg.jpg')}');`}>
     <div class="mx-auto max-w-3xl">
       <h2 class="text-4xl font-heading uppercase tracking-wide text-white">Help Us Grow</h2>
       <p class="mt-4 text-xl font-heading leading-relaxed text-white">
         We are an entirely open-source project that depends on donations and volunteer software development.
       </p>
       <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
-        <a href="/sponsor-us" class="btn">Sponsor us</a>
-        <a href="/contribute" class="btn-outline">Be a developer</a>
+        <a href={basePathOf('/sponsor-us')} class="btn">Sponsor us</a>
+        <a href={basePathOf('/contribute')} class="btn-outline">Be a developer</a>
       </div>
     </div>
   </section>

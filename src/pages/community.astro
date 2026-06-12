@@ -5,6 +5,7 @@ import PeopleGrid from '../components/PeopleGrid.astro';
 import { getCollection } from 'astro:content';
 import { render } from 'astro:content';
 import { stewards, alumni } from '../data/nav';
+import { basePathOf } from '../utils/basePath';
 
 const page = await getCollection('pages', ({ data }) => data.slug === 'community').then(r => r[0]);
 const { Content } = await render(page);
@@ -28,7 +29,7 @@ const { Content } = await render(page);
         The Terrastories Stewards are a small, mostly volunteer collective who are guiding the
         <a href="https://github.com/Terrastories/terrastories/wiki/Terrastories-Roadmap" class="text-orange hover:underline">development roadmap</a>,
         managing and building the volunteer community, reviewing contributions to the code, and getting interested users started in working with Terrastories.
-        Would you like to be a Terrastories steward? <a href="/contact-us" class="text-orange hover:underline">Contact us</a>!
+        Would you like to be a Terrastories steward? <a href={basePathOf('/contact-us')} class="text-orange hover:underline">Contact us</a>!
       </p>
       <PeopleGrid people={stewards} />
     </section>
@@ -46,7 +47,7 @@ const { Content } = await render(page);
         The following list of amazing people have directly contributed to the Terrastories codebase, as of August 2020. This does not include graphic designers, UX/UI designers, indigenous partners, and others who had an amazing idea about how Terrastories could be even better!
       </p>
       <img
-        src="/media/images/324_Community-August-2020.jpg"
+        src={basePathOf('/media/images/324_Community-August-2020.jpg')}
         alt="Terrastories community contributors group photo from August 2020"
         class="shadow-md"
         loading="lazy"

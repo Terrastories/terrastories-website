@@ -1,5 +1,6 @@
 ---
 import { navItems, socialLinks, isExternal } from '../data/nav';
+import { basePathOf } from '../utils/basePath';
 
 const footerNavLeft = navItems.slice(0, 4);
 const footerNavRight = navItems.slice(4);
@@ -13,7 +14,7 @@ const footerNavRight = navItems.slice(4);
       <div class="flex items-center justify-center gap-4">
         {socialLinks.map((s) => (
           <a
-            href={s.href}
+            href={isExternal(s.href) ? s.href : basePathOf(s.href)}
             class="flex h-9 w-9 items-center justify-center rounded-full border border-white/30 text-white/80 transition-all hover:bg-white/20 hover:text-white hover:shadow-[0_0_0.75rem_rgba(255,255,255,0.45)]"
             aria-label={s.label}
             {...(isExternal(s.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
@@ -40,7 +41,7 @@ const footerNavRight = navItems.slice(4);
 
     <!-- Icon -->
     <div class="text-center">
-      <img src="/media/images/40_Terrastories-icon-sq.png" alt="Terrastories" class="mx-auto h-20 w-20" loading="lazy" />
+      <img src={basePathOf('/media/images/40_Terrastories-icon-sq.png')} alt="Terrastories" class="mx-auto h-20 w-20" loading="lazy" />
     </div>
 
     <!-- Description -->
@@ -57,7 +58,7 @@ const footerNavRight = navItems.slice(4);
         {footerNavLeft.map((item) => (
           <li>
             <a
-              href={item.href}
+              href={isExternal(item.href) ? item.href : basePathOf(item.href)}
               class="text-white hover:text-gold transition-colors"
               {...(isExternal(item.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
             >
@@ -68,7 +69,7 @@ const footerNavRight = navItems.slice(4);
                 {item.children.map((child) => (
                   <li>
                     <a
-                      href={child.href}
+                      href={isExternal(child.href) ? child.href : basePathOf(child.href)}
                       class="hover:text-gold transition-colors"
                       {...(isExternal(child.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                     >
@@ -87,7 +88,7 @@ const footerNavRight = navItems.slice(4);
         {footerNavRight.map((item) => (
           <li>
             <a
-              href={item.href}
+              href={isExternal(item.href) ? item.href : basePathOf(item.href)}
               class="text-white hover:text-gold transition-colors"
               {...(isExternal(item.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
             >
@@ -98,7 +99,7 @@ const footerNavRight = navItems.slice(4);
                 {item.children.map((child) => (
                   <li>
                     <a
-                      href={child.href}
+                      href={isExternal(child.href) ? child.href : basePathOf(child.href)}
                       class="hover:text-gold transition-colors"
                       {...(isExternal(child.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                     >

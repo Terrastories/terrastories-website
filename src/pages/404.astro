@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Seo from '../components/Seo.astro';
+import { basePathOf } from '../utils/basePath';
 
 const frontmatter = {
   title: 'Page Not Found',
@@ -16,6 +17,6 @@ const frontmatter = {
     <p class="mt-4 max-w-md text-xl text-stone-700">
       We couldn't find the page you were looking for. It may have been moved or doesn't exist.
     </p>
-    <a href="/" class="btn mt-8">Return home</a>
+    <a href={basePathOf('/')} class="btn mt-8">Return home</a>
   </section>
 </BaseLayout>

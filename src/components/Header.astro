@@ -1,5 +1,6 @@
 ---
 import { navItems, exploreHref, isExternal } from '../data/nav';
+import { basePathOf } from '../utils/basePath';
 
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 ---
@@ -10,8 +11,8 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 
   <nav class="mx-auto flex max-w-7xl items-stretch justify-between h-[74px] px-6" aria-label="Main navigation">
     <!-- Logo -->
-    <a href="/" aria-label="Terrastories home" class="flex items-center shrink-0">
-      <img src="/media/images/nav-logo.png" alt="Terrastories" class="w-[200px] md:w-[300px] h-auto" />
+    <a href={basePathOf('/')} aria-label="Terrastories home" class="flex items-center shrink-0">
+      <img src={basePathOf('/media/images/nav-logo.png')} alt="Terrastories" class="w-[200px] md:w-[300px] h-auto" />
     </a>
 
     <!-- Desktop nav links (centered between logo and CTA) -->
@@ -23,7 +24,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
               'hover:text-orange transition-colors inline-flex items-center gap-1 whitespace-nowrap',
               currentPath === item.href ? 'text-orange' : '',
             ]}
-            href={item.href}
+            href={isExternal(item.href) ? item.href : basePathOf(item.href)}
             {...(isExternal(item.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
           >
             {item.label}
@@ -41,7 +42,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
                   <li>
                     <a
                       class="block px-5 py-2 text-sm text-body hover:text-orange hover:bg-stone-50 transition-colors whitespace-nowrap"
-                      href={child.href}
+                      href={isExternal(child.href) ? child.href : basePathOf(child.href)}
                       {...(isExternal(child.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                     >
                       {child.label}
@@ -94,7 +95,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
                 'block rounded-lg px-4 py-3 text-base font-medium text-body transition-colors hover:bg-stone-100 hover:text-orange',
                 currentPath === item.href ? 'bg-stone-50 text-orange font-semibold' : '',
               ]}
-              href={item.href}
+              href={isExternal(item.href) ? item.href : basePathOf(item.href)}
               {...(isExternal(item.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
             >
               {item.label}
@@ -104,7 +105,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
                 {item.children.map((child) => (
                   <a
                     class="block px-4 py-2 text-sm text-stone-600 hover:text-orange hover:bg-stone-50 rounded-lg transition-colors"
-                    href={child.href}
+                    href={isExternal(child.href) ? child.href : basePathOf(child.href)}
                     {...(isExternal(child.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   >
                     {child.label}

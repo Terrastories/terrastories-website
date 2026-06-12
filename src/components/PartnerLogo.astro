@@ -5,6 +5,8 @@ interface Props {
   src: string;
 }
 
+import { basePathOf } from '../utils/basePath';
+
 const { name, href, src } = Astro.props;
 ---
 
@@ -16,7 +18,7 @@ const { name, href, src } = Astro.props;
   class="flex items-center justify-center bg-white p-2"
 >
   <img
-    src={src}
+    src={basePathOf(src)}
     alt={`${name} logo`}
     loading="lazy"
     class="max-h-20 w-auto object-contain"

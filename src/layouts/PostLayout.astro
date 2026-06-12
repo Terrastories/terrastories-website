@@ -3,6 +3,7 @@ import { render, type CollectionEntry } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import Seo from '../components/Seo.astro';
 import { categorySlug } from '../utils/category';
+import { basePathOf } from '../utils/basePath';
 
 interface Props {
   post: CollectionEntry<'posts'>;
@@ -26,7 +27,7 @@ const date = post.data.date.toLocaleDateString('en-US', {
     <header class="mb-10">
       <div class="mb-4 flex flex-wrap gap-2">
         {post.data.categories.map((category) => (
-          <a class="rounded-none bg-orange px-3 py-1 text-sm font-medium text-white hover:bg-gold transition-colors" href={`/category/${categorySlug(category)}`}>
+          <a class="rounded-none bg-orange px-3 py-1 text-sm font-medium text-white hover:bg-gold transition-colors" href={basePathOf(`/category/${categorySlug(category)}`)}>
             {category}
           </a>
         ))}
