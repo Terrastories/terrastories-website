@@ -1,93 +1,153 @@
+<div align="center">
+
+<img src="public/media/images/nav-logo.png" alt="Terrastories" width="300">
+
 # Terrastories Website
 
-Static website for Terrastories, built with Astro 6 and Tailwind CSS 4.
+[![Astro](https://img.shields.io/badge/Astro-6.0-BC52EE?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-## Stack
+**Static website for Terrastories — a free and open-source geostorytelling application built for communities to map, protect, and share place-based oral histories.**
 
-- **Framework**: Astro 6.x (static site generation)
-- **Styling**: Tailwind CSS 4.x with CSS-first configuration
-- **Typography**: @tailwindcss/typography
-- **Images**: Sharp (via Astro's built-in image optimization)
-- **Sitemap**: @astrojs/sitemap
-- **TypeScript**: Strict mode
+[Live Site](https://terrastories.app) · [GitHub Pages](https://terrastories.github.io/terrastories-website) · [Report Bug](https://github.com/Terrastories/terrastories-website/issues) · [Request Feature](https://github.com/Terrastories/terrastories-website/issues)
 
-## Project Structure
+</div>
 
-```
-terrastories-website/
-  src/
-    content/
-      pages/          # 11 Markdown pages (home, how-it-works, community, etc.)
-      posts/          # 33 Markdown blog posts
-    data/
-      nav.ts          # Shared navigation, sponsors, partners, team data
-    layouts/
-      BaseLayout.astro    # Root HTML shell (fonts, favicons, SEO slot)
-      PageLayout.astro    # Generic page wrapper
-      PostLayout.astro    # Blog post wrapper
-    pages/
-      index.astro         # Home page
-      community.astro     # Community page (stewards, alumni, contributors)
-      [...slug].astro     # Catch-all for pages
-      blog/
-        index.astro       # Blog listing
-        [slug].astro      # Individual blog post
-      category/
-        [category].astro  # Category filter pages
-    components/
-      Header.astro        # Desktop + mobile navigation with focus trap
-      Footer.astro        # Nav + social + copyright
-      Seo.astro           # Meta tags, OG, Twitter, JSON-LD
-      PostCard.astro      # Blog post preview card
-      PartnerLogo.astro   # Sponsor/partner logo link
-      PeopleGrid.astro    # Circle photo grid for team members
-    styles/
-      global.css          # Tailwind theme + brand colors + typography
-    utils/
-      category.ts         # Category slug helpers
-  public/
-    media/
-      images/             # Original images (compressed from _originals/)
-      documents/          # PDFs (guides, research papers)
-    favicon.*             # Favicon variants (ico, svg, png)
-    robots.txt            # Search engine directives
-  scripts/
-    clean-content.py      # Content cleanup pipeline
-    compress-media.py     # Image compression
-    resize-images.py      # Image resizing with backup
-    terrastories-migrate.py  # WordPress-to-Markdown migration script
-  docs/
-    PRD.md                # Original migration PRD
-    PRD-codebase-review.md    # Codebase review findings
-    REVIEW-DEEPSEEK.md    # Automated review corrections
-    TASKS.md              # Review batch checklist
-  data/
-    site.json             # Reference data from WordPress export (categories, users, nav)
-                          # Not used at build time; kept for reference
-```
+---
 
-## Content
+## About
 
-- 11 pages: home, how-it-works, community, contact-us, contribute, demo, funding-needs, mailing-list, maintenance, sponsor-us, try-terrastories
-- 33 blog posts across 3 categories: User Stories (18), Dev Stories (12), Uncategorized (5)
-- 160+ media images (originals only, no WordPress thumbnails)
-- Full SEO metadata (title, description, OG image, canonical, JSON-LD per page)
+Terrastories is a geostorytelling application built to enable Indigenous and other local communities to locate and map their own oral storytelling traditions about places of significant meaning or value to them. Community members can add places and stories through a user-friendly interface, and make decisions about designating certain stories as private or restricted. Terrastories works both online and offline, so that remote communities can access the application entirely without needing internet connectivity.
 
-## Commands
+This repository contains the **static marketing website** for the Terrastories project — built with Astro and Tailwind CSS — serving as the project's public face, blog, documentation hub, and community portal.
+
+## ✨ Features
+
+- **📱 Fully Responsive** — Seamless experience from mobile to desktop, with a slide-in hamburger menu and optimized layouts at every breakpoint
+- **🏠 Marketing Homepage** — Hero video, mission statement, UN SDG alignment, latest blog posts, sponsors, and partner logos
+- **📝 Blog with 30+ Posts** — Categorized into User Stories, Dev Stories, and general updates with full SEO metadata
+- **👥 Community Directory** — Photo grid of stewards, alumni, and contributors with bio links
+- **📄 11 Content Pages** — How It Works, Demo, Contact Us, Sponsor Us, Contribute, Funding Needs, and more
+- **🔍 SEO Optimized** — Per-page meta tags, Open Graph, Twitter Cards, JSON-LD structured data, canonical URLs, and auto-generated sitemap
+- **🎨 Custom Design System** — Orange/teal brand palette, handcrafted burger animation, accessible focus traps, and Tailwind CSS theming
+- **🚀 Static Generation** — Pre-rendered HTML for instant loads and zero JavaScript overhead on content pages
+- **♿ Accessible** — ARIA labels, keyboard navigation, skip-to-content link, focus trap in mobile menu, semantic HTML
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | [Astro 6](https://astro.build) — static site generation |
+| Styling | [Tailwind CSS 4](https://tailwindcss.com) — utility-first CSS |
+| Typography | [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) — prose styling |
+| Images | [Sharp](https://sharp.pixelplumbing.com/) — image optimization |
+| Sitemap | [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/) — auto-generated |
+| Content | [Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) — Markdown + type-safe queries |
+| TypeScript | Strict mode throughout |
+
+## 🚀 Quick Start
 
 ```bash
-# Development
+# Clone the repository
+git clone https://github.com/Terrastories/terrastories-website.git
+cd terrastories-website
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 
 # Production build
 npm run build
 
-# The build outputs to dist/ (not tracked in git)
+# Preview production build locally
+npm run preview
 ```
 
-## Deployment
+The dev server runs at `http://localhost:4321`. Content hot-reloads on save.
 
-Built for Cloudflare Pages:
-1. `npm run build` produces static files in `dist/`
-2. Deploy `dist/` to Cloudflare Pages
-3. Sitemap auto-generated at `/sitemap-index.xml`
+## 📁 Project Structure
+
+```
+terrastories-website/
+├── src/
+│   ├── components/       # Header, Footer, SEO, PostCard, PartnerLogo, PeopleGrid
+│   ├── layouts/          # BaseLayout, PageLayout, PostLayout
+│   ├── pages/            # index.astro, community.astro, 404.astro, [slug].astro
+│   ├── content/
+│   │   ├── pages/        # 11 Markdown content pages
+│   │   └── posts/        # 33 Markdown blog posts
+│   ├── data/
+│   │   └── nav.ts        # Navigation, sponsors, partners, social links
+│   ├── styles/
+│   │   └── global.css    # Tailwind theme, brand colors, typography
+│   └── utils/            # Category helpers, base path utility
+├── public/
+│   └── media/            # 160+ images, documents, favicons
+├── scripts/              # Content migration & image processing utilities
+├── astro.config.mjs      # Astro configuration
+├── package.json          # Dependencies and scripts
+└── README.md
+```
+
+## 📊 Content Overview
+
+- **11 Pages**: Home, How It Works, Community, Contact Us, Contribute, Demo, Funding Needs, Mailing List, Maintenance, Sponsor Us, Try Terrastories
+- **33 Blog Posts** across 3 categories: User Stories (18), Dev Stories (12), Uncategorized (5)
+- **160+ Media Assets**: Optimized images, PDF guides, and research documents
+- **Full SEO**: Per-page titles, descriptions, OG images, canonical URLs, JSON-LD structured data
+
+## 🚢 Deployment
+
+### Production (terrastories.app)
+Deployed to Cloudflare Pages. Every push to `main` triggers a production build:
+
+```bash
+npm run build   # Outputs to dist/
+```
+
+### GitHub Pages Preview
+A subpath preview is deployed at `https://terrastories.github.io/terrastories-website` via GitHub Actions workflow:
+
+```bash
+ASTRO_BASE=/terrastories-website npm run build
+```
+
+The `ASTRO_BASE` environment variable activates subpath support — all asset URLs, images, and links are automatically prefixed with `/terrastories-website/` while canonical URLs remain set to `terrastories.app`.
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how:
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+See our [Contribute page](https://terrastories.app/contribute) for ways to get involved beyond code.
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 🙏 Acknowledgments
+
+Terrastories is sponsored by:
+
+- **[Awana Digital](https://awana.digital)** — Design, mapping, and technology for social and environmental justice
+
+With special thanks to our partners:
+
+- Earth Defenders Toolkit · Amazon Conservation Team · Ruby for Good · Mapbox · ATALM · Tech Matters · Ohneganos · Indigenous Mapping Workshop
+
+---
+
+<div align="center">
+
+Built with ❤️ by the Terrastories community. [Become a partner →](https://terrastories.app/sponsor-us)
+
+</div>
