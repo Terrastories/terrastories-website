@@ -9,6 +9,7 @@ export interface NavItem {
   label: string;
   href: string;
   children?: NavChild[];
+  icon?: 'github';
 }
 
 export const navItems: NavItem[] = [
@@ -41,7 +42,7 @@ export const navItems: NavItem[] = [
       { label: 'Funding Needs', href: '/sponsor-us#funding' },
     ],
   },
-  { label: 'GitHub', href: 'https://github.com/Terrastories/terrastories' },
+  { label: 'GitHub', href: 'https://github.com/Terrastories/terrastories', icon: 'github' },
 ];
 
 export const exploreHref = 'https://explore.terrastories.app';
