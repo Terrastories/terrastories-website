@@ -16,7 +16,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     </a>
 
     <!-- Right group: desktop nav links + CTA, flush right -->
-    <div class="hidden lg:flex items-stretch">
+    <div class="hidden xl:flex items-stretch">
       <!-- Desktop nav links -->
       <div class="flex items-center gap-x-3 lg:gap-x-5 text-[13px] lg:text-sm font-medium text-black lg:flex-nowrap">
       {navItems.map((item) => (
@@ -67,11 +67,12 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
         Explore Terrastories
       </a>
     </div>
+    </div>
 
     <!-- Burger button (mobile) -->
     <button
       id="menu-toggle"
-      class="menu-toggle relative z-50 flex h-10 w-10 items-center justify-center rounded-none bg-orange text-white lg:hidden shrink-0 self-center"
+      class="menu-toggle relative z-50 flex h-10 w-10 items-center justify-center rounded-none bg-orange text-white xl:hidden shrink-0 self-center"
       aria-label="Open menu"
       aria-expanded="false"
     >
@@ -84,10 +85,10 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   </nav>
 
   <!-- Mobile overlay -->
-  <div id="menu-overlay" class="pointer-events-none fixed inset-0 z-40 bg-black/0 backdrop-blur-none transition-all duration-500 ease-in-out lg:hidden"></div>
+  <div id="menu-overlay" class="pointer-events-none fixed inset-0 z-40 bg-black/0 backdrop-blur-none transition-all duration-500 ease-in-out xl:hidden"></div>
 
   <!-- Mobile slide-in panel -->
-  <div id="menu-panel" class="fixed right-0 top-0 z-40 h-full w-72 translate-x-full transform bg-white shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] lg:hidden" role="dialog" aria-label="Navigation menu">
+  <div id="menu-panel" class="fixed right-0 top-0 z-40 h-full w-72 translate-x-full transform bg-white shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] xl:hidden" role="dialog" aria-label="Navigation menu">
     <div class="flex flex-col px-6 pt-20 pb-8 overflow-y-auto max-h-full">
       <div class="flex flex-col gap-1">
         {navItems.map((item) => (
