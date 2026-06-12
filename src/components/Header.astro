@@ -9,19 +9,21 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
     Skip to content
   </a>
 
-  <nav class="mx-auto flex max-w-7xl items-stretch justify-between h-[74px] px-6" aria-label="Main navigation">
+  <nav class="flex w-full items-stretch justify-between h-[74px]" aria-label="Main navigation">
     <!-- Logo -->
-    <a href={basePathOf('/')} aria-label="Terrastories home" class="flex items-center shrink-0">
+    <a href={basePathOf('/')} aria-label="Terrastories home" class="flex items-center shrink-0 pl-6">
       <img src={basePathOf('/media/images/nav-logo.png')} alt="Terrastories" class="w-[200px] md:w-[300px] h-auto" />
     </a>
 
-    <!-- Desktop nav links (centered between logo and CTA) -->
-    <div class="hidden items-center justify-center gap-x-3 lg:gap-x-5 text-[13px] lg:text-sm font-medium text-body lg:flex lg:flex-nowrap flex-1">
+    <!-- Right group: desktop nav links + CTA, flush right -->
+    <div class="hidden lg:flex items-stretch">
+      <!-- Desktop nav links -->
+      <div class="flex items-center gap-x-3 lg:gap-x-5 text-[13px] lg:text-sm font-medium text-black lg:flex-nowrap">
       {navItems.map((item) => (
         <div class="group relative shrink-0">
           <a
             class:list={[
-              'hover:text-orange transition-colors inline-flex items-center gap-1 whitespace-nowrap',
+              'text-black hover:text-orange transition-colors inline-flex items-center gap-0.5 whitespace-nowrap',
               currentPath === item.href ? 'text-orange' : '',
             ]}
             href={isExternal(item.href) ? item.href : basePathOf(item.href)}
@@ -54,17 +56,17 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
           )}
         </div>
       ))}
-    </div>
 
-    <!-- CTA: full-height orange block, right side -->
-    <a
-      class="hidden items-center justify-center bg-orange text-white font-semibold text-sm px-6 lg:px-8 shrink-0 lg:flex hover:bg-gold transition-colors"
-      href={exploreHref}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Explore Terrastories
-    </a>
+      <!-- CTA: full-height orange block, flush right -->
+      <a
+        class="flex h-full items-center justify-center bg-orange text-white font-semibold text-sm px-6 lg:px-8 shrink-0 hover:bg-gold transition-colors"
+        href={exploreHref}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Explore Terrastories
+      </a>
+    </div>
 
     <!-- Burger button (mobile) -->
     <button
