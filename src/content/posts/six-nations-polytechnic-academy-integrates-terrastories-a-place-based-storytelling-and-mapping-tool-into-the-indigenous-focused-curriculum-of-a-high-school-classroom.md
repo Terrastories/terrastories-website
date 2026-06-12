@@ -4,7 +4,7 @@ author_name: rkemper
 categories:
 - User Stories
 date: 2022-07-21 14:49:04+00:00
-excerpt: 'Crossposted from Digital Democracy blog Meet Chris Martin and Kali Anevich,
+excerpt: 'Crossposted from Awana Digital blog Meet Chris Martin and Kali Anevich,
   two educators at Six Nations Polytechnic (SNP), a Haudenosaunee-governed Indigenous
   educational institute on Six Nations of the Grand River First Nation! Chris is a
   Water Project Lead at the SNP’s STEAM Academy for high school students, and Kali
@@ -27,10 +27,10 @@ type: post
 ---
 
 
-Crossposted from [Digital Democracy blog](https://wp.digital-democracy.org/six-nations-polytechnic-academy-integrates-terrastories-a-place-based-storytelling-and-mapping-tool-into-the-indigenous-focused-curriculum-of-a-high-school-classroom/)
+Crossposted from [Awana Digital blog](https://awana.digital/six-nations-polytechnic-academy-integrates-terrastories-a-place-based-storytelling-and-mapping-tool-into-the-indigenous-focused-curriculum-of-a-high-school-classroom/)
 
 Meet Chris Martin and Kali Anevich, two educators at Six Nations Polytechnic (SNP), a Haudenosaunee-governed Indigenous educational institute on Six Nations of the Grand River First Nation! Chris is a Water Project Lead at the SNP’s STEAM Academy for high school students, and Kali is a Geography and Environmental Science Teacher, also with the STEAM Academy.
-![](https://wp.digital-democracy.org/wp-content/uploads/2022/07/Chris-and-Kali-1024x433.png)
+![](https://awana.digital/wp-content/uploads/2022/07/Chris-and-Kali-1024x433.png)
 
 Since 2021, Chris and Kali have been involved in a very creative and inspiring use of [Terrastories](/) by directly integrating the tool into the secondary school curriculum at the STEAM Academy. We caught up with Chris and Kali after the Spring semester to learn more about how they’re working with Terrastories.
 

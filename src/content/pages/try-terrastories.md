@@ -4,7 +4,7 @@ author_name: rkemper
 canonical: /try-terrastories
 date: 2021-02-19 22:03:30+00:00
 excerpt: TRY TERRASTORIES Are you interested in using Terrastories online for your
-  community, or want to test it out? Digital Democracy maintains an online Terrastories
+  community, or want to test it out? Awana Digital maintains an online Terrastories
   server at https://our.terrastories.app where they can set you up with a community
   account. Please get in touch with us to get access to our Terrastories server.
 link: /try-terrastories
@@ -24,5 +24,5 @@ type: page
 TRY TERRASTORIES
 ![Capture](/media/images/494_Capture.jpg "Capture")
 Are you interested in using Terrastories online for your community, or want to test it out?
-Digital Democracy maintains an online Terrastories server at <https://our.terrastories.app> where they can set you up with a community account.
+Awana Digital maintains an online Terrastories server at <https://our.terrastories.app> where they can set you up with a community account.
 **Please [get in touch](/contact-us) with us to get access to our Terrastories server.**

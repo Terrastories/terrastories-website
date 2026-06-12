@@ -5,7 +5,7 @@ categories:
 - User Stories
 date: 2023-09-23 19:44:09+00:00
 excerpt: This network of people and organizations met together in the Ecuadorian Amazon
-  in May 2023, during the Earth Defenders Toolkit Gathering, convened by Digital Democracy.
+  in May 2023, during the Earth Defenders Toolkit Gathering, convened by Awana Digital.
   In this video, partners and allies from Waorani, Siona, Wayana and Mohawk territories,
   share their experiences with using these tools and the inspiring connections that
   were nourished at the Gathering.
@@ -32,6 +32,6 @@ The EDT contains profiles of tools that could be helpful and use cases describin
 
 However the toolkit is not simply about the tools: the experiences and co-creation processes behind each technology integrate a network of relationships and partnerships that sustain it. 
 
-This network of people and organizations met together in the Ecuadorian Amazon in May 2023, during the [Earth Defenders Toolkit Gathering](https://www.youtube.com/watch?v=eTKXusKqBYs), convened by Digital Democracy. In this video, partners and allies from Waorani, Siona, Wayana and Mohawk territories, share their experiences with using these tools and the inspiring connections that were nourished at the Gathering.
+This network of people and organizations met together in the Ecuadorian Amazon in May 2023, during the [Earth Defenders Toolkit Gathering](https://www.youtube.com/watch?v=eTKXusKqBYs), convened by Awana Digital. In this video, partners and allies from Waorani, Siona, Wayana and Mohawk territories, share their experiences with using these tools and the inspiring connections that were nourished at the Gathering.
 
 Watch the full video[here](https://youtu.be/i2VHSX6rLCg)and visit the [Earth Defenders Toolkit website](https://www.earthdefenderstoolkit.com/) to explore the tools and stories behind them!

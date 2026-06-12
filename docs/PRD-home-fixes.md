@@ -29,7 +29,7 @@ UN SDG images and hero images have empty `alt` attributes.
 **Fix:** Add meaningful alt text to all images in the restructured content.
 
 ### Issue 4: Stray invisible characters and extra spaces
-Zero-width joiner (`\u200d`) before "Digital Democracy", double space before "Explore Terrastories".
+Zero-width joiner (`\u200d`) before "Awana Digital", double space before "Explore Terrastories".
 **Fix:** Clean these from the markdown content and use proper text in the template.
 
 ### Issue 5: Duplicate "Latest Stories" content

@@ -19,4 +19,4 @@ type: page
 
 Terrastories is a free and open-source (FOSS) application and we are looking forward to working with communities across the world in helping them use Terrastories, [as recently undertaken in Ontario, Canada](/blog/from-the-amazon-to-the-great-lakes-sharing-knowledge-and-mapping-oral-histories-with-first-nations-communities-in-canada).
 
-Currently, Terrastories is being maintained by [Digital Democracy](https://www.digital-democracy.org/), in partnership with a team of volunteer stewards.
+Currently, Terrastories is being maintained by [Awana Digital](https://awana.digital/), in partnership with a team of volunteer stewards.

@@ -5,7 +5,7 @@ categories:
 - Uncategorized
 - User Stories
 date: 2021-06-30 01:52:32+00:00
-excerpt: Today, Digital Democracy launches the Earth Defenders Toolkit, a collaborative
+excerpt: Today, Awana Digital launches the Earth Defenders Toolkit, a collaborative
   space for earth defenders and their allies.
 featured_image: /media/images/509_Capture.jpg
 featured_image_id: 509
@@ -22,7 +22,7 @@ type: post
 ---
 
 
-Today, Digital Democracy launches the [Earth Defenders Toolkit](https://earthdefenderstoolkit.com/), a collaborative space for earth defenders and their allies. The Toolkit provides a growing collection of resources and training materials for communities on the frontlines of the struggle to defend critical ecosystems around the world, and community networks for users to connect and share their experiences, and was built in collaboration with many of our close partners around the world.
+Today, Awana Digital launches the [Earth Defenders Toolkit](https://earthdefenderstoolkit.com/), a collaborative space for earth defenders and their allies. The Toolkit provides a growing collection of resources and training materials for communities on the frontlines of the struggle to defend critical ecosystems around the world, and community networks for users to connect and share their experiences, and was built in collaboration with many of our close partners around the world.
 
 The goal of Earth Defenders Toolkit is to provide and promote approaches to using technology in a way that supports local autonomy and ownership over tools and data, and reduces reliance on outside support. The website is available in English, French, Portuguese and Spanish, and includes a [community forum](https://forum.earthdefenderstoolkit.com/), [case studies](https://www.earthdefenderstoolkit.com/Community/), an [interactive tool-finder](https://www.earthdefenderstoolkit.com/toolfinder/) and [featured tools](https://www.earthdefenderstoolkit.com/toolkit/).
 

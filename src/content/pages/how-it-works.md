@@ -46,6 +46,6 @@ ACT also recorded a presentation about our methodology and Terrastories at a sid
 
 ## Earth Defenders Toolkit
 
-Terrastories is part of the [Earth Defenders Toolkit](https://earthdefenderstoolkit.com/) developed by Digital Democracy in co-creation with their partners. On July 2021, a practical guide on using Terrastories was published on the Earth Defenders Toolkit website, which is available in multiple languages and in PDF for downloading.
+Terrastories is part of the [Earth Defenders Toolkit](https://earthdefenderstoolkit.com/) developed by Awana Digital in co-creation with their partners. On July 2021, a practical guide on using Terrastories was published on the Earth Defenders Toolkit website, which is available in multiple languages and in PDF for downloading.
 
 [![Earth Defenders Toolkit Terrastories guide](/media/images/509_Capture.jpg)](https://www.earthdefenderstoolkit.com/toolkit/terrastories-a-tool-for-place-based-storytelling/)

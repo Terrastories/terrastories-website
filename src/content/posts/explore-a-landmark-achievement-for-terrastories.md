@@ -46,7 +46,7 @@ However, to guarantee data privacy, we had to implement authentication, which me
 
 This meant that all of the beautiful, inspiring, and fascinating storytelling content that communities had been creating on Terrastories could not be seen by anyone without credentials – even if communities actually wanted to open up their content. 🚪
 
-That is, until now! The [Association of Tribal Archives, Libraries, and Museums](https://atalm.org/) learned about Terrastories and believed in what we were building, and approved a grant to [Digital Democracy](https://www.digital-democracy.org/) to sponsor us to build a pathway for communities to opt-in to sharing some of their content on a new interface, Explore Terrastories.
+That is, until now! The [Association of Tribal Archives, Libraries, and Museums](https://atalm.org/) learned about Terrastories and believed in what we were building, and approved a grant to [Awana Digital](https://awana.digital/) to sponsor us to build a pathway for communities to opt-in to sharing some of their content on a new interface, Explore Terrastories.
 
 There are numerous community projects on Terrastories, but a handful have opted in to share some of their stories, and you can check those out now at <https://explore.terrastories.app> ✨
 
