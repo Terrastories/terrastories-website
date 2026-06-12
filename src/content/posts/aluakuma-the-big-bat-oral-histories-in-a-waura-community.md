@@ -20,8 +20,6 @@ title: 'Aluakumá, the Big Bat: Oral Histories in a Waurá Community'
 type: post
 ---
 
-# Aluakumá, the Big Bat: Oral Histories in a Waurá Community
-
 Working to protect forest and biodiversity, ACT recognizes that, across Amazonia, the natural world is inextricable from the identities and lifeways of the indigenous peoples who live there. The importance of nature to indigenous knowledge and realities makes these people the most suitable to manage and protect their traditionally inhabited lands and forests. So, ACT partners with indigenous groups like the Waurá of Brazil to promote and encourage a practice of conservation that aligns with our partners’ understandings of the world and prioritizes indigenous perspectives. To this end, the wellbeing of the communities with which we partner and the transmission of their knowledge is at the core of our model and practices.
 
 The oral histories project is designed as a tool for our community partners to promote the transmission of indigenous stories, knowledge, and cultural information. In many indigenous societies around the world, oral tradition and storytelling are key practices through which knowledge is passed on to younger generations. Because of the steadily encroaching forces of globalization and modernity, these practices are in many ways disappearing, imposing a high risk of loss of knowledge. This becomes very apparent with the death of indigenous elders, healers, and shamans who take their knowledge to the grave. Over the past few months, many of our partners from the Waurá village of Ulupuene have been forced to confront such loss in the wake of the deaths of several prominent community members.

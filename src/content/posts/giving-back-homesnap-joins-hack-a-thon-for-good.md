@@ -24,8 +24,6 @@ title: 'Giving Back: Homesnap Joins Hack-a-Thon for Good'
 type: post
 ---
 
-# Giving Back: Homesnap Joins Hack-a-Thon for Good
-
 *By Jazz Howington. Originally published on the Homesnap blog [here](https://blog.homesnap.com/homesnap-terrastories-ruby-hack-thon/)*.
 
 ***This blog post was written by Jazz Howington, a User Interface (UI) Designer here at Homesnap. ***

@@ -21,8 +21,6 @@ title: Suriname Community Uses New Open-Source App to Preserve Storytelling Trad
 type: post
 ---
 
-# Suriname Community Uses New Open-Source App to Preserve Storytelling Traditions
-
 The Matawai of Suriname, a community that once felt forgotten by the rest of the world, is breaking ground by using a new open-source geostorytelling app to create an extraordinary repository of traditional knowledge through oral history storytelling. The goal of the work is to ensure that future generations of Matawai will be able to learn about their history, culture, and identity in the way that their people always have: through the words of the elders.
 
 The story of the Matawai is one that begins over three centuries ago, when Suriname stood as a Dutch plantation colony. Rather than endure a cruel and punishing life of captivity on the colony’s coastline plantations, scores of African enslaved peoples took destiny in their own hands and escaped into the dense rainforests of the country’s vast interior. Bands of fugitives fled along the ascending rivers, leading them as far southward as they could. They evaded and battled with Dutch soldiers who sought to recapture them, embarked on raids to liberate others from slavery, and eventually forced the colonial government to sign a peace agreement with them.

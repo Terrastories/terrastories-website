@@ -22,8 +22,6 @@ title: Terrastories “featured tool” page on Earth Defenders Toolkit translat
 type: post
 ---
 
-# Terrastories “featured tool” page on Earth Defenders Toolkit translated to Khmer, Swahili, Thai, and Vietnamese 🗺️
-
 **ដំណឹងល្អ! **
 
 **Habari njema! **

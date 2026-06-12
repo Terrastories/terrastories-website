@@ -25,8 +25,6 @@ title: '2021 Indigenous Mapping Workshop: Mapping your place-based oral historie
 type: post
 ---
 
-# 2021 Indigenous Mapping Workshop: Mapping your place-based oral histories with Terrastories
-
 *Featuring Christopher Martin from the STEAM Academy at Six Nations and Ohneganos Ohnegahdę:gyo.*
 https://www.youtube.com/watch?v=cybEjHDFKAA
 

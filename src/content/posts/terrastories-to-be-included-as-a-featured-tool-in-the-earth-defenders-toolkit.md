@@ -23,8 +23,6 @@ title: Terrastories to be included as a featured tool in the Earth Defenders’
 type: post
 ---
 
-# Terrastories to be included as a featured tool in the Earth Defenders’ Toolkit
-
 Today, [Digital Democracy](https://www.digital-democracy.org/) announced the **[Earth Defenders’ Toolkit](https://earthdefenderstoolkit.com)** (ED Toolkit), a collection of open-source tools and training materials for communities on the frontlines of the struggle to defend critical ecosystems around the world.
 
 **Terrastories will be included in the ED Toolkit as one of the first of three featured tools**, along with Digital Democracy’s [Mapeo](https://mapeo.app/) and Forest Peoples Programme’s [Community Lands](https://communitylands.org/).

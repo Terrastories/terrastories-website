@@ -22,8 +22,6 @@ title: 'Developing Terrastories, for college credit: on building open-source sof
 type: post
 ---
 
-# Developing Terrastories, for college credit: on building open-source software for a summer course at WUSTL
-
 *Meet Lucas, Katherine, and Oliver! They are incoming juniors at Washington University in St. Louis, studying computer science. *
 ![](/media/images/271_Capture.jpg)
 

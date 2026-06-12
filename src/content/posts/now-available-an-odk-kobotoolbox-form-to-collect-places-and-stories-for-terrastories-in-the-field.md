@@ -23,8 +23,6 @@ title: 'Now available: an ODK / KoboToolbox form to collect places and stories f
 type: post
 ---
 
-# Now available: an ODK / KoboToolbox form to collect places and stories for Terrastories in the field
-
 A common question that we get is how to gather data as well as media content for usage in Terrastories, while in the field.
 
 There are a number of ways to do this, including using the methodology described in this [guide by ACT](https://www.amazonteam.org/wp-content/uploads/2019/12/ACT_OralHistories_Guide_2019_ENGLISH.pdf) and by utilizing the [Mapeo Observations to Terrastories Places](https://docs.earthdefenderstoolkit.com/device-usage/bundled-applications/mapeo-data-hub/mapeo-observations-as-terrastories-places) workflow in *Kakawa* (the offline Earth Defenders Toolkit build).

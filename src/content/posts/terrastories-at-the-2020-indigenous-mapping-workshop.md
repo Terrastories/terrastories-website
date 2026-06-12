@@ -22,8 +22,6 @@ title: Terrastories at the 2020 Indigenous Mapping Workshop (November 16)
 type: post
 ---
 
-# Terrastories at the 2020 Indigenous Mapping Workshop (November 16)
-
 We are thrilled to announce that Terrastories will be featured at the [2020 Indigenous Mapping Workshop](https://www.indigenousmaps.com/) (online)! 🎉🎉🎉
 
 On **Monday, December 16 at 3pm EST **we will host a 45 minute technical session on how Terrastories works for attendees of #2020IMW.

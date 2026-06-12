@@ -22,8 +22,6 @@ title: 'Oral Histories: Helping the Kogui Manage their Territory'
 type: post
 ---
 
-# Oral Histories: Helping the Kogui Manage their Territory
-
 Two of ACT’s objectives in our work at Jaba Tañiwashkaka, a coastal sacred site of the indigenous peoples of Colombia’s Sierra Nevada de Santa Marta region, are to increase the territorial management capacity of indigenous leadership and to establish conservation agreements between the local indigenous and non-indigenous communities.
 ![](/media/images/163_Mapa-e1543931080595.jpg)
 

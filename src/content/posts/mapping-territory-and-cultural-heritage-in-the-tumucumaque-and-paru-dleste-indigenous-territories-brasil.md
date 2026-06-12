@@ -24,8 +24,6 @@ title: Mapping Territory and Cultural Heritage in the Tumucumaque and Paru D’L
 type: post
 ---
 
-# Mapping Territory and Cultural Heritage in the Tumucumaque and Paru D’Leste Indigenous Territories, Brasil
-
 *By Luandro Vieira. [Cross-posted from the Digital Democracy blog](https://www.digital-democracy.org/blog/mapping-territory-and-cultural-heritage-in-the-tumucumaque-and-paru-dleste-indigenous-territories-brasil)*.
 
 **Digital Democracy and Iepé, supported by **[**Nia Tero**](https://www.niatero.org/)** and with remote assistance from Rudo Kemper of **[**Conservation Metrics**](https://conservationmetrics.com/)**, recently collaborated on a series of intensive workshops aimed to support the Indigenous communities of the Tumucumaque and Paru D’Leste Indigenous Territories in the heart of the Brazilian Amazon, neighboring Suriname.**

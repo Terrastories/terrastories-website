@@ -25,8 +25,6 @@ title: 'GEO Indigenous Hack4Covid: Terrastories is Preserving History Using Stor
 type: post
 ---
 
-# GEO Indigenous Hack4Covid: Terrastories is Preserving History Using Storytelling and Geo-mapping
-
 *Originally posted on Space in Africa, [here](https://africanews.space/geo-indigenous-hack4covid-terrastories-is-preserving-history-using-storytelling-and-geo/).*
 
 In June 2020, 146 participants from 33 countries participated in the [GEO indigenous Hack4covid event](https://opportunities.africanews.space/teams-from-africa-win-at-geo-indigenous-hack4covid-event/). In this series, we will profile the four winning teams from the contest and their projections.

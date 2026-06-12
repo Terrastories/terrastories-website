@@ -26,8 +26,6 @@ title: Six Nations Polytechnic Academy integrates Terrastories, a place-based st
 type: post
 ---
 
-# Six Nations Polytechnic Academy integrates Terrastories, a place-based storytelling and mapping tool, into the Indigenous-focused curriculum of a high school classroom
-
 Crossposted from [Digital Democracy blog](https://wp.digital-democracy.org/six-nations-polytechnic-academy-integrates-terrastories-a-place-based-storytelling-and-mapping-tool-into-the-indigenous-focused-curriculum-of-a-high-school-classroom/)
 
 *Meet Chris Martin and Kali Anevich, two educators at Six Nations Polytechnic (SNP), a Haudenosaunee-governed Indigenous educational institute on Six Nations of the Grand River First Nation! Chris is a Water Project Lead at the SNP’s STEAM Academy for high school students, and Kali is a Geography and Environmental Science Teacher, also with the STEAM Academy.*

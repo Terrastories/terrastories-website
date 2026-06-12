@@ -21,8 +21,6 @@ title: Explore Terrastories! Local stories for a wider public
 type: post
 ---
 
-# Explore Terrastories! Local stories for a wider public
-
 *By Maria Alvarez for the [Earth Defenders toolkit blog](https://www.earthdefenderstoolkit.com/explore-terrastories-local-stories-for-a-wider-public/) (cross-posted)*
 
 Communities around the world have been using [Terrastories](/) as a digital tool to document stories in video or audio forms while connecting them to places on a map. These efforts are often linked to deep, local, and internal community processes such as those of language revitalization, [archiving](https://www.earthdefenderstoolkit.com/toolkit/terrastories-a-tool-for-place-based-storytelling/), and land defense. [***Explore Terrastories***](https://explore.terrastories.app/)**, a freshly released feature, **weaves a new bridge between those local processes and a broader public, with access to specific place-based stories that communities have decided to share online.

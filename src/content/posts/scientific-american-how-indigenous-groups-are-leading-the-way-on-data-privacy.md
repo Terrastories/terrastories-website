@@ -22,8 +22,6 @@ title: '[Scientific American] How Indigenous Groups Are Leading the Way on Data 
 type: post
 ---
 
-# [Scientific American] How Indigenous Groups Are Leading the Way on Data Privacy
-
 Even as Indigenous communities find increasingly helpful uses for digital technology, many worry that outside interests could take over their data and profit from it, much like colonial powers plundered their physical homelands. But now some Indigenous groups are reclaiming control by developing their own data protection technologies—work that demonstrates how ordinary people have the power to sidestep the [tech companies](https://www.scientificamerican.com/article/fragmented-u-s-privacy-rules-leave-large-data-loopholes-for-facebook-and-others/) and [data brokers](https://www.scientificamerican.com/article/yes-phones-can-reveal-if-someone-gets-an-abortion/) who hold and sell the [most intimate details](https://www.scientificamerican.com/article/mental-health-apps-are-not-keeping-your-data-safe/) of their identities, lives and cultures.
 
 When governments, academic institutions or other external organizations gather information from Indigenous communities, they can withhold access to it or use it for other purposes without the consent of these communities.

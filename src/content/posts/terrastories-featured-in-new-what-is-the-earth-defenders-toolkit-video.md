@@ -25,8 +25,6 @@ title: Terrastories featured in new “What is the Earth Defenders Toolkit”
 type: post
 ---
 
-# Terrastories featured in new “What is the Earth Defenders Toolkit” video!
-
 **At a time when threats to Indigenous Peoples and their territories are increasing, creating spaces where they can share their stories, skills, and experiences is a powerful response and act of solidarity.** This was the intention behind [Earth Defenders Toolkit (EDT)](https://www.earthdefenderstoolkit.com/): a platform and network to support, articulate, and amplify the work of frontline environmental defenders across the world.
 
 The EDT contains profiles of tools that could be helpful and use cases describing how groups are using them to defend their territories. Three tools are currently highlighted: [Mapeo](https://docs.mapeo.app/overview/about-mapeo) for mapping and monitoring, [Terrastories](https://explore.terrastories.app/) for recording and sharing stories, and [Āhau](https://ahau.io/) an application from Aotearoa (New Zealand) for recording genealogies and cultural archiving, but there are plans to increase the number of tools profiled and usecases described.

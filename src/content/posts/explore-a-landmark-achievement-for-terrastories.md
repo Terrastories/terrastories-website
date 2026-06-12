@@ -21,8 +21,6 @@ title: 'Explore: a landmark achievement for Terrastories'
 type: post
 ---
 
-# Explore: a landmark achievement for Terrastories
-
 *By Rudo Kemper*
 
 This month, Terrastories achieved a landmark that I’m really excited about!

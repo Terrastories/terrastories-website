@@ -23,8 +23,6 @@ title: 'Greater than Code podcast #246: Digital Democracy and Indigenous Storyte
 type: post
 ---
 
-# Greater than Code podcast #246: Digital Democracy and Indigenous Storytelling with Rudo Kemper
-
 On this episode, [@rudokemper](https://twitter.com/rudokemper) of [@DigiDem](https://twitter.com/DigiDem) talks about leading the indigenous-requested and indigenous-led open source project, [@TerrastoriesApp](https://twitter.com/TerrastoriesApp), which helps people capture and record oral history so that it is preserved and not lost over time.
 
 <https://www.greaterthancode.com/digital-democracy-and-indigenous-storytelling>

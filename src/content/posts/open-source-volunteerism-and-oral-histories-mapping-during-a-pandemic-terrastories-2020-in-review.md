@@ -23,8 +23,6 @@ title: 'Open-source volunteerism and oral histories mapping, during a pandemic: 
 type: post
 ---
 
-# Open-source volunteerism and oral histories mapping, during a pandemic: Terrastories 2020 in review 🌏💬
-
 ---
 
 Needless to say, it’s been a crazy year, and literally nothing went according to plan.

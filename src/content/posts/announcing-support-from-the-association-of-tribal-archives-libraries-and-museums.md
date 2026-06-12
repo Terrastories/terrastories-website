@@ -24,8 +24,6 @@ title: Announcing support from the Association of Tribal Archives, Libraries, an
 type: post
 ---
 
-# Announcing support from the Association of Tribal Archives, Libraries, and Museums
-
 *Cross-posted from Digital Democracy’s [blog](https://wp.digital-democracy.org/announcing-support-from-the-association-of-tribal-archives-libraries-and-museums/).*
 
 We are very pleased to announce that we have received a $50,000 grant from The [Association of Tribal Archives, Libraries, and Museums (ATALM)](https://sfy.gxm.mybluehost.me/node/534) to support the mapping of Dakota traditional knowledge and oral histories by the Sisseton Wahpeton Oyate (SWO) of the Lake Traverse Reservation using the app [Terrastories](/).

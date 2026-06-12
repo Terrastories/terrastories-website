@@ -26,8 +26,6 @@ title: 'Help us create StellarStories: community storytelling about the cosmos'
 type: post
 ---
 
-# Help us create StellarStories: community storytelling about the cosmos
-
 We humans have always been fascinated by, and in awe of the sublime celestial bodies that surface above our heads every day when the skies turn dark. Since time immemorial, our ancestors have tried to make sense of the mysteries of the vast galaxy, and our position within it. Numerous cultures across the world have their own cosmologies about the stars, planets, constellations, galaxies, and other stellar apparitions. In contemporary times, although the scientific field of astronomy has enabled us to obtain a deep understanding of the origins and physical properties of the universe, the rich mythologies of the stars as gifted to us by the ancient Greeks continues to enthrall us as we gaze upwards to the night sky. However, the Greeks were hardly the only culture to articulate a rich tapestry of stories about the stars; Indigenous communities the world over have their own storytelling traditions about the cosmos and constellations, which may well be some of the most ancient oral histories that our species continues to pass along to younger generations, and therefore comprise an invaluable source of our shared intangible cultural heritage. Yet, these stories are hardly known or documented, and are at high risk of being lost as oral history storytelling traditions are at risk of disappearing due to acculturation and other pressures, along with increased light pollution.
 
 To prevent this from happening, we at Digital Democracy and the Terrastories stewards team are proposing ***StellarStories***, which represents both a technological intervention and a call to action.

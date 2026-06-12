@@ -23,8 +23,6 @@ title: 'From the Amazon to the Great Lakes: sharing knowledge with First Nations
 type: post
 ---
 
-# From the Amazon to the Great Lakes: sharing knowledge with First Nations communities in Canada
-
 For many communities across the world, like the indigenous
 communities of the Americas, oral history storytelling is a cultural tradition
 imbued with traditional knowledge and associated with practices and values
