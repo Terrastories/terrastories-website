@@ -25,7 +25,7 @@ type: post
 ---
 
 
-Cross-posted from Awana Digital's [blog](https://awana.digital/announcing-support-from-the-association-of-tribal-archives-libraries-and-museums/).
+Cross-posted from Awana Digital's [blog](https://awana.digital/blog/announcing-support-from-the-association-of-tribal-archives-libraries-and-museums/).
 
 We are very pleased to announce that we have received a $50,000 grant from The [Association of Tribal Archives, Libraries, and Museums (ATALM)](https://sfy.gxm.mybluehost.me/node/534) to support the mapping of Dakota traditional knowledge and oral histories by the Sisseton Wahpeton Oyate (SWO) of the Lake Traverse Reservation using the app [Terrastories](/).
 

@@ -41,6 +41,7 @@ export const navItems: NavItem[] = [
       { label: 'Funding Needs', href: '/sponsor-us#funding' },
     ],
   },
+  { label: 'GitHub', href: 'https://github.com/Terrastories/terrastories' },
 ];
 
 export const exploreHref = 'https://explore.terrastories.app';
