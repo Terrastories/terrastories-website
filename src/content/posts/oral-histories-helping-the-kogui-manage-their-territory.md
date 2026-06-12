@@ -22,6 +22,7 @@ title: 'Oral Histories: Helping the Kogui Manage their Territory'
 type: post
 ---
 
+
 Two of ACT’s objectives in our work at Jaba Tañiwashkaka, a coastal sacred site of the indigenous peoples of Colombia’s Sierra Nevada de Santa Marta region, are to increase the territorial management capacity of indigenous leadership and to establish conservation agreements between the local indigenous and non-indigenous communities.
 ![](/media/images/163_Mapa-e1543931080595.jpg)
 
@@ -32,7 +33,7 @@ In contexts like the Sierra Nevada de Santa Marta—where the recovery of ancest
 
 Brian Hettler, ACT’s GIS & New Technologies Manager conducts training on oral histories equipment
 
-The sacred site’s indigenous team has been trained in the use of georeferencing applications, enabling them to increase their knowledge of their territory. Linking the capture of cartographic information with the **[Terrastories oral histories mapping application](/)** developed by ACT in partnership with a team of volunteer developers broadens the scope of maps as well as the potential for describing the territory in multiple dimensions.
+The sacred site’s indigenous team has been trained in the use of georeferencing applications, enabling them to increase their knowledge of their territory. Linking the capture of cartographic information with the [Terrastories oral histories mapping application](/) developed by ACT in partnership with a team of volunteer developers broadens the scope of maps as well as the potential for describing the territory in multiple dimensions.
 
 At Jaba Tañiwashkaka, the sustainability of the natural and cultural recovery process depends on the recognition of and respect for the sacred site by the non-indigenous population and local knowledge of area and community history.
 ![](/media/images/165_Juana2-768x576-1.jpg)

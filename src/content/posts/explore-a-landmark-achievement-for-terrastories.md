@@ -21,14 +21,15 @@ title: 'Explore: a landmark achievement for Terrastories'
 type: post
 ---
 
-*By Rudo Kemper*
+
+By Rudo Kemper
 
 This month, Terrastories achieved a landmark that I’m really excited about!
 
-For the first time ever, using a new feature called **Explore Terrastories**, some of the content that communities have been creating on Terrastories can be explored freely without needing to log in.
+For the first time ever, using a new feature called Explore Terrastories, some of the content that communities have been creating on Terrastories can be explored freely without needing to log in.
 ![](/media/images/715_Screenshot-from-2023-10-21-11-15-11.jpg)
 
-*[Wayana (Suriname)](https://explore.terrastories.app/community/wayana)*
+[Wayana (Suriname)](https://explore.terrastories.app/community/wayana)
 
 Data sovereignty and privacy have been cornerstones of the Terrastories architecture from the very beginning. Back in 2018, we decided to build an open-source application where users are in complete control of deciding who has access to their story map data. 🔐
 
@@ -39,25 +40,25 @@ But the Indigenous community users of Terrastories have always asked for an onli
 The pandemic increased the demand for an online version, so with generous support from [Tech Matters](https://techmatters.org/) we built out multi-instance architecture where many communities can use one server, but still keep their data private and secure. We also launched an online production server. 🌐
 ![](/media/images/716_Screenshot-from-2023-10-21-11-15-11-1.jpg)
 
-*[Ohneganos (Canada)](https://explore.terrastories.app/community/ohneganos)*
+[Ohneganos (Canada)](https://explore.terrastories.app/community/ohneganos)
 
 However, to guarantee data privacy, we had to implement authentication, which meant that all community data on the online server was only accessible to community members with credentials. 🗝️
 
-This meant that all of the beautiful, inspiring, and fascinating storytelling content that communities had been creating on Terrastories could not be seen by anyone without credentials – even if communities actually *wanted* to open up their content. 🚪
+This meant that all of the beautiful, inspiring, and fascinating storytelling content that communities had been creating on Terrastories could not be seen by anyone without credentials – even if communities actually wanted to open up their content. 🚪
 
 That is, until now! The [Association of Tribal Archives, Libraries, and Museums](https://atalm.org/) learned about Terrastories and believed in what we were building, and approved a grant to [Digital Democracy](https://www.digital-democracy.org/) to sponsor us to build a pathway for communities to opt-in to sharing some of their content on a new interface, Explore Terrastories.
 
-There are numerous community projects on Terrastories, but a handful have opted in to share some of their stories, and you can check those out now at **<https://explore.terrastories.app>** ✨
+There are numerous community projects on Terrastories, but a handful have opted in to share some of their stories, and you can check those out now at <https://explore.terrastories.app> ✨
 
 There are oral histories and drone footage from the Wayana in Suriname, hand drawings of Apalai cosmological beings in Brazil, cultural stories and ecological data from the Haudenosaunee in Canada, and footage from a creative Chinese diaspora storytelling project. It’s amazing!
 [![](/media/images/714_Screenshot-from-2023-10-21-11-22-17.jpg)](https://explore.terrastories.app/community/jingweis_journey)
 
-*[Jingwei’s Journey](https://explore.terrastories.app/community/jingweis_journey)*
+[Jingwei’s Journey](https://explore.terrastories.app/community/jingweis_journey)
 
 ![](/media/images/718_Screenshot-from-2023-10-21-11-11-33.jpg)
 
-*[Tumucumaque (Brazil)](https://explore.terrastories.app/community/tumucumaque)*
+[Tumucumaque (Brazil)](https://explore.terrastories.app/community/tumucumaque)
 
 Terrastories being a scrappy, barely funded, mostly volunteer (with 91 contributors on Github) open-source project, I couldn’t be more proud and excited that people finally get to see the application in action. If you’ve made it this far and have checked out Terrastories, let us know what you think of the new interface! We are an open project and welcome ideas, and better yet, contributors 🙂
 
-***If you want to try out Terrastories, you can request access to the online server or spin it up yourself! More information on that can be found [in our documentation](https://docs.terrastories.app/).***
+If you want to try out Terrastories, you can request access to the online server or spin it up yourself! More information on that can be found [in our documentation](https://docs.terrastories.app/).

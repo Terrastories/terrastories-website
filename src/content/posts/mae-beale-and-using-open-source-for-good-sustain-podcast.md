@@ -22,7 +22,8 @@ title: Mae Beale and Using Open Source for Good (Sustain Podcast)
 type: post
 ---
 
-*Originally posted on Sustain, [here](https://podcast.sustainoss.org/81).*
+
+Originally posted on Sustain, [here](https://podcast.sustainoss.org/81).
 
 Sustain brings together practitioners, sustainers, funders, researchers and maintainers of the open source ecosystem. We have conversations about the health and sustainability of the open source community. We learn about the ins and outs of what ‘open source’ entails in the real world. Open source means so much more than a license; we’re interested in talking about how to make sure that the culture of open source continues, grows, and ultimately, sustains itself.
 

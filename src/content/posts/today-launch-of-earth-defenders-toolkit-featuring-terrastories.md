@@ -21,10 +21,11 @@ title: 'Today: Launch of Earth Defenders Toolkit (featuring Terrastories!)'
 type: post
 ---
 
+
 Today, Digital Democracy launches the [Earth Defenders Toolkit](https://earthdefenderstoolkit.com/), a collaborative space for earth defenders and their allies. The Toolkit provides a growing collection of resources and training materials for communities on the frontlines of the struggle to defend critical ecosystems around the world, and community networks for users to connect and share their experiences, and was built in collaboration with many of our close partners around the world.
 
 The goal of Earth Defenders Toolkit is to provide and promote approaches to using technology in a way that supports local autonomy and ownership over tools and data, and reduces reliance on outside support. The website is available in English, French, Portuguese and Spanish, and includes a [community forum](https://forum.earthdefenderstoolkit.com/), [case studies](https://www.earthdefenderstoolkit.com/Community/), an [interactive tool-finder](https://www.earthdefenderstoolkit.com/toolfinder/) and [featured tools](https://www.earthdefenderstoolkit.com/toolkit/).
 
-Terrastories is featured in the Earth Defenders Toolkit as one of the **featured tools**, as well as in the **case study on the Matawai taking action to map their oral histories**.
+Terrastories is featured in the Earth Defenders Toolkit as one of the featured tools, as well as in the case study on the Matawai taking action to map their oral histories.
 
 #### Check it out at <http://earthdefenderstoolkit.com/>

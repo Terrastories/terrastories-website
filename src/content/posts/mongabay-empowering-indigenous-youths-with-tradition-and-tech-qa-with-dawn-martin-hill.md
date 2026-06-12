@@ -26,9 +26,10 @@ title: '(Mongabay) Empowering Indigenous youths with tradition and tech: Q&A
 type: post
 ---
 
-- *Dawn Martin-Hill, a professor at McMaster University, introduced Terrastories, a geo-based storytelling app, to the Haudenosaunee people of the Great Lakes to help them protect their land and water as well as safeguard invaluable knowledge.*
-- *A main goal of her work is to empower and support Indigenous youths, and she has also helped create a virtual reality app and adapt a mental health app for Indigenous youth to connect with their land and articulate trauma.*
-- *Martin-Hill advocates for the integration of Indigenous knowledge into Western science and says anyone who is concerned with the climate crisis should support Indigenous people.*
+
+- Dawn Martin-Hill, a professor at McMaster University, introduced Terrastories, a geo-based storytelling app, to the Haudenosaunee people of the Great Lakes to help them protect their land and water as well as safeguard invaluable knowledge.
+- A main goal of her work is to empower and support Indigenous youths, and she has also helped create a virtual reality app and adapt a mental health app for Indigenous youth to connect with their land and articulate trauma.
+- Martin-Hill advocates for the integration of Indigenous knowledge into Western science and says anyone who is concerned with the climate crisis should support Indigenous people.
 
 To the Haudenosaunee, water is life. In their creation story, deep water covered the Earth, until a woman, known as Sky Woman, fell from an island in the sky. Birds helped her land on a turtle’s back, while other animals brought mud and patted it down until eventually Turtle Island, or North America, was created.
 

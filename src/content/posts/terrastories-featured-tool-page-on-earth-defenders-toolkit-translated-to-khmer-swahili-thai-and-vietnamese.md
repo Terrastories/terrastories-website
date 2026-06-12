@@ -22,13 +22,14 @@ title: Terrastories “featured tool” page on Earth Defenders Toolkit translat
 type: post
 ---
 
-**ដំណឹងល្អ! **
 
-**Habari njema! **
+ដំណឹងល្អ! 
 
-**ข่าวดี! **
+Habari njema! 
 
-**Tin tốt!**
+ข่าวดี! 
+
+Tin tốt!
 
 The [Earth Defenders Toolkit](https://earthdefenderstoolkit.com/) has been translated into Khmer, Swahili, Thai, and Vietnamese, in its entirety. The Terrastories featured tool page has now been translated into these languages, in addition to English, Spanish, Portuguese, and French.
 

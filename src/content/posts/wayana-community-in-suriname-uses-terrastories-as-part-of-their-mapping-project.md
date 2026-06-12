@@ -25,7 +25,8 @@ title: Wayana community in Suriname uses Terrastories as part of their mapping p
 type: post
 ---
 
-*Cross-posted and translated from De Ware Tijd, a Surinamese newspaper.* *[Original link](https://dwtonline.com/mulokot-wayanagebied-beslaat-15-procent-van-suriname/).*
+
+Cross-posted and translated from De Ware Tijd, a Surinamese newspaper. [Original link](https://dwtonline.com/mulokot-wayanagebied-beslaat-15-procent-van-suriname/).
 
 ## Mulokot: Wayana area covers 15 percent of Suriname
 
