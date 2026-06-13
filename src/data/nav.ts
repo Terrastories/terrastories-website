@@ -18,7 +18,7 @@ export const navItems: NavItem[] = [
     href: '/how-it-works',
     children: [
       { label: 'Videos', href: '/how-it-works#videos' },
-      { label: 'Methodology', href: '/how-it-works#methodology' },
+      { label: 'Methodology', href: '/how-it-works#mapping-oral-histories' },
       { label: 'Practical Guide', href: '/how-it-works#edt' },
       { label: 'Try Terrastories', href: '/try-terrastories' },
     ],
@@ -26,14 +26,8 @@ export const navItems: NavItem[] = [
   { label: 'Documentation', href: 'https://docs.terrastories.app' },
   { label: 'Demo', href: '/demo' },
   { label: 'User Stories', href: '/category/user-stories' },
-  {
-    label: 'Developer Community',
-    href: '/community',
-    children: [
-      { label: 'Dev Stories', href: '/category/dev-stories' },
-      { label: 'Contribute', href: '/contribute' },
-    ],
-  },
+  { label: 'Dev Stories', href: '/category/dev-stories' },
+  { label: 'Contribute', href: '/contribute' },
   { label: 'Contact Us', href: '/contact-us' },
   {
     label: 'Sponsor Us',
