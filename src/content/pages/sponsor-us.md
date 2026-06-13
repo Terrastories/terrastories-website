@@ -14,17 +14,13 @@ title: Sponsor Us
 type: page
 ---
 
-Terrastories is an almost entirely volunteer-run project, and as of December 2022, all of our resources (like our [online Terrastories server](/try-terrastories)) are currently built on free tier services, or paid for through small grants.
+Terrastories is still an almost entirely volunteer-run project, and as of June 2026, all of our resources (like our [online Terrastories server](/try-terrastories)) are currently built on free tier services, or paid for through small grants.
 
-As we are receiving requests to use Terrastories more frequently, and looking to scale Terrastories as a free resource for any community in the world to use, we will be needing support to keep the lights on, and the online server running.
+As we are frequently receiving requests to use Terrastories, and looking to scale Terrastories as a free resource for any community in the world to use, we will be needing support to keep the lights on, and the online server running.
 
 ## Donations
 
-If you'd like to support Terrastories with a small financial donation, the easiest way to do that currently is to [sponsor Terrastories steward Rudo Kemper on Github](https://github.com/sponsors/rudokemper). We guarantee that 100% of the proceeds there will go to Terrastories!
-
-## Sponsorship
-
-Alternatively, we are in desperate need of things like paid Heroku dynos, Amazon AWS credits, and other web hosting support for our online Terrastories server. If you are an organization and would like to sponsor us, we would love to talk with you! [Please contact us](/contact-us) and we'll start the conversation from there.
+If you'd like to support Terrastories with a small financial donation, the easiest way to do that currently is to [donate to Awana Digital](https://awana.digital/donate).
 
 ## Funding Needs
 

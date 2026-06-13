@@ -15,7 +15,10 @@ title: Demo
 type: page
 ---
 
-We have a demo community to explore on our production server at [our.terrastories.app](https://our.terrastories.app). Sign in with the demo credentials provided there to explore the map, browse stories, and see how Terrastories works in practice.
+We have a demo community to explore on our production server at [our.terrastories.app](https://our.terrastories.app). 
+
+To access the demo community, log in with username **terrastories-demo** and password **MapsThatRoar123***
+
 
 ![Terrastories demo screenshot showing the map interface with story points](/media/images/621_Screenshot-2022-11-24-154806.jpg)
 

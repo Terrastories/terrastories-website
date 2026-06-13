@@ -111,7 +111,7 @@ const posts = (await getCollection('posts'))
         {sponsors.map((s) => <PartnerLogo name={s.name} href={s.href} src={s.src} />)}
       </div>
 
-      <h2 class="mb-8 text-center text-4xl font-heading text-teal">Special thanks to our partners</h2>
+      <h2 class="mb-8 text-center text-4xl font-heading text-teal">Special thanks to our past partners</h2>
       <div class="grid grid-cols-2 items-center gap-x-8 gap-y-10 sm:grid-cols-3 md:grid-cols-4">
         {partners.map((p) => <PartnerLogo name={p.name} href={p.href} src={p.src} />)}
       </div>
