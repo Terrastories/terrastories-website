@@ -12,6 +12,8 @@ interface Props {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
+const image = post.data.featured_image ?? post.data.og_image;
+
 const date = post.data.date.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
@@ -43,6 +45,10 @@ const date = post.data.date.toLocaleDateString('en-US', {
 
       {post.data.excerpt && <p class="mt-6 text-lg text-stone-700">{post.data.excerpt}</p>}
     </header>
+
+    {image && (
+      <img class="mb-10 aspect-video w-full object-cover" src={basePathOf(image)} alt={post.data.title} loading="lazy" />
+    )}
 
     <div class="prose prose-stone max-w-none prose-a:text-orange">
       <Content />
