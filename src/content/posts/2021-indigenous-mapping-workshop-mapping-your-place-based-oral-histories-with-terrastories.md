@@ -35,7 +35,7 @@ After a short introduction to the main features of Terrastories and learning abo
 
 We closed by discussing how you can do a similar workshop with your own community, and serve Terrastories online on a web server, or offline with the “field kit” setup.
 
-*Learn more about the work of Ohneganos Ohnegahdę:gyo and their use of Terrastories in  *[*this recent Mongabay feature*](<https://news.mongabay.com/2021/10/empowering-indigenous-youths-with-tradition-and-tech-qa-with-dawn-martin-hill/?utm_medium=Social&utm_source=Twitter#Echobox=1633698802>) *.*
+*Learn more about the work of Ohneganos Ohnegahdę:gyo and their use of Terrastories in [this recent Mongabay feature](<https://news.mongabay.com/2021/10/empowering-indigenous-youths-with-tradition-and-tech-qa-with-dawn-martin-hill/?utm_medium=Social&utm_source=Twitter#Echobox=1633698802>).*
 
 **Parting gifts**
 

@@ -23,7 +23,7 @@ title: 'A very happy #Hacktoberfest for Terrastories and the Ruby community 🎃
 type: post
 ---
 
-*By Rudo Kemper*. *November 5, 2019. Originally posted on[Medium](<https://medium.com/@rudokemper/a-very-happy-hacktoberfest-for-terrastories-and-the-ruby-community-9e472d9e85d3>).*
+*By Rudo Kemper*. *November 5, 2019. Originally posted on [Medium](<https://medium.com/@rudokemper/a-very-happy-hacktoberfest-for-terrastories-and-the-ruby-community-9e472d9e85d3>).*
 
 It’s been almost a year and a half since I became acquainted with a wonderful community of open-source Ruby developers. At the time, I was scurrying from one corporate office to another, trying to find the right party to build a geostorytelling application for my organization, the [Amazon Conservation Team](<https://amazonteam.org/>).
 

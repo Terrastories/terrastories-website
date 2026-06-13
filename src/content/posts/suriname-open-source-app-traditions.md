@@ -27,7 +27,7 @@ The story of the Matawai is one that begins over three centuries ago, when Surin
 
 Different groups of these formerly escaped slaves established themselves in the center of Suriname’s interior, where their descendants continue to reside today.
 
-![](/media/images/DSC_4591-768x512-1.jpg)Matawai boatsmen examining a map of their ancestral lands. Credit: Mirjam Gommers
+![](/media/images/DSC_4591-768x512-1.jpg)_Matawai boatsmen examining a map of their ancestral lands. Credit: Mirjam Gommers_
 
 The members of these communities, today known as Maroons, proudly describe the first days their ancestors settled in and fought for what is now their traditional homeland. For many commentators, their extraordinary history is among the most distinctive and fascinating in the wide range of African-American diaspora experiences.
 
@@ -39,7 +39,7 @@ Until a few years ago, the Matawai territory was among the most remote in the co
 
 In this changing landscape, younger Matawai are increasingly finding employment in the gold mines or leaving to go work and live a more modern life in the capital city of Paramaribo.
 
-![](/media/images/20170226_133359-768x432-1.jpg)Rolien Sallons interviews Dora Flink about the Matawai ancestral lands in the village of Boslanti. Credit: Rudo Kemper
+![](/media/images/20170226_133359-768x432-1.jpg)_Rolien Sallons interviews Dora Flink about the Matawai ancestral lands in the village of Boslanti. Credit: Rudo Kemper_
 
 Many Matawai villages have an empty or desolate aura to them, with only a few Matawai continuing to live in a traditional way. The remaining elders frequently lament that the youth are more interested in their phones than they are in their stories, and have stopped sharing their narratives entirely. Consequently, the longstanding Matawai oral tradition of sitting around and sharing stories of the “first times” risks being lost in time.
 
@@ -47,13 +47,15 @@ To prevent that from happening, the local community-based organization Stichting
 
 To date, the initiative has yielded over 17 hours of footage covering more than 150 historically significant places along the Saramacca River. For a number of the young Matawai involved in the project, it has brought them their first real opportunity to hear any oral history about their homelands. For the Matawai elder Josef Dennert, the project made him realize that his *“… inner wiseman had been sleeping all this time, but then I realized it was not too late. I had to follow them and finally apply my knowledge.”*
 
-![](/media/images/ACT-Jacob-Kondre-08895-768x512-1.jpg)Rolien Sallons speaking with Josef Dennert along the Saramacca River. Credit: Rafael Jantz
+![](/media/images/ACT-Jacob-Kondre-08895-768x512-1.jpg)
+_Rolien Sallons speaking with Josef Dennert along the Saramacca River. Credit: Rafael Jantz_
 
 The effort to document and preserve the community’s oral histories has led the Matawai to seek out support from a number of institutions—some very far removed from their homelands. In September 2018, Dennert, along with two other Matawai, traveled to Washington, DC to research the papers of Edward C. Green at the Smithsonian Institution. Green, an anthropologist, amassed a collection of field notes, photographs, and audio recordings captured during his time with the Matawai in the early 1970s and recently donated these to the Smithsonian’s National Anthropological Archives. Sponsored by the Smithsonian Institution’s Recovering Voices Program, the three Matawai researchers were able to access these invaluable historical materials for the first time, and were permitted to take back copies to share with the rest of their community. At the end of the experience, *basja* (traditional leader) and research participant Tina Henkie reflected on the process:
 
 *“These anthropologists wrote things down, while my people back then couldn’t write. But they told stories, and then the anthropologists recorded them. And now that the people aren’t with us anymore, we should be able to find the story somewhere. And that is what we’re doing now here at this archive; I try to imagine how my ancestors lived back then. And that gives me a feeling of pride to be a Matawai, because it helps me know my roots.”*
 
-![](/media/images/IMG_2171-768x512-1.jpg)Matawai community researchers examining archival footage at the Smithsonian National Anthropology Archives along with staff and anthropologist Edward C. Green. Credit: Judith Andrews
+![](/media/images/IMG_2171-768x512-1.jpg)
+_Matawai community researchers examining archival footage at the Smithsonian National Anthropology Archives along with staff and anthropologist Edward C. Green. Credit: Judith Andrews_
 
 To enable hosting of the recordings of oral histories, and linking of the histories to maps of the ancestral homelands, ACT collaborated with the mapping tech company Mapbox and Ruby for Good, a team of volunteer developers, together building a novel geostorytelling application called [Terrastories](<https://terrastories.app/>). The application interface consists of an interactive map and a sidebar with media content and stories. Using a content management system, the Matawai can add places and stories, and make decisions about designating certain stories as private or restricted. Terrastories works without internet access, and the code is open-source so that any community in the world can adapt it to map their own place-based storytelling traditions.
 

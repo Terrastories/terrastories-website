@@ -35,7 +35,7 @@ James Rattling Leaf Sr. from the Rosebud Sioux Tribe in South Dakota[ posted a 
 
 Rudo Kemper picked up the challenge because it was sympathetic to his own experience and the work currently being done by his team. The[ Amazon Conservation Team](<https://www.amazonteam.org/>) (ACT)  has been stewarding the creation of an open-source geo-storytelling tool called Terrastories, which can be used for mapping stories that have a connection with the landscape as well as shares many of the same values that the Lapi Wowapi challenge called for, such as advancing the native language, building a language repository by contributions, creating a virtual intergenerational community, and enhancing cultural values.
 
-*In this interview, Rudo tells us about the project…  *
+*In this interview, Rudo tells us about the project…*
 
 **Can you give us an overview of what the Terrastories: Lakota Makha project is about?**
 

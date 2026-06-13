@@ -23,7 +23,7 @@ title: Temporary Teams with Miranda Wang (Storytime with Managers)
 type: post
 ---
 
-*Originally posted on Storytime with Managers by WeCohere,[here](<https://www.wecohere.com/storytime-with-managers-transcripts/12-miranda_wang>). *
+_Originally posted on Storytime with Managers by WeCohere, [here](<https://www.wecohere.com/storytime-with-managers-transcripts/12-miranda_wang>)._
 
 “Storytime With Managers” are the questions you would ask an expert over a cup of coffee (including the ones you feel scared to ask), packaged up into 20min podcast episodes.
 

@@ -22,11 +22,11 @@ title: Terrastories “featured tool” page on Earth Defenders Toolkit translat
 type: post
 ---
 
-**ដំណឹង​ល្អ!  **
+**ដំណឹង​ល្អ!**
 
-**Habari njema!  **
+**Habari njema!**
 
-**ข่าวดี!  **
+**ข่าวดี!**
 
 **Tin tốt!**
 

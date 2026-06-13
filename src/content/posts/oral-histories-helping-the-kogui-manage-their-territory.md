@@ -24,21 +24,21 @@ type: post
 
 Two of ACT’s objectives in our work at Jaba Tañiwashkaka, a coastal sacred site of the indigenous peoples of Colombia’s Sierra Nevada de Santa Marta region, are to increase the territorial management capacity of indigenous leadership and to establish conservation agreements between the local indigenous and non-indigenous communities.
 
-![](/media/images/Mapa-e1543931080595.jpg)Colombia, location of Sierra Nevada de Santa Marta
+![](/media/images/Mapa-e1543931080595.jpg)_Colombia, location of Sierra Nevada de Santa Marta_
 
 In contexts like the Sierra Nevada de Santa Marta—where the recovery of ancestral territory is prioritized by the indigenous groups—the importance of instructing leaders in the use of tools that allow them to improve their capacity to understand and manage their lands is essential. Additionally important is providing alternatives for both indigenous and non-indigenous youth, given that the strengthening of intercultural relations is a strategy for the protection of the Jaba Tañiwashkaka sacred site and that the future of non-indigenous youth is a concern.
 
-![](/media/images/Brian.jpg)Brian Hettler, ACT’s GIS & New Technologies Manager conducts training on oral histories equipment
+![](/media/images/Brian.jpg)_Brian Hettler, ACT’s GIS & New Technologies Manager conducts training on oral histories equipment_
 
 The sacred site’s indigenous team has been trained in the use of georeferencing applications, enabling them to increase their knowledge of their territory. Linking the capture of cartographic information with the **[Terrastories oral histories mapping application](<https://terrastories.app/>)**  developed by ACT in partnership with a team of volunteer developers broadens the scope of maps as well as the potential for describing the territory in multiple dimensions.
 
 At Jaba Tañiwashkaka, the sustainability of the natural and cultural recovery process depends on the recognition of and respect for the sacred site by the non-indigenous population and local knowledge of area and community history.
 
-![](/media/images/Juana2-768x576-1.jpg)Juana Londoño, ACT’s Coordinator of the Sierra Nevada de Santa Marta Program recording an oral histories interview
+![](/media/images/Juana2-768x576-1.jpg)_Juana Londoño, ACT’s Coordinator of the Sierra Nevada de Santa Marta Program recording an oral histories interview_
 
 The gathering of oral histories enables the creation of bridges of communication in terms of not only recognition and respect for the other, but also self-recognition and self-affirmation. It is important for the process to examine both the indigenous and local non-indigenous realities. This will increase the chances of establishing agreements between the inhabitants of Dibulla and the indigenous people for the protection not only of Jaba Tañiwashkaka but also of Dibulla, the local non-indigenous community.
 
-![](/media/images/dibullero-768x576-1.jpg)Kogui interviews Dibulla resident
+![](/media/images/dibullero-768x576-1.jpg)_Kogui interviews Dibulla resident_
 
 Simultaneously, applying Terrastories with the youth of Dibulla is a means to strengthen their sense of belonging to their community. The application enables both indigenous youth and the youth of Dibulla to express and share their reality and their desires.
 

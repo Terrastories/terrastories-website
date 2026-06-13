@@ -32,7 +32,7 @@ Crossposted from [Digital Democracy blog](<https://wp.digital-democracy.org/six-
 
 ![](https://wp.digital-democracy.org/wp-content/uploads/2022/07/Chris-and-Kali-1024x433.png)
 
-*Since 2021, Chris and Kali have been involved in a very creative and inspiring use of  *[*Terrastories*](<https://terrastories.app/>) *  by directly integrating the tool into the secondary school curriculum at the STEAM Academy. We caught up with Chris and Kali after the Spring semester to learn more about how they’re working with Terrastories.*
+*Since 2021, Chris and Kali have been involved in a very creative and inspiring use of  [Terrastories](<https://terrastories.app/>) by directly integrating the tool into the secondary school curriculum at the STEAM Academy. We caught up with Chris and Kali after the Spring semester to learn more about how they’re working with Terrastories.*
 
 **Rudo Kemper (RK): Can you tell me a little bit about the STEAM Academy at the Six Nations Polytechnic and your overall mission?**
 
@@ -54,7 +54,7 @@ In addition, the students were able to add stories in the Cayuga and Mohawk lang
 
 KA: What we did was build the Terrastories “Type of Place” category with the tenants of the Thanksgiving Address – i.e. the waters, the fish, the plants, the food plants, the medicine herbs, the animals – to be able to filter the data and stories per each tenant. That was our way of using the existing tools in Terrastories to really embed that Haudenosaunee worldview.
 
-![](https://uploads-ssl.webflow.com/63c9c50799d1d9662bff8be1/63cb1ac25c56b263764930d0_wjcVXiVClsqfo6064A48xA1b7GcIswYiSx1EH8236VMmFNlrWSXR-Ns-eI-t-7samTKsSqytXJZSUJbOzhgcjk0ho9uQDOsIRhY2rvOleJzMfBlsExtp8pbwArPcw-UCOYnYBAwxqL_IXZT6_UjR_w.png)*Terrastories as used in the Six Nations Polytechnic course, showing the categories of the Thanksgiving Address.  *
+![](https://uploads-ssl.webflow.com/63c9c50799d1d9662bff8be1/63cb1ac25c56b263764930d0_wjcVXiVClsqfo6064A48xA1b7GcIswYiSx1EH8236VMmFNlrWSXR-Ns-eI-t-7samTKsSqytXJZSUJbOzhgcjk0ho9uQDOsIRhY2rvOleJzMfBlsExtp8pbwArPcw-UCOYnYBAwxqL_IXZT6_UjR_w.png)*Terrastories as used in the Six Nations Polytechnic course, showing the categories of the Thanksgiving Address.*
 
 CM: Finally, at the end of the class, the students were invited to participate in a summit called [A Global Engagement 2022 Desmarais Family Summit: Water in the World](<https://uwaterloo.ca/global-engagement-seminar/events/global-engagement-2022-desmarais-family-summit-water-world>). We were invited to the University of Waterloo and got a campus tour, and got to meet the students and professors from the Water in the World class that we’d only seen on Zoom.There was an opening sacred fire for this event, and one of our students opened the inside of the event with our traditional Thanksgiving address. And then we had another of our students volunteer to sing an *Esganye  *song, which was a traditional Haudenosaunee social song about water. At the event, our students had the opportunity to share about their Terrastories project, and each received decorative lab coats from the University of Waterloo. It was all very cool for the students to experience.
 

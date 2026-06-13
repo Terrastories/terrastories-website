@@ -24,7 +24,7 @@ title: Terrastories mentioned in Cloud-Native Geospatial Foundation blog post
 type: post
 ---
 
-*[Reposted from the Cloud Native Geospatial Foundation](<https://cloudnativegeo.org/blog/2023/11/interview-with-brandon-liu/>); regarding Terrastories recent work to integrate PMTiles. *
+_[Reposted from the Cloud Native Geospatial Foundation](<https://cloudnativegeo.org/blog/2023/11/interview-with-brandon-liu/>); regarding Terrastories recent work to integrate PMTiles._
 
 # Interview with Brandon Liu
 
