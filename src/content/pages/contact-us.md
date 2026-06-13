@@ -16,6 +16,6 @@ type: page
 
 **Interested in using Terrastories?** Visit our online server at [our.terrastories.app](https://our.terrastories.app) to get started.
 
-**Partnership or technology inquiries?** Write to [support@awana.digital](mailto:support@awana.digital) and CC [terrastoriesorg@gmail.com](mailto:terrastoriesorg@gmail.com).
+**Partnership or technology inquiries?** Write to [support@awana.digital](mailto:support@awana.digital).
 
 **Need technical support?** For help with self-hosting Terrastories online or offline, see the [Support page](https://docs.terrastories.app/miscellaneous/support) on our documentation hub.
