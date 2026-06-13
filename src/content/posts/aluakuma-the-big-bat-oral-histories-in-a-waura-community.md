@@ -30,6 +30,6 @@ Yakuana was a principle figure in Ulupuene and the region, and was the brother o
 
 Some villagers thought that this alarming situation could begin to be addressed by the oral histories project proposed by ACT. Recorded oral histories would offer an archive of the songs and dances that Yakuana’s descendants could study for years to come.
 
-Elder Aluakumá recounting the origin story and how he became a shaman.
+Elder Aluakumá recounting the origin story and how he became a shaman.
 
 Aluakuma, the oldest man in Ulupuene and a shaman, passed on only a few weeks ago (this essay was written in mid-November, 2017), taking with him untransmitted stories and knowledge. In his everyday activities, he could be found speaking softly to the spirits. Per his personal history, he gained his shamanic ability when he fell ill and the spirit of the bat—Alua—spoke to him for the first time. Just weeks before his passing, ACT filmed him during a trial for the oral histories project where he recounted his path to communication with the spirits, the derivation of his name, and his people’s story of the origin of the world. The attached video, a small clip from this recording, shows the potential of the oral histories project to give indigenous knowledge a technological advantage in the face of influences that undermine traditional oral history practices.
