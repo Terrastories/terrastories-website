@@ -21,7 +21,6 @@ title: Contribute
 type: page
 ---
 
-# Contribute
 Terrastories is open-source, and contributions are welcome (we have had 90+ folks contributing to the codebase, and that is not counting design work!)
 
 Please see our [Wiki](https://github.com/Terrastories/terrastories/wiki), and read our [How to Contribute](https://github.com/Terrastories/terrastories/blob/master/CONTRIBUTING.md) guide for more information on Terrastories development.

@@ -20,8 +20,6 @@ title: Try Terrastories
 type: page
 ---
 
-# Try Terrastories
-TRY TERRASTORIES
 ![Capture](/media/images/494_Capture.jpg "Capture")
 Are you interested in using Terrastories online for your community, or want to test it out?
 Awana Digital maintains an online Terrastories server at <https://our.terrastories.app> where they can set you up with a community account.
