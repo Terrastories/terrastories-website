@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 canonical: /funding-needs
 date: 2021-09-24 22:16:53+00:00
 excerpt: 'FUNDING NEEDS (September 2021) Although we’ve been lucky to receive
@@ -9,7 +7,6 @@ excerpt: 'FUNDING NEEDS (September 2021) Although we’ve been lucky to receive
   by open-source developers and volunteers over the past four years. However, as more
   communities start to use Terrastories, we are hearing …'
 link: /funding-needs
-modified: 2021-09-24 22:16:53+00:00
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their own oral storytelling traditions
   about places of significant meaning or value to them.

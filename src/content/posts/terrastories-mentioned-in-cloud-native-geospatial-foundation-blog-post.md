@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2023-12-09 20:16:42+00:00
@@ -12,7 +10,6 @@ excerpt: '“Being free from the constraints of a typical tech company means Pro
 featured_image: /media/images/733_F-_F58aWMAAzIHp.jpg
 featured_image_id: 733
 link: /terrastories-mentioned-in-cloud-native-geospatial-foundation-blog-post
-modified: 2023-12-09 20:17:07+00:00
 og_image: /media/images/733_F-_F58aWMAAzIHp.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

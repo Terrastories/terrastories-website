@@ -1,11 +1,8 @@
 ---
-author: rkemper
-author_name: rkemper
 canonical: /sponsor-us
 date: 2021-02-21 20:50:54+00:00
 excerpt: 'Terrastories is an almost entirely volunteer-run project. As we receive more requests to use the app, we need support to keep the lights on and scale as a free resource for communities worldwide.'
 link: /sponsor-us
-modified: 2023-08-23 18:35:10+00:00
 seo_description: Support Terrastories through donations, sponsorship, or funding to help Indigenous and local communities map and share their place-based stories.
 seo_title: Sponsor Us - Terrastories
 slug: sponsor-us

@@ -1,13 +1,10 @@
 ---
-author: Terrastories
-author_name: Terrastories
 canonical: /
 date: 2020-06-10 12:50:17+00:00
 excerpt: 'Terrastories is a geostorytelling application built to enable Indigenous and other local communities to locate and map their own oral storytelling traditions.'
 featured_image: /media/images/39_Logocombo.png
 featured_image_id: 39
 link: /
-modified: 2024-11-07 15:12:06+00:00
 og_image: /media/images/39_Logocombo.png
 seo_description: Terrastories is a geostorytelling application built to enable indigenous and other local communities to locate and map their oral storytelling traditions.
 seo_title: Terrastories - Connecting Generations Through Place-Based Stories

@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2023-06-07 15:27:25+00:00
@@ -10,7 +8,6 @@ excerpt: Indigenous groups are developing data storage technology that gives use
 featured_image: /media/images/654_2328F2E4-EBDC-4950-88C889742C8069B8_source.webp
 featured_image_id: 654
 link: /scientific-american-how-indigenous-groups-are-leading-the-way-on-data-privacy
-modified: 2023-10-16 20:15:54+00:00
 og_image: /media/images/654_2328F2E4-EBDC-4950-88C889742C8069B8_source.webp
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

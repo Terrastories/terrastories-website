@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2020-08-03 21:28:52+00:00
@@ -12,7 +10,6 @@ excerpt: 'Originally posted on Space in Africa, here. In June 2020, 146 particip
 featured_image: /media/images/303_Terrastories-scaled-1.jpg
 featured_image_id: 303
 link: /geo-indigenous-hack4covid-terrastories-is-preserving-history-using-storytelling-and-geo-mapping
-modified: 2020-08-27 21:31:18+00:00
 og_image: /media/images/303_Terrastories-scaled-1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

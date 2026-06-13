@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2019-10-02 03:37:09+00:00
@@ -12,7 +10,6 @@ excerpt: 'Originally posted on Storytime with Managers by WeCohere, here. “Sto
 featured_image: /media/images/260_1_RKG3I3LuMdk4PSkq-pVWmQ.jpeg
 featured_image_id: 260
 link: /temporary-teams-with-miranda-wang-storytime-with-managers
-modified: 2020-08-29 03:49:55+00:00
 og_image: /media/images/260_1_RKG3I3LuMdk4PSkq-pVWmQ.jpeg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

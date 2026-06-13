@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2018-06-13 03:51:24+00:00
@@ -12,7 +10,6 @@ excerpt: 'I just came back from an exhilarating weekend at Ruby for Good 2018 to
 featured_image: /media/images/339_terrastories-team-e1598673500192.jpg
 featured_image_id: 339
 link: /act-partakes-in-ruby-for-good-2018-to-develop-offline-geostorytelling-app-terrastories-for-remote-communities
-modified: 2020-08-29 03:59:15+00:00
 og_image: /media/images/339_terrastories-team-e1598673500192.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

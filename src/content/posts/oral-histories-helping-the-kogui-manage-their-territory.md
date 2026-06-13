@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2018-12-03 02:52:00+00:00
@@ -11,7 +9,6 @@ excerpt: In contexts like the Sierra Nevada de Santa Marta—where the recovery 
 featured_image: /media/images/167_kids-768x512-1.jpg
 featured_image_id: 167
 link: /oral-histories-helping-the-kogui-manage-their-territory
-modified: 2020-07-10 20:31:07+00:00
 og_image: /media/images/167_kids-768x512-1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

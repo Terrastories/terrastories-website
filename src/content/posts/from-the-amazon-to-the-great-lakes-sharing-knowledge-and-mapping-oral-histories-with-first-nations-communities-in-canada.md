@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2019-07-09 03:00:00+00:00
@@ -10,7 +8,6 @@ excerpt: Ohneganos Ohnegahdę:gyo is using Terrastories to combine scientific wa
 featured_image: /media/images/97_IMG_1116-1.jpg
 featured_image_id: 97
 link: /from-the-amazon-to-the-great-lakes-sharing-knowledge-and-mapping-oral-histories-with-first-nations-communities-in-canada
-modified: 2020-08-27 20:10:46+00:00
 og_image: /media/images/97_IMG_1116-1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

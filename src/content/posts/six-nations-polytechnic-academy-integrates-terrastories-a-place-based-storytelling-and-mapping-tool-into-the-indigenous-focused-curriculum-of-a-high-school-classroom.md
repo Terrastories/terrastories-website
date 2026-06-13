@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2022-07-21 14:49:04+00:00
@@ -12,7 +10,6 @@ excerpt: 'Crossposted from Awana Digital blog Meet Chris Martin and Kali Anevich
 featured_image: /media/images/583_cover-interview.jpg
 featured_image_id: 583
 link: /six-nations-polytechnic-academy-integrates-terrastories-a-place-based-storytelling-and-mapping-tool-into-the-indigenous-focused-curriculum-of-a-high-school-classroom
-modified: 2023-05-26 15:40:31+00:00
 og_image: /media/images/583_cover-interview.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

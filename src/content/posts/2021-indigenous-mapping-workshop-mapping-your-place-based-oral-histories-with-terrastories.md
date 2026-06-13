@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2021-12-16 19:26:19+00:00
@@ -12,7 +10,6 @@ excerpt: 'Featuring Christopher Martin from the STEAM Academy at Six Nations and
 featured_image: /media/images/561_Capture.jpg
 featured_image_id: 561
 link: /2021-indigenous-mapping-workshop-mapping-your-place-based-oral-histories-with-terrastories
-modified: 2021-12-16 19:26:43+00:00
 og_image: /media/images/561_Capture.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2018-06-21 21:11:00+00:00
@@ -13,7 +11,6 @@ excerpt: Last week, I had the pleasure of attending a hack-a-thon of a special n
 featured_image: /media/images/285_IMG_1640.jpg
 featured_image_id: 285
 link: /giving-back-homesnap-joins-hack-a-thon-for-good
-modified: 2020-08-27 21:48:22+00:00
 og_image: /media/images/285_IMG_1640.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

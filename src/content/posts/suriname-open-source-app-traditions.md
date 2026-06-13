@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2018-12-13 20:15:00+00:00
@@ -9,7 +7,6 @@ excerpt: The Matawai of Suriname are breaking ground by using a new app to creat
 featured_image: /media/images/87_IMG_0688-1170x780-1.jpg
 featured_image_id: 87
 link: /suriname-open-source-app-traditions
-modified: 2020-08-27 20:11:32+00:00
 og_image: /media/images/87_IMG_0688-1170x780-1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

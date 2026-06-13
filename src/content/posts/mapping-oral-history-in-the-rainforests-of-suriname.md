@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 - User Stories
@@ -12,7 +10,6 @@ excerpt: The classroom was abuzz. Groups of students sat together around mobile 
 featured_image: /media/images/288_0_rfT_psmWY-PspSb9.jpg
 featured_image_id: 288
 link: /mapping-oral-history-in-the-rainforests-of-suriname
-modified: 2020-08-27 21:48:13+00:00
 og_image: /media/images/288_0_rfT_psmWY-PspSb9.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

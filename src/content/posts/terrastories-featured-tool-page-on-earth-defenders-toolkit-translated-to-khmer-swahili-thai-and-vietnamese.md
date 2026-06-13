@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2022-11-16 01:48:22+00:00
@@ -9,7 +7,6 @@ excerpt: The Earth Defenders Toolkit has been translated into Khmer, Swahili, Th
 featured_image: /media/images/612_Screenshot-2022-11-15-204724.jpg
 featured_image_id: 612
 link: /terrastories-featured-tool-page-on-earth-defenders-toolkit-translated-to-khmer-swahili-thai-and-vietnamese
-modified: 2023-10-16 20:16:07+00:00
 og_image: /media/images/612_Screenshot-2022-11-15-204724.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

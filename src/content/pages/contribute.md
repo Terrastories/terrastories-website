@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 canonical: /contribute
 date: 2020-06-24 01:37:55+00:00
 excerpt: 'CONTRIBUTE TO TERRASTORIES Terrastories is open-source, and contributions
@@ -9,7 +7,6 @@ excerpt: 'CONTRIBUTE TO TERRASTORIES Terrastories is open-source, and contributi
   front-end, or UI/UX support, and our open issues are indexed by priority and difficulty.
   Please see our Wiki, and read our …'
 link: /contribute
-modified: 2022-12-24 22:11:53+00:00
 og_image: https://i.ytimg.com/vi/f5YbOJ2UGcU/maxresdefault.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their own oral storytelling traditions

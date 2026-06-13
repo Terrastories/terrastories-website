@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2022-08-09 18:53:37+00:00
@@ -13,7 +11,6 @@ excerpt: PARAMARIBO — According to the Wayana natives, their habitat, which ha
 featured_image: /media/images/586_Screenshot-2022-08-09-145305.jpg
 featured_image_id: 586
 link: /wayana-community-in-suriname-uses-terrastories-as-part-of-their-mapping-project
-modified: 2022-08-09 19:15:02+00:00
 og_image: /media/images/586_Screenshot-2022-08-09-145305.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

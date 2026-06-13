@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2019-11-05 20:06:00+00:00
@@ -11,7 +9,6 @@ excerpt: It’s been almost a year and a half since I became acquainted with a w
 featured_image: /media/images/262_1_gaZxKq8EVtyvk0pWzjkJYA.jpeg
 featured_image_id: 262
 link: /a-very-happy-hacktoberfest-for-terrastories-and-the-ruby-community-%f0%9f%8e%83
-modified: 2020-08-27 21:48:05+00:00
 og_image: /media/images/262_1_gaZxKq8EVtyvk0pWzjkJYA.jpeg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

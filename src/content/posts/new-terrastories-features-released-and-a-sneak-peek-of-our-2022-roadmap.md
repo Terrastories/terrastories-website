@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2022-05-10 09:00:00+00:00
@@ -11,7 +9,6 @@ excerpt: As we enter the month of May (already!) and as we at the Terrastories s
 featured_image: /media/images/573_3D-Terrain.jpg
 featured_image_id: 573
 link: /new-terrastories-features-released-and-a-sneak-peek-of-our-2022-roadmap
-modified: 2022-05-19 16:04:12+00:00
 og_image: /media/images/573_3D-Terrain.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

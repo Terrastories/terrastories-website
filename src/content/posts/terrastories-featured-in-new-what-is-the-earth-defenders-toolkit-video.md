@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2023-09-23 19:44:09+00:00
@@ -12,7 +10,6 @@ excerpt: This network of people and organizations met together in the Ecuadorian
 featured_image: /media/images/685_650c2fd134968a8330c6214c_New-Videos-templates1.jpg
 featured_image_id: 685
 link: /terrastories-featured-in-new-what-is-the-earth-defenders-toolkit-video
-modified: 2023-10-16 20:15:43+00:00
 og_image: /media/images/685_650c2fd134968a8330c6214c_New-Videos-templates1.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

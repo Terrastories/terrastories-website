@@ -8,7 +8,6 @@ interface Frontmatter {
   featured_image?: string;
   canonical?: string;
   date?: Date;
-  author_name?: string;
 }
 
 interface Props {
@@ -36,7 +35,7 @@ const jsonLd = type === 'article'
       ...(frontmatter.date && { datePublished: frontmatter.date.toISOString() }),
       author: {
         '@type': 'Organization',
-        name: frontmatter.author_name || 'Terrastories',
+        name: 'Terrastories',
       },
       publisher: {
         '@type': 'Organization',

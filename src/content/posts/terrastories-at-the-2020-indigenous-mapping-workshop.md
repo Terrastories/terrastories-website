@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Uncategorized
 date: 2020-11-07 22:38:50+00:00
@@ -11,7 +9,6 @@ excerpt: 'We are thrilled to announce that Terrastories will be featured at this
 featured_image: /media/images/366_IMW2020-Terrastories-Welcome.jpg
 featured_image_id: 366
 link: /terrastories-at-the-2020-indigenous-mapping-workshop
-modified: 2020-11-20 02:42:18+00:00
 og_image: /media/images/366_IMW2020-Terrastories-Welcome.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

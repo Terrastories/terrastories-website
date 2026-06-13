@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Uncategorized
 date: 2020-11-18 02:07:00+00:00
@@ -10,7 +8,6 @@ excerpt: Terrastories will be included in the Earth Defenders’ Toolkit as one
 featured_image: /media/images/417_Front-page-no-logo.jpg
 featured_image_id: 417
 link: /terrastories-to-be-included-as-a-featured-tool-in-the-earth-defenders-toolkit
-modified: 2020-11-20 02:44:12+00:00
 og_image: /media/images/417_Front-page-no-logo.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

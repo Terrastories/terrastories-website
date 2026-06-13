@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2023-10-05 12:58:24+00:00
@@ -10,7 +8,6 @@ excerpt: Explore Terrastories, a freshly released feature, weaves a new bridge b
 featured_image: /media/images/692_terrastories-cover.jpg
 featured_image_id: 692
 link: /explore-terrastories-local-stories-for-a-wider-public
-modified: 2023-10-16 20:15:36+00:00
 og_image: /media/images/692_terrastories-cover.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

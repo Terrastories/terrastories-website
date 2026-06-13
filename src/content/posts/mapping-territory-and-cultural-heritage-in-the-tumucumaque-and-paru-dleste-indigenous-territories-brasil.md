@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2023-10-25 00:04:42+00:00
@@ -11,7 +9,6 @@ excerpt: Awana Digital and Iepé recently collaborated on a series of intensive
 featured_image: /media/images/727_Screenshot-2023-10-24-200414.jpg
 featured_image_id: 727
 link: /mapping-territory-and-cultural-heritage-in-the-tumucumaque-and-paru-dleste-indigenous-territories-brasil
-modified: 2023-12-09 20:17:01+00:00
 og_image: /media/images/727_Screenshot-2023-10-24-200414.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

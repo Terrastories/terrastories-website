@@ -12,16 +12,6 @@
       "type": "string",
       "format": "date-time"
     },
-    "modified": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "author": {
-      "type": "string"
-    },
-    "author_name": {
-      "type": "string"
-    },
     "excerpt": {
       "default": "",
       "type": "string"
@@ -60,8 +50,6 @@
   "required": [
     "title",
     "slug",
-    "date",
-    "modified",
-    "author"
+    "date"
   ]
 }

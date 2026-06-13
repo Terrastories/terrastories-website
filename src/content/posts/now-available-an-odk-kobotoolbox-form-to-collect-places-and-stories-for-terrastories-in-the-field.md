@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - User Stories
 date: 2023-07-20 18:03:26+00:00
@@ -10,7 +8,6 @@ excerpt: We have made a method to gather all three kinds of data used by Terrast
 featured_image: /media/images/658_Screenshot-2023-07-20-134301.jpg
 featured_image_id: 658
 link: /now-available-an-odk-kobotoolbox-form-to-collect-places-and-stories-for-terrastories-in-the-field
-modified: 2023-10-16 20:16:13+00:00
 og_image: /media/images/658_Screenshot-2023-07-20-134301.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

@@ -1,10 +1,7 @@
 ---
-author: rkemper
-author_name: rkemper
 canonical: /how-it-works
 date: 2020-07-16 21:00:13+00:00
 link: /how-it-works
-modified: 2023-07-21 13:37:48+00:00
 og_image: /media/images/160_terrastories-1920x1080-768x432-1.gif
 seo_description: Terrastories is a geostorytelling application built to enable indigenous and other local communities to locate and map their own oral storytelling traditions about places of significant meaning or value to them.
 seo_title: How It Works - Terrastories

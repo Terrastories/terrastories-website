@@ -1,11 +1,8 @@
 ---
-author: rkemper
-author_name: rkemper
 canonical: /community
 date: 2020-06-24 01:36:06+00:00
 excerpt: 'Terrastories is built and maintained by a global community of developers, stewards, and partners working alongside Indigenous and local communities.'
 link: /community
-modified: 2023-05-04 14:32:13+00:00
 og_image: /media/images/640_rudo-square.jpg
 seo_description: Meet the developers, stewards, and contributors who build and maintain Terrastories, a free open-source geostorytelling application for Indigenous communities.
 seo_title: Developer Community - Terrastories

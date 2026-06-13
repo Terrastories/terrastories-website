@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2020-08-31 05:59:00+00:00
@@ -9,7 +7,6 @@ excerpt: An interview with Lucas, Katherine, and Oliver, incoming juniors at WUS
 featured_image: /media/images/276_1280_profile.jpg
 featured_image_id: 276
 link: /developing-terrastories-for-college-credit
-modified: 2020-08-31 11:28:47+00:00
 og_image: /media/images/276_1280_profile.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

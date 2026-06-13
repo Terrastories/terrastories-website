@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2021-08-18 22:26:12+00:00
@@ -10,7 +8,6 @@ excerpt: On this episode, @rudokemper of Awana Digital talks about leading the i
 featured_image: /media/images/520_Code.jpg
 featured_image_id: 520
 link: /greater-than-code-podcast-246-digital-democracy-and-indigenous-storytelling-with-rudo-kemper
-modified: 2021-08-18 22:27:18+00:00
 og_image: /media/images/520_Code.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

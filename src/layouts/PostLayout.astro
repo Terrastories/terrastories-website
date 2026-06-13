@@ -39,8 +39,6 @@ const date = post.data.date.toLocaleDateString('en-US', {
 
       <p class="mt-4 text-sm text-stone-600">
         <time datetime={post.data.date.toISOString()}>{date}</time>
-        <span aria-hidden="true"> · </span>
-        <span>{post.data.author_name ?? post.data.author}</span>
       </p>
 
       {post.data.excerpt && <p class="mt-6 text-lg text-stone-700">{post.data.excerpt}</p>}

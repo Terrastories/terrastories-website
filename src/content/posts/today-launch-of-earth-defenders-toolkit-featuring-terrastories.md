@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Uncategorized
 - User Stories
@@ -10,7 +8,6 @@ excerpt: Today, Awana Digital launches the Earth Defenders Toolkit, a collaborat
 featured_image: /media/images/509_Capture.jpg
 featured_image_id: 509
 link: /today-launch-of-earth-defenders-toolkit-featuring-terrastories
-modified: 2021-06-30 01:53:30+00:00
 og_image: /media/images/509_Capture.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

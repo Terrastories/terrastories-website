@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Dev Stories
 date: 2022-10-17 19:32:03+00:00
@@ -14,7 +12,6 @@ excerpt: '…we propose to leverage the Terrastories codebase to create a sister
 featured_image: /media/images/596_StellarStories.jpg
 featured_image_id: 596
 link: /help-us-create-stellarstories-community-storytelling-about-the-cosmos
-modified: 2023-10-16 20:16:01+00:00
 og_image: /media/images/596_StellarStories.jpg
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.

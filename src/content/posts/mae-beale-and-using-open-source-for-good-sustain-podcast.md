@@ -1,6 +1,4 @@
 ---
-author: rkemper
-author_name: rkemper
 categories:
 - Uncategorized
 date: 2021-07-07 21:31:00+00:00
@@ -11,7 +9,6 @@ excerpt: 'Sustain Podcast: Today, you will find out about Mae’s involvement an
 featured_image: /media/images/515_Capture.png
 featured_image_id: 515
 link: /mae-beale-and-using-open-source-for-good-sustain-podcast
-modified: 2021-07-07 21:32:04+00:00
 og_image: /media/images/515_Capture.png
 seo_description: Terrastories is a geostorytelling application built to enable indigenous
   and other local communities to locate and map their oral storytelling traditions.
