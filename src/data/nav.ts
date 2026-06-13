@@ -41,7 +41,7 @@ export const navItems: NavItem[] = [
   {
     label: "Sponsor Us",
     href: "/sponsor-us",
-    children: [{ label: "Funding Needs", href: "/sponsor-us#funding" }],
+    children: [{ label: "Funding Needs", href: "/sponsor-us#funding-needs" }],
   },
   {
     label: "GitHub",
