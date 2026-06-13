@@ -24,9 +24,9 @@ title: Mapping Territory and Cultural Heritage in the Tumucumaque and Paru D’L
 type: post
 ---
 
-*By Luandro Vieira.[Cross-posted from the Digital Democracy blog](<https://www.digital-democracy.org/blog/mapping-territory-and-cultural-heritage-in-the-tumucumaque-and-paru-dleste-indigenous-territories-brasil>)*.
+*By Luandro Vieira. [Cross-posted from the Digital Democracy blog](<https://www.digital-democracy.org/blog/mapping-territory-and-cultural-heritage-in-the-tumucumaque-and-paru-dleste-indigenous-territories-brasil>)*.
 
-‍**Digital Democracy and Iepé, supported by  **[**Nia Tero**](<https://www.niatero.org/>)**  and with remote assistance from Rudo Kemper of **[**Conservation Metrics**](<https://conservationmetrics.com/>)**, recently collaborated on a series of intensive workshops aimed to support the Indigenous communities of the Tumucumaque and Paru D ’Leste Indigenous Territories in the heart of the Brazilian Amazon, neighboring Suriname.**
+‍**Digital Democracy and Iepé, supported by **[**Nia Tero**](<https://www.niatero.org/>)** and with remote assistance from Rudo Kemper of **[**Conservation Metrics**](<https://conservationmetrics.com/>)**, recently collaborated on a series of intensive workshops aimed to support the Indigenous communities of the Tumucumaque and Paru D ’Leste Indigenous Territories in the heart of the Brazilian Amazon, neighboring Suriname.**
 
 **The goal of the workshop was clear: to empower community members with digital tools to record, protect, and share their rich cultural heritage and invaluable land knowledge, in response to the growing impact of colonialism.**
 
@@ -38,7 +38,7 @@ The workshop kicked off with participants introducing each other, sharing the ob
 
 The afternoon session was enriched by a virtual meeting with the Wayana people from Suriname, who shared their experiences with their biocultural monitoring program. The Wayana People’s use of Terrastories to display their neighboring data left participants inspired and eager to delve deeper into the digital tools.
 
-![](https://assets-global.website-files.com/63c9c50799d1d9662bff8be1/653679ba314d12b8b54746bd_WGF0XFvoh2wxqHKrsI9ecD6xsCReG8mkr4d91jA994UOKo9M4r9Xq5tYRblW1luknRFJPiaIzIZCeR3DiTjj1ChzJohxGtrDnnNOxWYcJqtqdJLqGwfagnkIbWkToYcXn00PsYlNuV_Wie3Dx5vR0Ds.jpeg)*Participating online, Rudo co-creator of Terrastories gives an introduction about the application and it ’s use cases*
+![](https://assets-global.website-files.com/63c9c50799d1d9662bff8be1/653679ba314d12b8b54746bd_WGF0XFvoh2wxqHKrsI9ecD6xsCReG8mkr4d91jA994UOKo9M4r9Xq5tYRblW1luknRFJPiaIzIZCeR3DiTjj1ChzJohxGtrDnnNOxWYcJqtqdJLqGwfagnkIbWkToYcXn00PsYlNuV_Wie3Dx5vR0Ds.jpeg)*Participating online, Rudo co-creator of Terrastories gives an introduction about the application and it’s use cases*
 
 Following the event, the participants eagerly engaged in conversations via their workshop WhatsApp group. They shared messages and thoughts regarding the world of Big Tech, displaying a newfound depth of interest and knowledge about the digital realm.
 
@@ -54,7 +54,7 @@ The participants delved into mapping categories and their settings, using specif
 
 Aventino, president of local indigenous organization, Apitikatxi – Tiriyo, Katxuyana e Tikiyana Indigenous Peoples Association,  shared:
 
-> “Mapeo appeared to solve our need to find an application that we could use to gather evaluation data for the PGTA, and we are looking for more tools to help us map. We need more information on our maps, like sacred sites, there’s lots we can document.”
+> Mapeo appeared to solve our need to find an application that we could use to gather evaluation data for the PGTA, and we are looking for more tools to help us map. We need more information on our maps, like sacred sites, there’s lots we can document.
 
 #### **Day 3: Visualizing Oral Histories with Terrastories**
 
@@ -74,13 +74,13 @@ The final day began with revisiting the stories from the day before. Participant
 
 Aventino shared his thoughts:
 
-> ‍ *“ The more information we have on the maps, we realize that it is not just Indigenous land, it is not just a place where people live: it is a sacred place, where there are many important things to be recorded, many things need to be seen. The participation of youth is important because not only do they learn to monitor and map their territory, but they begin to understand the history of that place, because many young people here do not know the history of each place that exists. Why does it have this name? Who gave this name to that region, to that place we call sacred, why is it sacred? I believe that Mapeo will bring a lot of this, we will map sacred places, new villages, norms and in short, various information that will be important to present the territory in which we live. It is a territory that we should know, the youth should be well aware of their territory and say that it is a sacred place that will be preserved.”*
+> ‍ The more information we have on the maps, we realize that it is not just Indigenous land, it is not just a place where people live: it is a sacred place, where there are many important things to be recorded, many things need to be seen. The participation of youth is important because not only do they learn to monitor and map their territory, but they begin to understand the history of that place, because many young people here do not know the history of each place that exists. Why does it have this name? Who gave this name to that region, to that place we call sacred, why is it sacred? I believe that Mapeo will bring a lot of this, we will map sacred places, new villages, norms and in short, various information that will be important to present the territory in which we live. It is a territory that we should know, the youth should be well aware of their territory and say that it is a sacred place that will be preserved.
 
 ![](https://assets-global.website-files.com/63c9c50799d1d9662bff8be1/653679bbdc3e39192521a062_iUMbh-Y_HSuHWPQIYW5u6PlxvmSR7EylK6tJnZXSilYJBlM_vLNYa_KZKjarJy_4oXvJiYIiCwLaX6TH7NLg8hRoepW2UJ6Pd50Ikg33kNDpxd9KyI5jmUAP1MMVIrC4AHWQspb-MRWo2xX-rs0wuoM.jpeg)*Workshop participants go over the data that was added to Terrastories*
 
 Another participant mentioned:
 
-> *“I do this part of youth coordination, helping to gather these young people who are starting to scatter. Many are leaving the villages because they do not have other opportunities to have something that catches their attention. I believe that these technologies that are emerging today, not only they are good, but they are a means to improve the coordination of youth. So, we will have the Mapeo of young people, we will have them on the expedition, exploring technology and presenting maps of the territory. This is important. ”*
+> I do this part of youth coordination, helping to gather these young people who are starting to scatter. Many are leaving the villages because they do not have other opportunities to have something that catches their attention. I believe that these technologies that are emerging today, not only they are good, but they are a means to improve the coordination of youth. So, we will have the Mapeo of young people, we will have them on the expedition, exploring technology and presenting maps of the territory. This is important.
 
 ![](https://assets-global.website-files.com/63c9c50799d1d9662bff8be1/653679bb1b5e2f0328bda4f9_VKmm4KkQmr_6pIZuJQsOINksC6Rot1hmriM10gUJr0PkKvNdyz1p1vkPx-vCTTh7aieiNWBqLJ-ggwNMwR_7i5QNzidPoK5Jjq62VgZNQ2zfEnHmURn1GStOwe0mxpHq0Lzhrvbr5Deg84r29rWRWnU.jpeg)*Photo of the workshop particpants in front of the Iepé office in Macapá*
 

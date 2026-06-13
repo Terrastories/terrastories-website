@@ -37,8 +37,6 @@ But the Indigenous community users of Terrastories have always asked for an onli
 
 The pandemic increased the demand for an online version, so with generous support from [Tech Matters](<https://techmatters.org/>) we built out multi-instance architecture where many communities can use one server, but still keep their data private and secure. We also launched an online production server. 🌐
 
-![](/media/images/Screenshot-from-2023-10-21-11-15-11-1-1024x792.png)*[Ohneganos (Canada)](<https://explore.terrastories.app/community/ohneganos>)*
-
 However, to guarantee data privacy, we had to implement authentication, which meant that all community data on the online server was only accessible to community members with credentials. 🗝️
 
 This meant that all of the beautiful, inspiring, and fascinating storytelling content that communities had been creating on Terrastories could not be seen by anyone without credentials – even if communities actually *wanted* to open up their content. 🚪
