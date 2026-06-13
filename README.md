@@ -21,19 +21,7 @@
 
 Terrastories is a geostorytelling application built to enable Indigenous and other local communities to locate and map their own oral storytelling traditions about places of significant meaning or value to them. Community members can add places and stories through a user-friendly interface, and make decisions about designating certain stories as private or restricted. Terrastories works both online and offline, so that remote communities can access the application entirely without needing internet connectivity.
 
-This repository contains the **static marketing website** for the Terrastories project — built with Astro and Tailwind CSS — serving as the project's public face, blog, documentation hub, and community portal.
-
-## ✨ Features
-
-- **📱 Fully Responsive** — Seamless experience from mobile to desktop, with a slide-in hamburger menu and optimized layouts at every breakpoint
-- **🏠 Marketing Homepage** — Hero video, mission statement, UN SDG alignment, latest blog posts, sponsors, and partner logos
-- **📝 Blog with 30+ Posts** — Categorized into User Stories, Dev Stories, and general updates with full SEO metadata
-- **👥 Community Directory** — Photo grid of stewards, alumni, and contributors with bio links
-- **📄 11 Content Pages** — How It Works, Demo, Contact Us, Sponsor Us, Contribute, Funding Needs, and more
-- **🔍 SEO Optimized** — Per-page meta tags, Open Graph, Twitter Cards, JSON-LD structured data, canonical URLs, and auto-generated sitemap
-- **🎨 Custom Design System** — Orange/teal brand palette, handcrafted burger animation, accessible focus traps, and Tailwind CSS theming
-- **🚀 Static Generation** — Pre-rendered HTML for instant loads and zero JavaScript overhead on content pages
-- **♿ Accessible** — ARIA labels, keyboard navigation, skip-to-content link, focus trap in mobile menu, semantic HTML
+This repository contains the **static website** for the Terrastories project — built with Astro and Tailwind CSS — serving as the project's public face, blog, documentation hub, and community portal.
 
 ## 🛠️ Tech Stack
 
@@ -93,13 +81,6 @@ terrastories-website/
 └── README.md
 ```
 
-## 📊 Content Overview
-
-- **11 Pages**: Home, How It Works, Community, Contact Us, Contribute, Demo, Funding Needs, Mailing List, Maintenance, Sponsor Us, Try Terrastories
-- **33 Blog Posts** across 3 categories: User Stories (18), Dev Stories (12), Uncategorized (5)
-- **160+ Media Assets**: Optimized images, PDF guides, and research documents
-- **Full SEO**: Per-page titles, descriptions, OG images, canonical URLs, JSON-LD structured data
-
 ## 🚢 Deployment
 
 ### Production (terrastories.app)
@@ -118,31 +99,11 @@ ASTRO_BASE=/terrastories-website npm run build
 
 The `ASTRO_BASE` environment variable activates subpath support — all asset URLs, images, and links are automatically prefixed with `/terrastories-website/` while canonical URLs remain set to `terrastories.app`.
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-See our [Contribute page](https://terrastories.app/contribute) for ways to get involved beyond code.
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## 🙏 Acknowledgments
 
 Terrastories is sponsored by:
 
 - **[Awana Digital](https://awana.digital)** — Design, mapping, and technology for social and environmental justice
-
-With special thanks to our partners:
-
-- Earth Defenders Toolkit · Amazon Conservation Team · Ruby for Good · Mapbox · ATALM · Tech Matters · Ohneganos · Indigenous Mapping Workshop
 
 ---
 

@@ -46,20 +46,6 @@ export const navItems: NavItem[] = [
 
 export const exploreHref = "https://explore.terrastories.app";
 
-export const socialLinks = [
-  {
-    label: "Twitter",
-    href: "https://twitter.com/TerrastoriesApp",
-    icon: "twitter" as const,
-  },
-  {
-    label: "GitHub",
-    href: "https://github.com/Terrastories",
-    icon: "github" as const,
-  },
-  { label: "Mailing List", href: "/mailing-list", icon: "mail" as const },
-];
-
 export const sponsors = [
   {
     name: "Awana Digital",
@@ -108,57 +94,6 @@ export const partners = [
     name: "Indigenous Mapping Workshop",
     href: "https://indigenousmaps.com",
     src: "/media/images/435_IndigenousMaps.jpg",
-  },
-];
-
-export const stewards = [
-  {
-    name: "Rudo Kemper",
-    image: "/media/images/640_rudo-square.jpg",
-    url: "https://github.com/rudokemper",
-  },
-  {
-    name: "Laura Mosher",
-    image: "/media/images/126_lauramosher.jpg",
-    url: "https://github.com/lauramosher",
-  },
-  {
-    name: "Luandro Vieira",
-    image: "/media/images/639_Screenshot-2023-02-18-235330.jpg",
-    url: "https://github.com/luandro",
-  },
-  {
-    name: "Albert Chae",
-    image: "/media/images/644_T04PM108C-UHAS0KCMC-04f3dd0bb8de-512.jpg",
-    url: "https://github.com/albertchae",
-  },
-  {
-    name: "Roche Bhola",
-    image: "/media/images/645_1492251_825539690793240_1507883986_o.jpg",
-    url: "https://github.com/rudokemper",
-  },
-];
-
-export const alumni = [
-  {
-    name: "Miranda Wang",
-    image: "/media/images/121_mirandawang.jpg",
-    url: "https://github.com/mirandawang",
-  },
-  {
-    name: "Kalimar Maia",
-    image: "/media/images/125_kalimarmaia.jpg",
-    url: "https://github.com/kalimar",
-  },
-  {
-    name: "Ian Norris",
-    image: "/media/images/124_iannnorris.jpg",
-    url: "https://github.com/feminismisawesome",
-  },
-  {
-    name: "Mae Beale",
-    image: "/media/images/127_maebeale.jpg",
-    url: "https://github.com/maebeale",
   },
 ];
 
