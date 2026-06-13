@@ -23,13 +23,19 @@ export const navItems: NavItem[] = [
         label: "Practical Guide",
         href: "/how-it-works#earth-defenders-toolkit",
       },
+      { label: "Demo", href: "/demo" },
       { label: "Try Terrastories", href: "/try-terrastories" },
     ],
   },
   { label: "Documentation", href: "https://docs.terrastories.app" },
-  { label: "Demo", href: "/demo" },
-  { label: "User Stories", href: "/category/user-stories" },
-  { label: "Dev Stories", href: "/category/dev-stories" },
+  {
+    label: "Blog",
+    href: "/blog",
+    children: [
+      { label: "User Stories", href: "/category/user-stories" },
+      { label: "Dev Stories", href: "/category/dev-stories" },
+    ],
+  },
   { label: "Contribute", href: "/contribute" },
   { label: "Contact Us", href: "/contact-us" },
   {
